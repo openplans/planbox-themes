@@ -24,7 +24,7 @@ a:hover { color: #a3ce62; }
   color: #555;
 }
 .site-title {
-  background: url(53120logo-800x148.png) 0 0 no-repeat scroll;
+  background: url(53120logo .png) 0 0 no-repeat scroll;
   background-size: 100%;
   width: 100%;
   padding-top: 18.625%;
