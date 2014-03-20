@@ -4,6 +4,9 @@ body {
   background-color: #a3ce62;
   color: #fff;
 }
+#page {
+  color: #555;
+}
 select, input, textarea,
 .project-status,
 .project-location,
@@ -35,8 +38,9 @@ a:hover { color: #a3ce62; }
   padding-top: 0;
 }
 .project-location {
-  font-size: 1.25em;
+  font-size: 1.75em;
   line-height: 2.5;
+  color: #999;
 }
 
 .event-description a, .event-description a:active, .event-description a:visited { color: PaleGreen; }
