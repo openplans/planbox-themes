@@ -53,7 +53,8 @@ li.event:last-child:before,
 .powered-by { color: #fff; }
 
 .software-phase-notice,
-a.software-help-link {
+a.software-help-link,
+.project-status {
   display: none;
 }
 
