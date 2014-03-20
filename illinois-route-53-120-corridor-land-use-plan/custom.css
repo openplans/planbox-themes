@@ -36,6 +36,10 @@ a:hover { color: #69af4d; }
   font-size: 1.25em;
   line-height: 2.5;
 }
+
+.event-description a, .event-description a:active, .event-description a:visited { color: PaleGreen; }
+.event-description a:hover { color: #fff; }
+
 .project-timeline,
 .event:after,
 li.event:last-child:before,
