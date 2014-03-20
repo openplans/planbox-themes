@@ -11,8 +11,8 @@ select, input, textarea,
   font-family: Arial, sans-serif;
 }
 a:hover, a:active { outline: none; }
-a, a:active, a:visited { color: #a3ce62; }
-a:hover { color: #69af4d; }
+a, a:active, a:visited { color: #69af4d; }
+a:hover { color: #a3ce62; }
 
 .site-header {
   background-color: #fff;
