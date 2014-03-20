@@ -1,0 +1,63 @@
+body {
+  background-color: #a3ce62;
+  color: #fff;
+}
+select, input, textarea,
+.project-status,
+.project-location,
+.project-description,
+.event-list,
+.project-contact-info {
+  font-family: Arial, sans-serif;
+}
+a:hover, a:active { outline: none; }
+a, a:active, a:visited { color: #a3ce62; }
+a:hover { color: #69af4d; }
+
+.site-header {
+  background-color: #fff;
+  color: #555;
+}
+.site-title {
+  background: url(53120logo-800x148.png) 0 0 no-repeat scroll;
+  background-size: 100%;
+  width: 100%;
+  padding-top: 18.625%;
+  height: 0;
+  text-indent: -9999px;
+}
+.ie8 .site-title { 
+  background: url(53120logo-400x74.png) 0 0 no-repeat scroll; 
+  width: 400px; 
+  height: 74px; 
+  padding-top: 0;
+}
+.project-location {
+  font-size: 1.25em;
+  line-height: 2.5;
+}
+.project-timeline,
+.event:after,
+li.event:last-child:before,
+.event-list:before {
+  background-color: #69af4d;
+}
+.site-colophon {
+  background-color: #a3ce62;
+  color: #fff;
+}
+.powered-by { color: #fff; }
+
+.software-phase-notice,
+a.software-help-link {
+  display: none;
+}
+
+@media only screen and (min-width: 44em) {
+  #page {
+    font-size: 1em;
+  }
+  .container {
+    max-width: 45em;
+  }
+}
