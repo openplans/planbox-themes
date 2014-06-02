@@ -1,7 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:300,700);
+/*@import url(//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);*/
 
 body { 
-  font-family: 'Arvo', serif;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
 }
 
 .project-title,
