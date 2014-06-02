@@ -125,3 +125,10 @@ li.event:last-child:before,
 .powered-by a {
   color: #fff;
 }
+
+
+/* ----- NEVER SHOW THE SAVE BUTTON ----- */
+.save-btn {
+  display: none !important;
+}
+
