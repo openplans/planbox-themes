@@ -84,7 +84,10 @@ a:hover { color: #63c2c0; }
 
 
 /* ----- ----- */
-.project-location {}
+.project-location {
+  font-size: 1.125rem;
+  font-family: 'Alte Haas Grotesk Bold', serif;
+}
 
 
 /* ----- Highlights ----- */
