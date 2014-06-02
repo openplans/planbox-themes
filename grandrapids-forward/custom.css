@@ -74,7 +74,7 @@ a:hover { color: #f15723; }
   border-radius: 3px;
 }
 .sub-nav dd a:hover, .sub-nav dt a:hover, .sub-nav li a:hover {
-  background-color: #f5e96f;
+  background-color: #58ad31;
   color: #fff;
 }
 .sub-nav dd.active a, .sub-nav dt.active a, .sub-nav li.active a {
@@ -82,7 +82,6 @@ a:hover { color: #f15723; }
   color: #fff;
 }
 .sub-nav dd.active a:hover, .sub-nav dt.active a:hover, .sub-nav li.active a:hover {
-  background-color: #58ad31;
 }
 
 
