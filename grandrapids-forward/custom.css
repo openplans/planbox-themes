@@ -15,3 +15,20 @@ body {
 .project-title {
   display: none !important;
 }
+
+.logo-table {
+  display: block;
+}
+.logo-table-row {
+  display: block;
+}
+.logo-table-row > div {
+  display: block;
+}
+.logo-table-row > div.image-holder,
+.logo-table-row > div.has-image {
+  padding-right: 0;
+}
+.logo-table img {
+  max-height: none;
+}
