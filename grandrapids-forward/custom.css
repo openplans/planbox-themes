@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Roboto+Slab:300,700);
+@import url(alte_haas_grotesk_bold/alte_haas_grotesk_bold.css);
 /*@import url(//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);*/
 
 body { 
@@ -6,7 +7,7 @@ body {
   font-weight: 300;
 }
 
-.project-title,
-.project-details {
-  display: none !important;
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alte Haas Grotesk Bold', serif;
+  font-weight: normal;
 }
