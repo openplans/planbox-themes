@@ -97,7 +97,10 @@ section > div > div > h3 {
 
 #section-downtown + div > div > h3:after {
   content: ' \00BB';
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Andale Mono';
+  font-size: 1.25em;
+  font-weight: normal;
+  color: #fc9229;
 }
 
 
