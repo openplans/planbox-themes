@@ -69,9 +69,11 @@ a:hover { color: #f15723; }
 }
 
 .sub-nav dd a, .sub-nav dt a, .sub-nav li a {
+  background-color: #f5e96f;
   color: #3c3c3c;
 }
 .sub-nav dd a:hover, .sub-nav dt a:hover, .sub-nav li a:hover {
+  background-color: #f5e96f;
   color: #fff;
 }
 .sub-nav dd.active a, .sub-nav dt.active a, .sub-nav li.active a {
