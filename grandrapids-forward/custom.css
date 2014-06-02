@@ -46,7 +46,17 @@ a:hover { color: #63c2c0; }
   max-height: none;
 }
 
+.site-header {
+  box-shadow: inset 0 -3.125rem #58ad31;
+}
+.project-menu {
+  background-color: #adcb47;
+}
+.project-menu .columns:after {
+  background-color: #adcb47;
+}
 
+/* ----- ----- */
 .project-location {}
 
 .project-timeline,
