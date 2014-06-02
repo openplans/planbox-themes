@@ -86,10 +86,13 @@ a:hover { color: #f15723; }
 }
 
 
-/* ----- ----- */
+/* ----- Misc  ----- */
 .project-location {
   font-size: 1.125rem;
   font-family: 'Alte Haas Grotesk Bold', serif;
+}
+section > div > div > h3 {
+  font-size: 3rem;
 }
 
 
@@ -99,12 +102,17 @@ a:hover { color: #f15723; }
   background-color: #f5e96f;
 }
 
+
+/* ----- Timeline ----- */
 .project-timeline,
 .event:after,
 li.event:last-child:before,
 .event-list:before {
   /*background-color: #69af4d;*/
 }
+
+
+/* ----- Footer ----- */
 .site-colophon {
   background-color: #3c3c3c;
   /*color: #fff;*/
