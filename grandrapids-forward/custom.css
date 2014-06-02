@@ -104,7 +104,7 @@ section > div > div > h3 {
 
 
 /* ----- Timeline ----- */
-.project-timeline,
+.project-section-timeline,
 .event:after,
 li.event:last-child:before,
 .event-list:before {
