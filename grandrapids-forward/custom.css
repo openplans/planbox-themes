@@ -20,6 +20,16 @@ a:hover { color: #63c2c0; }
 .event-description a, .event-description a:active, .event-description a:visited { color: PaleGreen; }
 .event-description a:hover { color: #fff; }
 
+.button, button {
+  font-family: 'Roboto Slab', serif;
+  background-color: #235358;
+  border-color: #63c2c0;
+  color: #fff;
+}
+.button:hover, button:hover {
+  background-color: #63c2c0;
+}
+
 
 /* ----- HEADER ----- */
 .site-header {
