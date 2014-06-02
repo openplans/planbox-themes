@@ -15,7 +15,7 @@ body {
 
 /* ----- LINKS ----- */
 a, a:active, a:visited { color: #63c2c0; }
-a:hover { color: #235358; }
+a:hover { color: #f15723; }
 
 .event-description a, .event-description a:active, .event-description a:visited { color: PaleGreen; }
 .event-description a:hover { color: #fff; }
