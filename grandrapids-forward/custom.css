@@ -21,7 +21,12 @@ a:hover { color: #63c2c0; }
 .event-description a:hover { color: #fff; }
 
 
-/* ----- PROJECT HEADER ----- */
+/* ----- HEADER ----- */
+.site-header {
+  background-color: #63c2c0;
+}
+
+}
 .project-title {
   display: none !important;
 }
