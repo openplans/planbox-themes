@@ -1,3 +1,4 @@
-.project-title {
-  display: none;
+.project-title,
+.project-details {
+  display: none !important;
 }
