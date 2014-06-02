@@ -95,8 +95,9 @@ section > div > div > h3 {
   font-size: 2.5rem;
 }
 
-section > div > div > h3:after {
+#section-downtown + div > div > h3:after {
   content: ' \00BB';
+  font-family: 'Roboto Slab', serif;
 }
 
 
