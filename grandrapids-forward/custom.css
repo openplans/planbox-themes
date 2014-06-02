@@ -11,3 +11,7 @@ body {
   font-family: 'Alte Haas Grotesk Bold', serif;
   font-weight: normal;
 }
+
+.project-title {
+  display: none !important;
+}
