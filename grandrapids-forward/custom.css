@@ -108,7 +108,7 @@ section > div > div > h3 {
 .event:after,
 li.event:last-child:before,
 .event-list:before {
-  /*background-color: #69af4d;*/
+  background-color: #63c2c0;
 }
 
 
