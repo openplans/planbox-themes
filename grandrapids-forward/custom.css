@@ -5,6 +5,7 @@
 body { 
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
+  color: #3c3c3c;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -73,6 +74,13 @@ a:hover { color: #63c2c0; }
 
 /* ----- ----- */
 .project-location {}
+
+
+/* ----- Highlights ----- */
+.panel.callout {
+  border-width: 0;
+  background-color: #f5e96f;
+}
 
 .project-timeline,
 .event:after,
