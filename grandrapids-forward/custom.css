@@ -12,6 +12,16 @@ body {
   font-weight: normal;
 }
 
+
+/* ----- LINKS ----- */
+a, a:active, a:visited { color: #235358; }
+a:hover { color: #63c2c0; }
+
+.event-description a, .event-description a:active, .event-description a:visited { color: PaleGreen; }
+.event-description a:hover { color: #fff; }
+
+
+/* ----- PROJECT HEADER ----- */
 .project-title {
   display: none !important;
 }
@@ -31,4 +41,21 @@ body {
 }
 .logo-table img {
   max-height: none;
+}
+
+
+.project-location {}
+
+.project-timeline,
+.event:after,
+li.event:last-child:before,
+.event-list:before {
+  /*background-color: #69af4d;*/
+}
+.site-colophon {
+  /*background-color: #a3ce62;*/
+  /*color: #fff;*/
+}
+.powered-by {
+  /*color: #fff;*/
 }
