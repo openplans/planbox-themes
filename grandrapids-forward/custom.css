@@ -56,6 +56,6 @@ li.event:last-child:before,
   /*background-color: #a3ce62;*/
   /*color: #fff;*/
 }
-.powered-by {
+.powered-by a {
   color: #fff;
 }
