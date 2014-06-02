@@ -49,7 +49,7 @@ a:hover { color: #63c2c0; }
 .site-header {
   box-shadow: inset 0 -3.125rem #58ad31;
 }
-.project-menu {
+.project-menu .container {
   background-color: #adcb47;
 }
 .project-menu .columns:after {
