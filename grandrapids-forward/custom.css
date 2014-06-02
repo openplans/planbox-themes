@@ -1,3 +1,9 @@
+@import url(//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+
+body { 
+  font-family: 'Arvo', serif;
+}
+
 .project-title,
 .project-details {
   display: none !important;
