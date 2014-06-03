@@ -128,6 +128,9 @@ li.event:last-child:before,
   background-color: #3c3c3c;
   /*color: #fff;*/
 }
+.powered-by {
+  display: none;
+}
 .powered-by a {
   color: #fff;
 }
