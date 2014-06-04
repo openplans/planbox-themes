@@ -92,14 +92,15 @@ a:hover { color: #f15723; }
   font-family: 'Alte Haas Grotesk Bold', serif;
 }
 section > div > div > h3 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 
 #section-downtown + div > div > h3:after,
 #section-river + div > div > h3:after,
 #section-central-campus + div > div > h3:after {
   content: url('images/chevron.gif');
-  
+  margin-left: 0.25em;
+}
 
 
 /* ----- Highlights ----- */
