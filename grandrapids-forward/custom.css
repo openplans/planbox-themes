@@ -148,6 +148,12 @@ a.context-map-link:hover {
 }
 
 
+/* ----- MailChimp ----- */
+#mc_embed_signup form {
+  padding: 0 0 2rem 0 !important;
+}
+
+
 /* ----- Gallery ----- */
 
 .grfwd-thumb-link img { 
