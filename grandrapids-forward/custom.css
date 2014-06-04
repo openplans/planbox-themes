@@ -102,6 +102,12 @@ section > div > div > h3 {
   margin-left: 0.25em;
 }
 
+.context-map {
+  float: left;
+  height: 200px;
+  width: auto;
+}
+
 
 /* ----- Highlights ----- */
 .panel.callout {
