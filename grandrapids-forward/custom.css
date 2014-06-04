@@ -105,7 +105,12 @@ section > div > div > h3 {
 .context-map-link {
   float: left;
   text-align: center;
-  
+  border: 5px solid #63c2c0; 
+  background-color: #63c2c0; 
+}
+.context-map-link:hover {
+  border: 5px solid #f15723; 
+  background-color: #f15723;
 }
 .context-map {
   display: block;
