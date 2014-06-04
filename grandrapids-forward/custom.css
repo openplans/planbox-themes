@@ -102,9 +102,14 @@ section > div > div > h3 {
   margin-left: 0.25em;
 }
 
-.context-map {
+.context-map-link {
   float: left;
-  height: 200px;
+  text-align: center;
+  
+}
+.context-map {
+  display: block;
+  height: 175px;
   width: auto;
 }
 
