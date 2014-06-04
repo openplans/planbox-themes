@@ -154,6 +154,9 @@ a.context-map-link:hover {
 
 
 /* ----- Timeline ----- */
+.project-section-timeline {
+  padding-top: 2rem;
+}
 .project-section-timeline,
 .event:after,
 li.event:last-child:before,
