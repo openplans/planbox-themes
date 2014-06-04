@@ -95,6 +95,12 @@ section > div > div > h3 {
   font-size: 2.5rem;
 }
 
+#section-downtown + div > div > h3:after,
+#section-river + div > div > h3:after,
+#section-central-campus + div > div > h3:after {
+  content: url('images/chevron.gif');
+  
+
 
 /* ----- Highlights ----- */
 .panel.callout {
