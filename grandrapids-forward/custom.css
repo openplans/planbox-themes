@@ -109,6 +109,9 @@ a.context-map-link {
   background-color: #63c2c0; 
   color: #fff;
   margin: 0 10px 10px 0;
+  font-family: 'Alte Haas Grotesk Bold', serif;
+  font-size: 0.75em;
+  font-weight: normal;
 }
 a.context-map-link:hover {
   border: 5px solid #f15723; 
