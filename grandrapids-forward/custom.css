@@ -102,10 +102,20 @@ section > div > div > h3 {
   margin-left: 0.25em;
 }
 
+.columns-2 {
+  -webkit-column-count:2;
+     -moz-column-count:2;
+          column-count:2;
+}
 .columns-3 {
   -webkit-column-count:3;
      -moz-column-count:3;
           column-count:3;
+}
+.columns-4 {
+  -webkit-column-count:4;
+     -moz-column-count:4;
+          column-count:4;
 }
 
 a.context-map-link {
