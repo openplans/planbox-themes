@@ -168,6 +168,7 @@ li.event:last-child:before,
 /* ----- Footer ----- */
 .site-colophon {
   background-color: #3c3c3c;
+  background-color: #eee;
   /*color: #fff;*/
 }
 .powered-by {
