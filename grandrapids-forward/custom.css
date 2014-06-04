@@ -107,6 +107,8 @@ section > div > div > h3 {
   text-align: center;
   border: 5px solid #63c2c0; 
   background-color: #63c2c0; 
+  color: #fff
+  margin: 0 10px 10px 0;
 }
 .context-map-link:hover {
   border: 5px solid #f15723; 
