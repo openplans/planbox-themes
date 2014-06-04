@@ -146,6 +146,16 @@ a.context-map-link:hover {
 }
 
 
+/* ----- Gallery ----- */
+
+.grfwd-thumb-link img { 
+  width: 80px;
+  height: 80px;
+  border: 5px solid #63c2c0;
+  margin:5px 5px 0 0;
+}
+
+
 /* ----- Highlights ----- */
 .panel.callout {
   border-width: 0;
