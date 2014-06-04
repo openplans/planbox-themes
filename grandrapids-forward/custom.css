@@ -95,17 +95,6 @@ section > div > div > h3 {
   font-size: 2.5rem;
 }
 
-#section-downtown + div > div > h3:after,
-#section-river + div > div > h3:after,
-#section-central-campus + div > div > h3:after {
-  content: '\00BB';
-  font-family: 'Andale Mono';
-  font-size: 1.125em;
-  font-weight: bold;
-  color: #fc9229;
-  margin-left: 0.125em;
-}
-
 
 /* ----- Highlights ----- */
 .panel.callout {
