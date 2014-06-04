@@ -158,6 +158,9 @@ a.context-map-link:hover {
   margin: 0 !important;
   font-size: 1.375rem !important;
 }
+#mc_embed_signup {
+  font-family: inherit !important;
+}
 
 
 /* ----- Gallery ----- */
