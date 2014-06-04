@@ -103,6 +103,7 @@ section > div > div > h3 {
 }
 
 a.context-map-link {
+  float: left;
   text-align: center;
   border: 5px solid #63c2c0; 
   background-color: #63c2c0; 
@@ -117,7 +118,6 @@ a.context-map-link:hover {
 }
 @media (min-width: 600px) {
   a.context-map-link {
-    float: left;
     margin: 0 10px 10px 0;
   }
   .context-map {
