@@ -95,11 +95,13 @@ section > div > div > h3 {
   font-size: 2.75rem;
 }
 
-#section-downtown + div > div > h3:after,
-#section-river + div > div > h3:after,
-#section-central-campus + div > div > h3:after {
-  content: url('images/chevron-sm.gif');
-  margin-left: 0.25em;
+@media (min-width: 600px) {
+  #section-downtown + div > div > h3:after,
+  #section-river + div > div > h3:after,
+  #section-central-campus + div > div > h3:after {
+    content: url('images/chevron-sm.gif');
+    margin-left: 0.25em;
+  }
 }
 
 .columns-2 {
