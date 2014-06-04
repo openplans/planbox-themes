@@ -104,6 +104,7 @@ section > div > div > h3 {
 
 a.context-map-link {
   float: left;
+  margin: 0 10px 10px 0;
   text-align: center;
   border: 5px solid #63c2c0; 
   background-color: #63c2c0; 
@@ -111,19 +112,20 @@ a.context-map-link {
   font-family: 'Alte Haas Grotesk Bold', serif;
   font-size: 0.75em;
   font-weight: normal;
+  display: none;
 }
 a.context-map-link:hover {
   border: 5px solid #f15723; 
   background-color: #f15723;
 }
+.context-map {
+  display: block;
+  height: 175px;
+  width: auto;
+}
 @media (min-width: 600px) {
   a.context-map-link {
-    margin: 0 10px 10px 0;
-  }
-  .context-map {
     display: block;
-    height: 175px;
-    width: auto;
   }
 }
 
