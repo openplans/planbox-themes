@@ -154,6 +154,9 @@ a.context-map-link:hover {
   border: 5px solid #63c2c0;
   margin: 0 5px 5px 0;
 }
+.grfwd-thumb-link.active img { 
+  border-color: #3c3c3c;
+}
 
 
 /* ----- Highlights ----- */
