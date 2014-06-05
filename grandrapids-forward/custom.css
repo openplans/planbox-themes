@@ -219,6 +219,13 @@ li.event:last-child:before,
   margin: 0 0 2rem;
   height: 400px;
 }
+@media (min-height: 600px) { height: 450px; }
+@media (min-height: 650px) { height: 500px; }
+@media (min-height: 700px) { height: 550px; }
+@media (min-height: 750px) { height: 600px; }
+@media (min-height: 800px) { height: 650px; }
+@media (min-height: 850px) { height: 700px; }
+
 
 
 /* ----- NEVER SHOW THE SAVE BUTTON ----- */
