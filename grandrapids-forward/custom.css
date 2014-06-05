@@ -219,12 +219,12 @@ li.event:last-child:before,
   margin: 0 0 2rem;
   height: 400px;
 }
-@media (min-height: 650px) { .shareabouts { height: 450px; } }
-@media (min-height: 700px) { .shareabouts { height: 500px; } }
-@media (min-height: 750px) { .shareabouts { height: 550px; } }
-@media (min-height: 800px) { .shareabouts { height: 600px; } }
-@media (min-height: 850px) { .shareabouts { height: 650px; } }
-@media (min-height: 900px) { .shareabouts { height: 700px; } }
+@media (min-height: 700px) { .shareabouts { height: 450px; } }
+@media (min-height: 750px) { .shareabouts { height: 500px; } }
+@media (min-height: 800px) { .shareabouts { height: 550px; } }
+@media (min-height: 850px) { .shareabouts { height: 600px; } }
+@media (min-height: 900px) { .shareabouts { height: 650px; } }
+@media (min-height: 950px) { .shareabouts { height: 700px; } }
 
 
 /* ----- NEVER SHOW THE SAVE BUTTON ----- */
