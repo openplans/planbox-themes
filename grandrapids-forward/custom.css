@@ -181,6 +181,9 @@ a.context-map-link:hover {
 
 /* ----- Gallery ----- */
 
+.grfwd-image-gallery {
+  margin-bottom: 1.25rem;
+}
 .grfwd-thumb-link img { 
   width: 80px;
   height: 80px;
