@@ -151,11 +151,15 @@ a.context-map-link:hover {
 /* ----- Social Media ----- */
 .social-media-links a {
   display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #f15723;
 }
 .social-media-links img {
   vertical-align: center;
   margin-right: 10px;
-  width: 55px;
+  width: 65px;
   height: auto;
 }
 
