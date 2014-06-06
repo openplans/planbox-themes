@@ -3,12 +3,12 @@
 /*@import url(//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);*/
 
 body { 
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', Rockwell, Tahoma, sans-serif;
   font-weight: 300;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alte Haas Grotesk Bold', serif;
+  font-family: 'Alte Haas Grotesk Bold', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -21,7 +21,7 @@ a:hover { color: #f15723; }
 .event-description a:hover { color: #fff; }
 
 .button, button {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', Rockwell, Tahoma, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   background-color: #235358;
@@ -89,7 +89,7 @@ a:hover { color: #f15723; }
 /* ----- Misc  ----- */
 .project-location {
   font-size: 1.125rem;
-  font-family: 'Alte Haas Grotesk Bold', serif;
+  font-family: 'Alte Haas Grotesk Bold', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 }
 section > div > div > h3 {
   font-size: 2.75rem;
@@ -127,7 +127,7 @@ a.context-map-link {
   border: 5px solid #63c2c0; 
   background-color: #63c2c0; 
   color: #fff;
-  font-family: 'Alte Haas Grotesk Bold', serif;
+  font-family: 'Alte Haas Grotesk Bold', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 0.75em;
   font-weight: normal;
   display: none;
