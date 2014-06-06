@@ -210,6 +210,13 @@ li.event:last-child:before,
 .powered-by a {
   color: #fff;
 }
+.footer-logos {
+}
+.footer-logo {
+  height: auto;
+  max-height: 300px;
+  width: auto;
+}
 
 
 /* ----- Shareabouts ----- */
