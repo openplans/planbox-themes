@@ -211,11 +211,13 @@ li.event:last-child:before,
   color: #fff;
 }
 .footer-logos {
+  text-align: center;
 }
 .footer-logo {
   height: auto;
   max-height: 300px;
   width: auto;
+  margin: 2rem;
 }
 
 
