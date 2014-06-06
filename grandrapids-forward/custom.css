@@ -148,6 +148,18 @@ a.context-map-link:hover {
 }
 
 
+/* ----- Social Media ----- */
+.social-media-links a {
+  display: block;
+}
+.social-media-links img {
+  vertical-align: center;
+  margin-right: 10px;
+  width: 55px;
+  height: auto;
+}
+
+
 /* ----- MailChimp ----- */
 #mc_embed_signup form {
   padding: 0 0 2rem 0 !important;
