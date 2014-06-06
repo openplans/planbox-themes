@@ -215,7 +215,7 @@ li.event:last-child:before,
 }
 .footer-logo {
   height: auto;
-  max-height: 300px;
+  max-height: 200px;
   width: auto;
   margin: 2rem;
 }
