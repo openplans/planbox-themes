@@ -107,7 +107,7 @@ section > div > div > h3 {
 }
 
 .project-header .button:after {
-    content: url('images/chevron-sm.gif');
+    content: url('images/chevron-sm.png');
     margin-left: 0.25em;
 }
 
