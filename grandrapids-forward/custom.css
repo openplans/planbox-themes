@@ -88,9 +88,9 @@ a:hover { color: #f15723; }
 
 /* ----- Misc  ----- */
 .project-location {
-  font-size: 1.125rem;
-  font-family: 'Alte Haas Grotesk Bold', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  display: none !important;
 }
+
 section > div > div > h3 {
   font-size: 2.75rem;
 }
