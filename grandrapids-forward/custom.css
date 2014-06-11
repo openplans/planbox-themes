@@ -110,6 +110,9 @@ section > div > div > h3 {
     content: url('images/chevron-sm.png');
     margin-left: 0.25em;
 }
+.project-header .button {
+  font-size: 2rem;
+}
 
 .columns-2 {
   -webkit-column-count:2;
