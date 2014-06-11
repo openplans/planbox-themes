@@ -111,7 +111,12 @@ section > div > div > h3 {
     margin-left: 0.25em;
 }
 .project-header .button {
+  font-size: 1.625rem;
+}
+@media (min-width: 600px) {
+.project-header .button {
   font-size: 2rem;
+}
 }
 
 .columns-2 {
