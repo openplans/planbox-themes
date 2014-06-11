@@ -20,7 +20,7 @@ a:hover { color: #f15723; }
 .event-description a, .event-description a:active, .event-description a:visited { color: PaleGreen; }
 .event-description a:hover { color: #fff; }
 
-.button, button {
+.button, .button:visited, button {
   font-family: 'Roboto Slab', Rockwell, Tahoma, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
