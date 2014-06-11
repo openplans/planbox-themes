@@ -17,6 +17,8 @@ $(function(){
     var $header = $('.project-header'),
         markup = '<!-- This is a test -->';
 
-    $header.append(markup);
+    if (Planbox.Data.project.slug == 'grfwd-staging') {
+      $header.append(markup);
+    }
   });
 });
