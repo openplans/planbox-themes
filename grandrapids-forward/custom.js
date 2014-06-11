@@ -11,4 +11,12 @@ $(function(){
 
     $context.find('.grfwd-image').attr('src', imageUrl);
   });
+
+  // Inject the tagline and action buttons into the project header
+  $(function() {
+    var $header = $('.project-header'),
+        markup = '<!-- This is a test -->';
+
+    $header.append(markup);
+  });
 });
