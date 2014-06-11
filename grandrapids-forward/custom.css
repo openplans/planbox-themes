@@ -132,6 +132,9 @@ a.context-map-link {
   font-weight: normal;
   display: none;
 }
+.project-details .medium-4 a.context-map-link {
+  float: none;
+}
 a.context-map-link:hover {
   border: 5px solid #f15723; 
   background-color: #f15723;
@@ -140,6 +143,9 @@ a.context-map-link:hover {
   display: block;
   height: 175px;
   width: auto;
+}
+.project-details .medium-4 .context-map {
+  height: auto;
 }
 @media (min-width: 600px) {
   a.context-map-link {
