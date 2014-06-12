@@ -26,7 +26,7 @@ $(function(){
     var $this = $(this),
         $context = $this.parent('panel');
 
-    $context.find('.hide').removeClass('hide');
+    $context.find('.grfwd-toggle-target').removeClass('hide');
     $this.addClass('hide');
 
   });
