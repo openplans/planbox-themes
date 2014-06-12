@@ -188,7 +188,8 @@ a.context-map-link:hover {
   width: 65px;
   height: auto;
 }
-a.social-media-link {
+a.social-media-link,
+a.toggle-link {
   text-align: center;
 }
 
