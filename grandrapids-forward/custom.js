@@ -24,7 +24,7 @@ $(function(){
   $(document).on('click', '.grfwd-toggle-link', function(evt) {
     evt.preventDefault();
     var $this = $(this),
-        $context = $this.parent('panel'),
+        $context = $this.parent('panel');
 
     $context.find('.hide').removeClass('hide');
     $this.addClass('hide');
