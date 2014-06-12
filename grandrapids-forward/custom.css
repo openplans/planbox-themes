@@ -210,11 +210,11 @@ a.grfwd-toggle-link {
   font-family: inherit !important;
 }
 #mc-embedded-subscribe {
-  background-color: #235358;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
+  background-color: #235358 !important;
+  padding-top: 1rem !important;
+  padding-right: 2rem !important;
+  padding-bottom: 1.0625rem !important;
+  padding-left: 2rem !important;
 }
 
 
