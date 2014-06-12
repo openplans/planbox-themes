@@ -188,7 +188,9 @@ a.context-map-link:hover {
   width: 65px;
   height: auto;
 }
-
+a.social-media-link {
+  text-align: center;
+}
 
 /* ----- MailChimp ----- */
 #mc_embed_signup form {
