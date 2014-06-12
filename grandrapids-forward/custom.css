@@ -194,6 +194,9 @@ a.grfwd-toggle-link {
 }
 
 /* ----- MailChimp ----- */
+#mc_embed_signup {
+  background-color: transparent !important;
+}
 #mc_embed_signup form {
   padding: 0 0 2rem 0 !important;
 }
