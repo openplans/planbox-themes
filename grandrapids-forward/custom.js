@@ -23,7 +23,7 @@ $(function(){
   var $header = $('.project-header'),
       headermarkup =
         '<div class="columns large-12">' +
-        '  <h1 class="project-tagline">What is the future of Downtown Grand Rapids and the Grand River corridor?</h1>' +
+        '  <h1 class="project-tagline">Help shape the future of Downtown Grand Rapids and the Grand River corridor.</h1>' +
         '</div>' +
         '<div class="columns large-6">' +
         '  <a href="#section-get-involved" class="button large expand radius">GET INVOLVED</a>' +
