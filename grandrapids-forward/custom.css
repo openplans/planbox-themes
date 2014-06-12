@@ -280,6 +280,7 @@ li.event:last-child:before,
 @media (min-height: 950px) { .shareabouts { height: 700px; } }
 #section-thoughts-map-wrapper .shareabouts {
   border: 0;
+  border-top: 2rem solid #eee;
   margin: 0;
 }
 
