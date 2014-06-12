@@ -278,7 +278,10 @@ li.event:last-child:before,
 @media (min-height: 850px) { .shareabouts { height: 600px; } }
 @media (min-height: 900px) { .shareabouts { height: 650px; } }
 @media (min-height: 950px) { .shareabouts { height: 700px; } }
-
+#section-thoughts-map-wrapper .shareabouts {
+  border: 0;
+  margin: 0;
+}
 
 /* ----- NEVER SHOW THE SAVE BUTTON ----- */
 .save-btn {
