@@ -2,9 +2,9 @@ $(function(){
   'use strict';
 
   var version;
-  if (Planbox.Data.project.slug == 'grfwd-v1')      version = 1;
-  if (Planbox.Data.project.slug == 'grfwd')         version = 2;
-  if (Planbox.Data.project.slug == 'grfwd-staging') version = 3;
+  if (Planbox.Data.project.slug == 'grfwd-v1-old') version = 1;
+  if (Planbox.Data.project.slug == 'grfwd-v2-old') version = 2;
+  if (Planbox.Data.project.slug == 'grfwd')        version = 3;
 
   // Init the image gallery interactivity
   $(document).on('click', '.grfwd-thumb-link', function(evt) {
