@@ -209,6 +209,13 @@ a.grfwd-toggle-link {
 #mc_embed_signup {
   font-family: inherit !important;
 }
+#mc-embedded-subscribe {
+  background-color: #235358;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+}
 
 
 /* ----- Gallery ----- */
