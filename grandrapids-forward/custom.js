@@ -20,6 +20,17 @@ $(function(){
     $context.find('.grfwd-image').attr('src', imageUrl);
   });
 
+  // Init the get involved form toggles
+  $(document).on('click', '.grfwd-toggle-link', function(evt) {
+    evt.preventDefault();
+    var $this = $(this),
+        $context = $this.parent('panel'),
+
+    $context.find('.hide').removeClass('hide');
+    $this.addClass('hide');
+
+  });
+
   // Inject the tagline and action buttons into the project header
   var $header = $('.project-header'),
       headermarkup =
