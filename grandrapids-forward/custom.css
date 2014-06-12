@@ -40,6 +40,9 @@ a:hover { color: #f15723; }
 .project-title {
   display: none !important;
 }
+.site-header h1 {
+  text-align: center;
+}
 
 .logo-table {
   display: block;
