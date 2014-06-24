@@ -58,7 +58,7 @@ $(function(){
   // Inject social links into the header
   var $header = $('.project-header'),
       socialbuttons = 
-        '<ul class="inline-list">' +
+        '<ul class="inline-list social-media-list">' +
         '  <li><a class="" href="http://facebook.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-facebook.gif"></a></li>' +
         '  <li><a class="" href="http://instagram.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-instagram.gif"></a></li>' +
         '  <li><a class="" href="http://twitter.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-twitter.gif"></a></li>' +
