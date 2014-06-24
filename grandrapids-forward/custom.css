@@ -199,16 +199,12 @@ a.grfwd-toggle-link {
   right: 1rem;
   margin: 0 0 -40px 0;
   padding: 0.9375rem 0.9375rem 0;
+  background-color: #fff;
+  border-radius: 0.25rem 0.25rem 0 0;
+  top: -40px;
 }
 .social-media-list li {
   display: inline;
-}
-@media (min-width: 64.063em) {
-  .social-media-list {
-    background-color: #fff;
-    border-radius: 0.25rem 0.25rem 0 0;
-    top: -40px;
-  }
 }
 .social-media-list img {
   width: 40px;
