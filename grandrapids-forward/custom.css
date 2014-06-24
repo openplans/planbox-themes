@@ -194,14 +194,14 @@ a.grfwd-toggle-link {
 }
 
 .social-media-list {
+  position: relative;
+  right: 1rem;
 }
 @media (min-width: 64.063em) {
   .social-media-list {
     background-color: #fff;
     border-radius: 0.25rem 0.25rem 0 0;
-    position: absolute;
     top: -40px;
-    right: 0;
   }
 }
 .social-media-list img {
