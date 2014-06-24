@@ -207,7 +207,7 @@ a.grfwd-toggle-link {
   display: inline;
 }
 .social-media-list li + li {
-  margin-left: 0.25rem;
+  margin-left: 0.5rem;
 }
 .social-media-list img {
   width: 40px;
