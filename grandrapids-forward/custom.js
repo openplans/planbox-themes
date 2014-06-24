@@ -5,7 +5,9 @@ $(function(){
   if (Planbox.Data.project.slug == 'grfwd-v1-old')  version = 1;
   if (Planbox.Data.project.slug == 'grfwd-v2-old')  version = 2;
   if (Planbox.Data.project.slug == 'grfwd')         version = 3;
-  if (Planbox.Data.project.slug == 'grfwd-staging') staging = 4;
+
+  var staging;
+  if (Planbox.Data.project.slug == 'grfwd-staging') staging = 1;
 
   // Init the image gallery interactivity
   $(document).on('click', '.grfwd-thumb-link', function(evt) {
@@ -65,7 +67,7 @@ $(function(){
         '  <li><a class="" href="http://twitter.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-twitter.gif"></a></li>' +
         '</ul>';
 
-  if (staging === 4) {
+  if (staging === 1) {
     $siteheader.prepend(socialbuttonsmarkup);
   }
 });
