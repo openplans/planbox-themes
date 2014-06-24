@@ -194,8 +194,14 @@ a.grfwd-toggle-link {
 }
 
 .social-media-list {
+  list-style: none;
   position: relative;
   right: 1rem;
+  margin: 0;
+  padding: 0.75rem;
+}
+.social-media-list li {
+  display: inline;
 }
 @media (min-width: 64.063em) {
   .social-media-list {
