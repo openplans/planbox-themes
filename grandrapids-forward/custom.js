@@ -64,6 +64,10 @@ $(function(){
         '  <li><a class="" href="http://twitter.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-twitter.gif"></a></li>' +
         '</ul>';
 
+  if (version === 3) {
+    $header.prepend(socialbuttons);
+  }
+
   if (Planbox.Data.project.slug == 'grfwd-staging')  {
     $header.append(headermarkup);
     $highlights.html(mapmarkup);
