@@ -67,6 +67,6 @@ $(function(){
   if (Planbox.Data.project.slug == 'grfwd-staging')  {
     $header.append(headermarkup);
     $highlights.html(mapmarkup);
-    $header.append(socialbuttons);
+    $header.prepend(socialbuttons);
   }
 });
