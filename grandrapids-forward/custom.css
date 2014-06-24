@@ -193,6 +193,16 @@ a.grfwd-toggle-link {
   text-align: center;
 }
 
+.social-media-list {
+  background-color: #fff;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.social-media-list img {
+  width: 40px;
+  height: auto;
+}
+
+
 /* ----- MailChimp ----- */
 #mc_embed_signup {
   background-color: transparent !important;
