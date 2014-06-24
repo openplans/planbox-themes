@@ -4,8 +4,8 @@ $(function(){
   var version;
   if (Planbox.Data.project.slug == 'grfwd-v1-old')  version = 1;
   if (Planbox.Data.project.slug == 'grfwd-v2-old')  version = 2;
-  if (Planbox.Data.project.slug == 'grfwd-staging') version = 3;
   if (Planbox.Data.project.slug == 'grfwd')         version = 3;
+  if (Planbox.Data.project.slug == 'grfwd-staging') version = 4;
 
   // Init the image gallery interactivity
   $(document).on('click', '.grfwd-thumb-link', function(evt) {
@@ -54,5 +54,18 @@ $(function(){
 
   if (version === 3) {
     $highlights.html(mapmarkup);
+  }
+
+  // Inject social links into the header
+  var siteheader = $('.site-header'),
+      socialbuttonsmarkup = 
+        '<ul class="">' +
+        '  <li><a class="" href="http://facebook.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-facebook.gif"></a></li>' +
+        '  <li><a class="" href="http://instagram.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-instagram.gif"></a></li>' +
+        '  <li><a class="" href="http://twitter.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-twitter.gif"></a></li>' +
+        '</ul>';
+
+  if (version === 4) {
+    $siteheader.prepend(socialbuttonsmarkup);
   }
 });
