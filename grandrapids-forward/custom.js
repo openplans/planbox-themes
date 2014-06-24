@@ -57,7 +57,7 @@ $(function(){
 
   // Inject social links into the header
   var siteheader = $('.site-header'),
-      socialbuttonsmarkup = 
+      socialbuttons = 
         '<ul class="">' +
         '  <li><a class="" href="http://facebook.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-facebook.gif"></a></li>' +
         '  <li><a class="" href="http://instagram.com/grfwd" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-instagram.gif"></a></li>' +
@@ -67,6 +67,6 @@ $(function(){
   if (Planbox.Data.project.slug == 'grfwd-staging')  {
     $header.append(headermarkup);
     $highlights.html(mapmarkup);
-    $siteheader.prepend(socialbuttonsmarkup);
+    $siteheader.append(socialbuttons);
   }
 });
