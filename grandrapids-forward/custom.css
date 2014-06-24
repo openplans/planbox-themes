@@ -206,6 +206,9 @@ a.grfwd-toggle-link {
 .social-media-list li {
   display: inline;
 }
+.social-media-list li + li {
+  margin-left: 0.25rem;
+}
 .social-media-list img {
   width: 40px;
   height: auto;
