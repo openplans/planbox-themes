@@ -5,25 +5,25 @@ $(function(){
   if (Planbox.Data.project.slug == 'macon-action-plan')  version = 1;
 
   // Init the image gallery interactivity
-  $(document).on('click', '.grfwd-thumb-link', function(evt) {
+  $(document).on('click', '.macon-action-thumb-link', function(evt) {
     evt.preventDefault();
     var $this = $(this),
-        $context = $this.parents('.grfwd-image-gallery'),
+        $context = $this.parents('.macon-action-image-gallery'),
         imageUrl = $this.attr('data-url');
 
-    $context.find('.grfwd-thumb-link').removeClass('active');
+    $context.find('.macon-action-thumb-link').removeClass('active');
     $this.addClass('active');
 
-    $context.find('.grfwd-image').attr('src', imageUrl);
+    $context.find('.macon-action-image').attr('src', imageUrl);
   });
 
   // Init the get involved form toggles
-  $(document).on('click', '.grfwd-toggle-link', function(evt) {
+  $(document).on('click', '.macon-action-toggle-link', function(evt) {
     evt.preventDefault();
     var $this = $(this),
         $context = $this.parent('.panel');
 
-    $context.find('.grfwd-toggle-target').removeClass('hide');
+    $context.find('.macon-action-toggle-target').removeClass('hide');
     $this.addClass('hide');
 
   });
@@ -32,13 +32,13 @@ $(function(){
   var $header = $('.project-header'),
       headermarkup =
         '<div class="columns large-12">' +
-        '  <h1 class="project-tagline">Help shape the future of Downtown Grand Rapids and the Grand River corridor.</h1>' +
+        '  <h1 class="project-tagline">An intriguing tag line about the project.</h1>' +
         '</div>' +
         '<div class="columns large-6">' +
         '  <a href="#section-get-involved" class="button large expand radius">GET INVOLVED</a>' +
         '</div>' +
         '<div class="columns large-6">' +
-        '  <a href="#section-downtown" class="button large expand radius">LEARN MORE</a>' +
+        '  <a href="#section-urban-core" class="button large expand radius">LEARN MORE</a>' +
         '</div>';
 
   if (version === 1) {
@@ -47,7 +47,7 @@ $(function(){
 
   // Inject the map into the area where the highlights would go
   var $highlights = $('.project-details .medium-4').first(),
-      mapmarkup = '<a class="context-map-link" href="https://openplans.github.io/planbox-themes/grandrapids-forward/images/GRapids_Context_02-01.gif" target="_blank"><img class="context-map" src="//openplans.github.io/planbox-themes/grandrapids-forward/images/context-map-thumb.gif">Study Area</a>';
+      mapmarkup = '<a class="context-map-link" href="//placehold.it/300x300&text=logo" target="_blank"><img class="context-map" src="//placehold.it/1000x1000&text=logo">Study Area</a>';
 
   if (version === 1) {
     $highlights.html(mapmarkup);
