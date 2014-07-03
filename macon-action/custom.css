@@ -7,14 +7,14 @@
 }
 @media (min-width: 64.063em) {
   .site-header {
-    box-shadow: inset 0 -3.125rem #007295;
+    box-shadow: inset 0 -3.125rem #005873;
   }
 }
 .project-menu .container {
-  background-color: #005873;
+  background-color: #007295;
 }
 .project-menu .columns:after {
-  background-color: #005873;
+  background-color: #007295;
 }
 .sub-nav dd a, .sub-nav dt a, .sub-nav li a {
 /*  background-color: #f5e96f;*/
