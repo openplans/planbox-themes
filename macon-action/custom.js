@@ -47,7 +47,7 @@ $(function(){
 
   // Inject the map into the area where the highlights would go
   var $highlights = $('.project-details .medium-4').first(),
-      mapmarkup = '<a class="context-map-link" href="http://placehold.it/300x200&text=study+area+map" target="_blank"><img class="context-map" src="http://placehold.it/900x600&text=study+area+map">Study Area</a>';
+      mapmarkup = '<a class="context-map-link" href="http://placehold.it/900x600&text=study+area+map" target="_blank"><img class="context-map" src="http://placehold.it/300x200&text=study+area+map"></a>';
 
   if (version === 1) {
     $highlights.html(mapmarkup);
