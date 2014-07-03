@@ -1,0 +1,211 @@
+/*@import url(//fonts.googleapis.com/css?family=Roboto+Slab:300,700);*/
+
+
+/* ----- HEADER ----- */
+.site-header {
+/*  background-color: #63c2c0;*/
+}
+@media (min-width: 64.063em) {
+  .site-header {
+    box-shadow: inset 0 -3.125rem #58ad31;
+  }
+}
+.project-menu .container {
+  background-color: #adcb47;
+}
+.project-menu .columns:after {
+  background-color: #adcb47;
+}
+.sub-nav dd a, .sub-nav dt a, .sub-nav li a {
+/*  background-color: #f5e96f;*/
+/*  color: #3c3c3c;*/
+/*  border-radius: 3px;*/
+}
+.sub-nav dd a:hover, .sub-nav dt a:hover, .sub-nav li a:hover {
+/*  background-color: #58ad31;*/
+/*  color: #fff;*/
+}
+.sub-nav dd.active a, .sub-nav dt.active a, .sub-nav li.active a {
+/*  background-color: #235358;*/
+/*  color: #fff;*/
+}
+.sub-nav dd.active a:hover, .sub-nav dt.active a:hover, .sub-nav li.active a:hover {
+/*  background-color: #235358;*/
+}
+
+
+/* ----- Misc  ----- */
+.project-location {
+  display: none !important;
+}
+
+section > div > div > h3 {
+/*  font-size: 2.75rem;*/
+}
+
+.project-header .button {
+  font-size: 1.625rem;
+}
+@media (min-width: 600px) {
+  .project-header .button {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 64.063em) {
+  .columns-2 {
+    -webkit-column-count:2;
+       -moz-column-count:2;
+          column-count:2;
+  }
+  .columns-3 {
+    -webkit-column-count:3;
+       -moz-column-count:3;
+            column-count:3;
+  }
+  .columns-4 {
+    -webkit-column-count:4;
+       -moz-column-count:4;
+            column-count:4;
+  }
+}
+
+
+/* ----- Social Media ----- */
+.social-media-links a {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #f15723;
+}
+.social-media-links img {
+  vertical-align: center;
+  margin-right: 10px;
+  width: 65px;
+  height: auto;
+}
+a.social-media-link,
+a.grfwd-toggle-link {
+  text-align: center;
+}
+
+.social-media-list {
+  list-style: none;
+  position: relative;
+  right: 1rem;
+  margin: -1rem 0 -40px 0;
+  padding: 0.9375rem 0.9375rem 0;
+  background-color: #fff;
+  border-radius: 0.25rem 0.25rem 0 0;
+  top: -40px;
+}
+.social-media-list li {
+  display: inline;
+}
+.social-media-list li + li {
+  margin-left: 0.5rem;
+}
+.social-media-list img {
+  width: 40px;
+  height: auto;
+}
+
+
+/* ----- MailChimp ----- */
+#mc_embed_signup {
+  background-color: transparent !important;
+}
+#mc_embed_signup form {
+  padding: 0 0 2rem 0 !important;
+}
+#mc_embed_signup h2 {
+  font-weight: normal !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 1.375rem !important;
+}
+#mc_embed_signup {
+  font-family: inherit !important;
+}
+#mc-embedded-subscribe {
+  background-color: #235358 !important;
+  padding-top: 1rem !important;
+  padding-right: 2rem !important;
+  padding-bottom: 1.0625rem !important;
+  padding-left: 2rem !important;
+  height: auto !important;
+  line-height: inherit !important;
+  border-radius: 0 !important;
+}
+
+
+/* ----- Gallery ----- */
+.maconaction-image-gallery {
+  margin-bottom: 1.25rem;
+}
+.maconaction-thumb-link img { 
+  width: 80px;
+  height: 80px;
+  border: 5px solid #63c2c0;
+  margin: 0 5px 5px 0;
+}
+.maconaction-thumb-link.active img { 
+  border-color: #3c3c3c;
+}
+
+
+/* ----- Highlights ----- */
+.panel.callout {
+/*  border-width: 0;*/
+/*  background-color: #f5e96f;*/
+}
+
+
+/* ----- Footer ----- */
+.site-colophon {
+/*  background-color: #3c3c3c;*/
+/*  background-color: #eee;*/
+/*  color: #fff;*/
+}
+.powered-by {
+  display: none;
+}
+.footer-logos {
+  text-align: center;
+}
+.footer-logo {
+  height: auto;
+  max-height: 200px;
+  width: auto;
+  margin: 2rem;
+}
+
+
+/* ----- Shareabouts ----- */
+.shareabouts {
+  width: 100%;
+  margin: 0 0 2rem;
+  height: 400px;
+  border: 0.25rem solid #adcb47;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+@media (min-height: 700px) { .shareabouts { height: 450px; } }
+@media (min-height: 750px) { .shareabouts { height: 500px; } }
+@media (min-height: 800px) { .shareabouts { height: 550px; } }
+@media (min-height: 850px) { .shareabouts { height: 600px; } }
+@media (min-height: 900px) { .shareabouts { height: 650px; } }
+@media (min-height: 950px) { .shareabouts { height: 700px; } }
+#section-thoughts-map-wrapper .shareabouts {
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+
+/* ----- NEVER SHOW THE SAVE BUTTON ----- */
+.save-btn {
+  display: none !important;
+}
+
