@@ -39,6 +39,9 @@ a:hover { color: #f15723; }
 #section-news-wrapper a:hover strong { 
   color: #f15723; 
 }
+#section-news-wrapper a small, { 
+  display: block;
+}
 
 
 /* ----- HEADER ----- */
