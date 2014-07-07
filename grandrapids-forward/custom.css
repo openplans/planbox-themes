@@ -39,7 +39,8 @@ a:hover { color: #f15723; }
 #section-news-wrapper a:hover strong { 
   color: #f15723; 
 }
-#section-news-wrapper a small, { 
+#section-news-wrapper a small,
+#section-news-wrapper a strong { 
   display: block;
 }
 
