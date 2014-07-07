@@ -32,18 +32,6 @@ a:hover { color: #f15723; }
   background-color: #1E484D;
 }
 
-#section-news-wrapper a strong { 
-  color: #235358; 
-  font-size: 1.25em;
-}
-#section-news-wrapper a:hover strong { 
-  color: #f15723; 
-}
-#section-news-wrapper a small,
-#section-news-wrapper a strong { 
-  display: block;
-}
-
 
 /* ----- HEADER ----- */
 .site-header {
@@ -183,6 +171,26 @@ a.context-map-link:hover {
   a.context-map-link {
     display: block;
   }
+}
+
+
+/* ----- News Section ----- */
+#section-news-wrapper p {
+  overflow: hidden;
+} 
+#section-news-wrapper a strong { 
+  display: block;
+  color: #235358; 
+  font-size: 1.25em;
+}
+#section-news-wrapper a:hover strong { 
+  color: #f15723; 
+}
+#section-news-wrapper a small { 
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
