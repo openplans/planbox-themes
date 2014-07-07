@@ -32,8 +32,13 @@ a:hover { color: #f15723; }
   background-color: #1E484D;
 }
 
-#section-news-wrapper a, #section-news-wrapper a:active, #section-news-wrapper a:visited { color: #f15723; }
-#section-news-wrapper a:hover { color: #63c2c0; }
+#section-news-wrapper a strong { 
+  color: #235358; 
+  font-size: 1.25em;
+}
+#section-news-wrapper a:hover strong { 
+  color: #f15723; 
+}
 
 
 /* ----- HEADER ----- */
