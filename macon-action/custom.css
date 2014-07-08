@@ -27,7 +27,7 @@
 
 /* ----- HEADER ----- */
 .site-header {
-  background-color: #8ea5b6;
+  background-color: #dae6ee;
 }
 .project-title {
   display: none !important;
@@ -55,14 +55,14 @@
 
 @media (min-width: 64.063em) {
   .site-header {
-    box-shadow: inset 0 -3.125rem #566a7a;
+    box-shadow: inset 0 -3.125rem #c2d5e2;
   }
 }
 .project-menu .container {
-  background-color: #6c8398;
+  background-color: #cedde8;
 }
 .project-menu .columns:after {
-  background-color: #6c8398;
+  background-color: #cedde8;
 }
 .sub-nav dd a, .sub-nav dt a, .sub-nav li a {
 /*  background-color: #f5e96f;*/
