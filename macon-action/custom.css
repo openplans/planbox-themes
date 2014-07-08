@@ -158,13 +158,14 @@ a.context-map-link {
   text-align: center;
   border: 5px solid #c2d957; 
   background-color: #c2d957; 
-  color: #fff;
+  color: #41505b;
   font-size: 0.75em;
   font-weight: normal;
 }
 a.context-map-link:hover {
   border: 5px solid #3ec1cd; 
   background-color: #3ec1cd;
+  color: #fff;
 }
 .context-map {
   display: block;
