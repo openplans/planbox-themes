@@ -21,7 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 .dancing-script {
   font-family: 'Dancing Script', cursive;
 }
-body {
+body,
+#page {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   background-color: #e7eef3;
