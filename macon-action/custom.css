@@ -226,7 +226,8 @@ a.grfwd-toggle-link {
   padding: 0 0 2rem 0 !important;
 }
 #mc_embed_signup h2 {
-  font-weight: normal !important;
+  font-weight: 700 !important;
+  font-style: italic !important;
   padding: 0 !important;
   margin: 0 !important;
   font-size: 1.375rem !important;
