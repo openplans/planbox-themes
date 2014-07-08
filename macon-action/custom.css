@@ -168,6 +168,7 @@ a.context-map-link:hover {
 }
 .context-map {
   display: block;
+  margin-bottom: 0.25em;
 }
 
 
