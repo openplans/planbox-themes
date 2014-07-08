@@ -156,8 +156,8 @@ a.context-map-link {
   float: left;
   margin: 0 10px 10px 0;
   text-align: center;
-  border: 5px solid #63c2c0; 
-  background-color: #63c2c0; 
+  border: 5px solid #41505b; 
+  background-color: #41505b; 
   color: #fff;
   font-size: 0.75em;
   font-weight: normal;
@@ -166,16 +166,11 @@ a.context-map-link {
   float: none;
 }
 a.context-map-link:hover {
-  border: 5px solid #f15723; 
-  background-color: #f15723;
+  border: 5px solid #3ec1cd; 
+  background-color: #3ec1cd;
 }
 .context-map {
   display: block;
-  height: 175px;
-  width: auto;
-}
-.project-details .medium-4 .context-map {
-  height: auto;
 }
 
 
