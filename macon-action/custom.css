@@ -156,14 +156,11 @@ a.context-map-link {
   float: left;
   margin: 0 10px 10px 0;
   text-align: center;
-  border: 5px solid #41505b; 
-  background-color: #41505b; 
+  border: 5px solid #c2d957; 
+  background-color: #c2d957; 
   color: #fff;
   font-size: 0.75em;
   font-weight: normal;
-}
-.project-details .medium-4 a.context-map-link {
-  float: none;
 }
 a.context-map-link:hover {
   border: 5px solid #3ec1cd; 
