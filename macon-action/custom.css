@@ -49,6 +49,7 @@
 }
 .logo-table img {
   max-height: 207px;
+  margin: 2em 0;
 }
 
 @media (min-width: 64.063em) {
