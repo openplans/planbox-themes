@@ -28,6 +28,13 @@ body,
   background-color: #e7eef3;
 }
 
+a {
+  color: #3ec1cd;
+}
+a:hover {
+  color: #c2d957;
+}
+
 .button {
   background-color: #41505b;
   font-family: 'Bitter', serif;
