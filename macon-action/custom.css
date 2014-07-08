@@ -141,11 +141,9 @@ a.grfwd-toggle-link {
   list-style: none;
   position: relative;
   right: 1rem;
-  margin: -1rem 0 -40px 0;
   padding: 0.9375rem 0.9375rem 0;
   background-color: #fff;
   border-radius: 0.25rem 0.25rem 0 0;
-  top: -40px;
 }
 .social-media-list li {
   display: inline;
@@ -156,6 +154,12 @@ a.grfwd-toggle-link {
 .social-media-list img {
   width: 40px;
   height: auto;
+}
+@media (min-width: 64.063em) {
+  .social-media-list {
+    margin: -1rem 0 -40px 0;
+    top: -40px;
+  }
 }
 
 
