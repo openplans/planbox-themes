@@ -1,10 +1,56 @@
-/*@import url(//fonts.googleapis.com/css?family=Roboto+Slab:300,700);*/
+@import url(//fonts.googleapis.com/css?family=Bitter:700|Dancing+Script|Merriweather:300,300italic,700,700italic);
+
+/* ----- Color Palette -----
+  
+  green   #c2d957
+  blue    #3ec1cd
+  grey    #41505b
+
+  orange  #ffa93b
+  yellow  #feee58
+
+  */
+
+
+.bitter, h1, h2,  {
+  font-family: 'Bitter', serif;
+}
+.dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
+.merriweather {
+  font-family: 'Merriweather', serif;
+}
 
 
 /* ----- HEADER ----- */
 .site-header {
-/*  background-color: #63c2c0;*/
+  background-color: #41505b;
 }
+.project-title {
+  display: none !important;
+}
+.site-header h1 {
+  text-align: center;
+}
+
+.logo-table {
+  display: block;
+}
+.logo-table-row {
+  display: block;
+}
+.logo-table-row > div {
+  display: block;
+}
+.logo-table-row > div.image-holder,
+.logo-table-row > div.has-image {
+  padding-right: 0;
+}
+.logo-table img {
+  max-height: none;
+}
+
 @media (min-width: 64.063em) {
   .site-header {
     box-shadow: inset 0 -3.125rem #005873;
