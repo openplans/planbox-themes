@@ -29,6 +29,9 @@ body,
 }
 
 .button {
+  background-color: #41505b;
+}
+.button:hover {
   background-color: #3ec1cd;
 }
 
