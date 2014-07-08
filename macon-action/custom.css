@@ -24,8 +24,8 @@ h1, h2, h3 {
   color: #41505b;
 }
 @media (min-width: 40.063em) {
-  h1, h2 { font-size: 2.5em; }
-  h3 { font-size: 2em; }
+  h1, h2 { font-size: 2.75em; }
+  h3 { font-size: 2.25em; }
 }
 h4, h5, h6 {
   font-family: 'Merriweather', serif;
