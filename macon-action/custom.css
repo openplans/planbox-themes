@@ -28,6 +28,10 @@ body,
   background-color: #e7eef3;
 }
 
+.button {
+  background-color: #3ec1cd;
+}
+
 
 /* ----- HEADER ----- */
 .site-header {
