@@ -77,20 +77,20 @@ body,
   background-color: #b1c5d3;
 }
 .sub-nav dd a, .sub-nav dt a, .sub-nav li a {
-/*  background-color: #f5e96f;*/
-/*  color: #3c3c3c;*/
-/*  border-radius: 3px;*/
+  background-color: #41505b;
+  color: #fff;
+  border-radius: 3px;
 }
 .sub-nav dd a:hover, .sub-nav dt a:hover, .sub-nav li a:hover {
-/*  background-color: #58ad31;*/
-/*  color: #fff;*/
+  background-color: #3ec1cd;
+  color: #fff;
 }
 .sub-nav dd.active a, .sub-nav dt.active a, .sub-nav li.active a {
-/*  background-color: #235358;*/
-/*  color: #fff;*/
+  background-color: #ffa93b;
+  color: #fff;
 }
 .sub-nav dd.active a:hover, .sub-nav dt.active a:hover, .sub-nav li.active a:hover {
-/*  background-color: #235358;*/
+  background-color: #ffa93b;
 }
 
 
