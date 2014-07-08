@@ -17,6 +17,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bitter', serif;
   font-weight: 700;
+  color: #41505b;
 }
 .dancing-script {
   font-family: 'Dancing Script', cursive;
@@ -26,6 +27,7 @@ body,
   font-family: 'Merriweather', serif;
   font-weight: 300;
   background-color: #e7eef3;
+  color: #41505b;
 }
 
 a {
@@ -235,9 +237,8 @@ a.grfwd-toggle-link {
 
 /* ----- Footer ----- */
 .site-colophon {
-/*  background-color: #3c3c3c;*/
-/*  background-color: #eee;*/
-/*  color: #fff;*/
+  background-color: #e7eef3;
+  color: #41505b;
 }
 .powered-by {
   display: none;
