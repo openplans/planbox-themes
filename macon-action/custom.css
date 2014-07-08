@@ -247,16 +247,16 @@ a.grfwd-toggle-link {
 
 
 /* ----- Gallery ----- */
-.maconaction-image-gallery {
+.macon-action-image-gallery {
   margin-bottom: 1.25rem;
 }
-.maconaction-thumb-link img { 
-  width: 80px;
-  height: 80px;
+.macon-action-thumb-link img { 
+  width: 75px;
+  height: 75px;
   border: 5px solid #007295;
   margin: 0 5px 5px 0;
 }
-.maconaction-thumb-link.active img { 
+.macon-action-thumb-link.active img { 
   border-color: #3c3c3c;
 }
 
