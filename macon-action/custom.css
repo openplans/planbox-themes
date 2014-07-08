@@ -18,14 +18,15 @@
   */
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: 'Bitter', serif;
   font-weight: 700;
   color: #41505b;
 }
-section > div > div > h3 {
+h4, h5, h6 {
+  font-family: 'Bitter', serif;
+  font-weight: 700;
   font-style: italic;
-  text-transform: lowercase;
   color: #8ea5b6;
 }
 body,
