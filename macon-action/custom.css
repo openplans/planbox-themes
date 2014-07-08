@@ -151,6 +151,34 @@ section > div > div > h3 {
 }
 
 
+/* ----- Study Area Map ----- */
+a.context-map-link {
+  float: left;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  border: 5px solid #63c2c0; 
+  background-color: #63c2c0; 
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+.project-details .medium-4 a.context-map-link {
+  float: none;
+}
+a.context-map-link:hover {
+  border: 5px solid #f15723; 
+  background-color: #f15723;
+}
+.context-map {
+  display: block;
+  height: 175px;
+  width: auto;
+}
+.project-details .medium-4 .context-map {
+  height: auto;
+}
+
+
 /* ----- Social Media ----- */
 .social-media-links a {
   display: block;
