@@ -31,9 +31,9 @@ $(function(){
   // Inject the tagline and action buttons into the project header
   var $header = $('.project-header'),
       headermarkup =
-        '<div class="columns large-12">' +
-        '  <h1 class="project-tagline">An intriguing tag line about the project.</h1>' +
-        '</div>' +
+        // '<div class="columns large-12">' +
+        // '  <h1 class="project-tagline">An intriguing tag line about the project.</h1>' +
+        // '</div>' +
         '<div class="columns large-6">' +
         '  <a href="#section-get-involved" class="button large expand radius">GET INVOLVED</a>' +
         '</div>' +
