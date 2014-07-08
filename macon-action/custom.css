@@ -32,12 +32,10 @@
 .project-title {
   display: none !important;
 }
-.site-header h1 {
-  text-align: center;
-}
 
 .logo-table {
   display: block;
+  text-align: center;
 }
 .logo-table-row {
   display: block;
@@ -50,7 +48,7 @@
   padding-right: 0;
 }
 .logo-table img {
-  max-height: none;
+  max-height: 207px;
 }
 
 @media (min-width: 64.063em) {
