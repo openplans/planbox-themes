@@ -253,11 +253,11 @@ a.grfwd-toggle-link {
 .macon-action-thumb-link img { 
   width: 75px;
   height: 75px;
-  border: 5px solid #007295;
+  border: 5px solid #3ec1cd;
   margin: 0 5px 5px 0;
 }
 .macon-action-thumb-link.active img { 
-  border-color: #3c3c3c;
+  border-color: #41505b;
 }
 
 
