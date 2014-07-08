@@ -14,7 +14,6 @@
   */
 
 
-.bitter, 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bitter', serif;
   font-weight: 700;
@@ -22,10 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 .dancing-script {
   font-family: 'Dancing Script', cursive;
 }
-.merriweather-light,
 body {
   font-family: 'Merriweather', serif;
   font-weight: 300;
+  background-color: #e7eef3;
 }
 
 
