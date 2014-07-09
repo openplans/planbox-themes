@@ -48,9 +48,9 @@ $(function(){
   // Inject the map into the area where the highlights would go
   var $highlights = $('.project-details .medium-4').first(),
       mapmarkup = 
-        '<h4>Why are we working on a plan for Macon\'s "Urban Core"?</h4>' + 
+        '<h5>Why are we working on a plan for Macon\'s "Urban Core"?</h5>' + 
         '<p>The "Urban Core" refers to Downtown Macon and nearby neighborhoods. The urban core is where the City was first established, and it remains a center of employment, entertainment, and institutions, as well as home to a collection of historic and diverse neighborhoods and communities. The urban core is the heart of Macon.</p>' + 
-        '<h4>MAP in the NEWS</h4>' + 
+        '<h5>MAP in the News</h5>' + 
         '<p><a href="http://bit.ly/1libF4x">Have you seen the new green spaces on Cherry Street?</a></p>';
 
   if (version === 1) {
