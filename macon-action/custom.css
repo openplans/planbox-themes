@@ -330,8 +330,14 @@ a.grfwd-toggle-link {
   margin: 0;
 }
 
+
 /* ----- NEVER SHOW THE SAVE BUTTON ----- */
 .save-btn {
   display: none !important;
 }
 
+
+/* ----- NEVER SHOW THE Intercom Widget ----- */
+#IntercomDefaultWidget {
+  display: none !important;
+}
