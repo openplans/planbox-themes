@@ -223,6 +223,7 @@ a.grfwd-toggle-link {
 .social-media-list {
   list-style: none;
   position: relative;
+  z-index: 100;
   right: 1rem;
   border-radius: 0.25rem 0.25rem 0 0;
 }
