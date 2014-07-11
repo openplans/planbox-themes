@@ -73,6 +73,12 @@ a:hover {
 .project-header {
   background: url('//openplans.github.io/planbox-themes/macon-action/images/project-header-bg.jpg') center center;
   box-shadow: inset 0 0 8rem 2rem #2a343d;
+  border-radius: 0;
+}
+@media (min-width: 64.063em) {
+  .project-header {
+    border-radius: .375em .375em 0 0;
+  }
 }
 .project-title {
   display: none !important;
