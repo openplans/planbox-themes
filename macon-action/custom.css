@@ -72,6 +72,7 @@ a:hover {
 }
 .project-header {
   background: url('//openplans.github.io/planbox-themes/macon-action/images/project-header-bg.jpg') center center;
+  box-shadow: inset 0 0 5rem #41505b;
 }
 .project-title {
   display: none !important;
