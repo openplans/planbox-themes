@@ -99,14 +99,14 @@ a:hover {
 
 @media (min-width: 64.063em) {
   .site-header {
-    box-shadow: inset 0 -3.125rem #566a7a;
+    box-shadow: inset 0 -3.125rem #ABBF4D;
   }
 }
 .project-menu .container {
-  background-color: #6c8398;
+  background-color: #D7E695;
 }
 .project-menu .columns:after {
-  background-color: #6c8398;
+  background-color: #c2d957;
 }
 .sub-nav dd a, .sub-nav dt a, .sub-nav li a {
   background-color: #41505b;
