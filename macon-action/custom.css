@@ -89,8 +89,13 @@ a:hover {
   padding-right: 0;
 }
 .logo-table img {
-  max-height: 207px;
-  margin: 2em 0;
+  /* styles for the facebook cover photo*/
+  display: block;
+  width: 100%;
+  height: auto;
+  /* styles for just the logo */
+  /*max-height: 207px;*/
+  /*margin: 2em 0;*/
 }
 
 @media (min-width: 64.063em) {
