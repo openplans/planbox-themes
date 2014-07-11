@@ -70,6 +70,9 @@ a:hover {
 .site-header {
   background-color: #8ea5b6;
 }
+.project-header {
+  background: url('//openplans.github.io/planbox-themes/macon-action/images/project-header-bg.jpg') center center;
+}
 .project-title {
   display: none !important;
 }
