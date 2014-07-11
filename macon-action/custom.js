@@ -3,6 +3,7 @@ $(function(){
 
   var version;
   if (Planbox.Data.project.slug == 'macon-action-plan')  version = 1;
+  if (Planbox.Data.project.slug == 'macon-action-plan-tmp')  version = 1;
 
   // Init the image gallery interactivity
   $(document).on('click', '.macon-action-thumb-link', function(evt) {
