@@ -290,6 +290,12 @@ a.grfwd-toggle-link {
 .macon-action-thumb-link.active img { 
   border-color: #41505b;
 }
+.macon-action-caption {
+  text-align: center;
+  color: #fff;
+  background-color: #41505b;
+  padding: 0.25rem 0.5rem;
+}
 
 
 /* ----- Highlights ----- */
