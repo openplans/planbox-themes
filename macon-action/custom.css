@@ -68,7 +68,7 @@ a:hover {
 
 /* ----- HEADER ----- */
 .site-header {
-  background-color: #D7E695;
+  background-color: #c2d957;
 }
 .project-header {
   background: url('//openplans.github.io/planbox-themes/macon-action/images/project-header-bg.jpg') center center;
@@ -99,7 +99,7 @@ a:hover {
 
 @media (min-width: 64.063em) {
   .site-header {
-    box-shadow: inset 0 -3.125rem #c2d957;
+    box-shadow: inset 0 -3.125rem #80cd92;
   }
 }
 .project-menu .container {
@@ -114,15 +114,15 @@ a:hover {
   border-radius: 3px;
 }
 .sub-nav dd a:hover, .sub-nav dt a:hover, .sub-nav li a:hover {
-  background-color: #3ec1cd;
+  background-color: #ffa93b;
   color: #fff;
 }
 .sub-nav dd.active a, .sub-nav dt.active a, .sub-nav li.active a {
-  background-color: #ffa93b;
+  background-color: #c2d957;
   color: #fff;
 }
 .sub-nav dd.active a:hover, .sub-nav dt.active a:hover, .sub-nav li.active a:hover {
-  background-color: #ffa93b;
+  background-color: #c2d957;
 }
 
 
