@@ -61,7 +61,7 @@ $(function(){
   var $header = $('.project-header'),
       socialbuttons = 
         '<ul class="social-media-list right">' +
-        '  <li><a class="" href="http://facebook.com/MaconActionPlan" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-facebook.gif"></a></li>' +
+        '  <li><a class="" href="https://www.facebook.com/pages/Macon-Action-Plan/264633970391707" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-facebook.gif"></a></li>' +
         '  <li><a class="" href="http://instagram.com/MaconActionPlan" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-instagram.gif"></a></li>' +
         '  <li><a class="" href="http://twitter.com/MaconActionPlan" target="_blank"><img src="//openplans.github.io/planbox-themes/grandrapids-forward/images/social-twitter.gif"></a></li>' +
         '</ul>';
