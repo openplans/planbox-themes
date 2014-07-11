@@ -269,6 +269,9 @@ a.grfwd-toggle-link {
 .macon-action-image-gallery {
   margin-bottom: 1.25rem;
 }
+.macon-action-image {
+  border: 5px solid #41505b;
+}
 .macon-action-thumb-link img { 
   width: 75px;
   height: auto;
