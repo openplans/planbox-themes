@@ -232,8 +232,7 @@ a.grfwd-toggle-link {
 }
 @media (min-width: 64.063em) {
   .social-media-list {
-    margin: -1rem 0 -40px 0;
-    top: -40px;
+    margin: 0 0 -40px;
   }
 }
 
