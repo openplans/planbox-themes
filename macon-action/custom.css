@@ -68,7 +68,7 @@ a:hover {
 
 /* ----- HEADER ----- */
 .site-header {
-  background-color: #c2d957;
+  background-color: #D7E695;
 }
 .project-header {
   background: url('//openplans.github.io/planbox-themes/macon-action/images/project-header-bg.jpg') center center;
@@ -103,7 +103,7 @@ a:hover {
   }
 }
 .project-menu .container {
-  background-color: #D7E695;
+  background-color: #c2d957;
 }
 .project-menu .columns:after {
   background-color: #c2d957;
