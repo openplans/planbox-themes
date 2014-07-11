@@ -9,12 +9,14 @@ $(function(){
     evt.preventDefault();
     var $this = $(this),
         $context = $this.parents('.macon-action-image-gallery'),
+        caption = $this.attr('data-caption'),
         imageUrl = $this.attr('data-url');
 
     $context.find('.macon-action-thumb-link').removeClass('active');
     $this.addClass('active');
 
     $context.find('.macon-action-image').attr('src', imageUrl);
+    $context.find('.macon-action-caption').html(caption);
   });
 
   // Init the get involved form toggles
