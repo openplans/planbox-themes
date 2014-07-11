@@ -90,9 +90,9 @@ a:hover {
 }
 .logo-table img {
   /* styles for the facebook cover photo*/
-  display: block;
   width: 100%;
   height: auto;
+  max-height: none;
   /* styles for just the logo */
   /*max-height: 207px;*/
   /*margin: 2em 0;*/
