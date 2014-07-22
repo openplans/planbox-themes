@@ -292,10 +292,20 @@ a.grfwd-toggle-link {
   position: absolute;
   top: 2rem;
 }
+.macon-action-thumb-link.prev {
+  left: 0;
+  margin-left: -1rem;
+}
+.macon-action-thumb-link.next {
+  right: 0;
+  margin-right: -1rem;
+}
 @media (min-width: 40.063em) {
   .macon-action-thumb-link.prev,
   .macon-action-thumb-link.next {
     top: 5rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media (min-width: 64.063em) {
@@ -303,12 +313,6 @@ a.grfwd-toggle-link {
   .macon-action-thumb-link.next {
     top: 10rem;
   }
-}
-.macon-action-thumb-link.prev {
-  left: 0;
-}
-.macon-action-thumb-link.next {
-  right: 0;
 }
 .macon-action-thumb-link img { 
   width: 75px;
