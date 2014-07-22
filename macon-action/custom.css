@@ -281,6 +281,14 @@ a.grfwd-toggle-link {
 .macon-action-image {
   border: 5px solid #41505b;
 }
+.macon-action-thumb-link {
+  display: none;
+}
+.macon-action-thumb-link.prev,
+.macon-action-thumb-link.next {
+  display: block;
+  float: left;
+}
 .macon-action-thumb-link img { 
   width: 75px;
   height: auto;
