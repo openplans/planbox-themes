@@ -289,8 +289,20 @@ a.grfwd-toggle-link {
 .macon-action-thumb-link.next {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 2rem;
   margin-top: -37px;
+}
+@media (min-width: 40.063em) {
+  .macon-action-thumb-link.prev,
+  .macon-action-thumb-link.next {
+    top: 5rem;
+  }
+}
+@media (min-width: 64.063em) {
+  .macon-action-thumb-link.prev,
+  .macon-action-thumb-link.next {
+    top: 10rem;
+  }
 }
 .macon-action-thumb-link.prev {
   left: 0;
