@@ -290,7 +290,7 @@ a.grfwd-toggle-link {
 .macon-action-thumb-link.next {
   display: block;
   position: absolute;
-  top: 2rem;
+  top: 5rem;
 }
 .macon-action-thumb-link.prev {
   left: 0;
@@ -303,7 +303,7 @@ a.grfwd-toggle-link {
 @media (min-width: 40.063em) {
   .macon-action-thumb-link.prev,
   .macon-action-thumb-link.next {
-    top: 5rem;
+    top: 10rem;
     margin-left: 0;
     margin-right: 0;
   }
@@ -311,7 +311,7 @@ a.grfwd-toggle-link {
 @media (min-width: 64.063em) {
   .macon-action-thumb-link.prev,
   .macon-action-thumb-link.next {
-    top: 10rem;
+    top: 15rem;
   }
 }
 .macon-action-thumb-link img { 
