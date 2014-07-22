@@ -290,7 +290,6 @@ a.grfwd-toggle-link {
   display: block;
   position: absolute;
   top: 2rem;
-  margin-top: -37px;
 }
 @media (min-width: 40.063em) {
   .macon-action-thumb-link.prev,
