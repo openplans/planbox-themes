@@ -13,8 +13,10 @@ $(function(){
         caption = $this.attr('data-caption'),
         imageUrl = $this.attr('data-url');
 
-    $context.find('.macon-action-thumb-link').removeClass('active');
+    $context.find('.macon-action-thumb-link').removeClass('active prev next');
     $this.addClass('active');
+    $this.prev('.macon-action-thumb-link').addClass('prev');
+    $this.next('.macon-action-thumb-link').addClass('next');
 
     $context.find('.macon-action-image').attr('src', imageUrl);
     $context.find('.macon-action-caption').html(caption);
