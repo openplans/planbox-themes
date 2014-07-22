@@ -284,6 +284,7 @@ a.grfwd-toggle-link {
 }
 .macon-action-thumb-link {
   display: none;
+  z-index: 2;
 }
 .macon-action-thumb-link.prev,
 .macon-action-thumb-link.next {
