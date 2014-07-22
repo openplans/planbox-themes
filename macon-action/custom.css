@@ -300,6 +300,7 @@ a.grfwd-toggle-link {
 }
 .macon-action-thumb-link img { 
   width: 75px;
+  max-width: none;
   height: auto;
   border: 5px solid #3ec1cd;
   margin: 0 5px 5px 0;
