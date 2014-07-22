@@ -293,10 +293,10 @@ a.grfwd-toggle-link {
   margin-top: -37px;
 }
 .macon-action-thumb-link.prev {
-  left: 0;
+  right: 100%;
 }
 .macon-action-thumb-link.next {
-  right: 0;
+  left: 100%;
 }
 .macon-action-thumb-link img { 
   width: 75px;
