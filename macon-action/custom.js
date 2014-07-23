@@ -56,7 +56,7 @@ $(function(){
         '<h5>Why are we working on a plan for Macon\'s "Urban Core"?</h5>' + 
         '<p>The "Urban Core" refers to Downtown Macon and nearby neighborhoods. The urban core is where the City was first established, and it remains a center of employment, entertainment, and institutions, as well as home to a collection of historic and diverse neighborhoods and communities. The urban core is the heart of Macon.</p>' + 
         '<h5>MAP in the News</h5>' + 
-        '<p><strong><a href="http://11thhouronline.com/alex-morrison/2014/7/7/the-things-on-the-ground" target="_blank"></a></strong>The Things on the Ground: A Cherry Street Stroll</p>' + 
+        '<p><strong><a href="http://11thhouronline.com/alex-morrison/2014/7/7/the-things-on-the-ground" target="_blank">The Things on the Ground: A Cherry Street Stroll</a></strong></p>' + 
         '<p><strong><a href="http://bit.ly/1libF4x" target="_blank">Have you seen the new green spaces on Cherry Street?</a></strong></p>';
 
   if (version === 1) {
