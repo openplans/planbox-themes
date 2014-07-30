@@ -34,7 +34,7 @@ $(function(){
   $(document).on('click', '.toggle-section-link', function(evt) {
     evt.preventDefault();
     $(this).parent().siblings('.toggle-section-target').removeClass('hide');
-    $(this).addClass('hide');
+    $(this).hide();
 
   });
 
