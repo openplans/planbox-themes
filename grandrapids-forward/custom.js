@@ -50,7 +50,7 @@ $(function(){
   // Inject the map into the area where the highlights would go
   var $highlights = $('.project-details .medium-4').first(),
       // mapmarkup = '<a class="context-map-link" href="https://openplans.github.io/planbox-themes/grandrapids-forward/images/GRapids_Context_02-01.gif" target="_blank"><img class="context-map" src="//openplans.github.io/planbox-themes/grandrapids-forward/images/context-map-thumb.gif">Study Area</a>';
-      mapmarkup = '<iframe width="100%" height="460" frameborder="0" src="https://a.tiles.mapbox.com/v4/openplans.in9pjka1/attribution,zoompan,geocoder,legend,share.html?access_token=pk.eyJ1Ijoib3BlbnBsYW5zIiwiYSI6ImZRQzRPYnMifQ.f75KI3Q9rFXRY2Zciz6DKw#12/42.9793/-85.6733"></iframe>';
+      mapmarkup = '<iframe width="100%" height="475" frameborder="0" src="https://a.tiles.mapbox.com/v4/openplans.in9pjka1/attribution,zoompan,geocoder,legend,share.html?access_token=pk.eyJ1Ijoib3BlbnBsYW5zIiwiYSI6ImZRQzRPYnMifQ.f75KI3Q9rFXRY2Zciz6DKw#12/42.9793/-85.6733"></iframe>';
   if (version === 3) {
     $highlights.html(mapmarkup);
   }
