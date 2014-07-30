@@ -33,11 +33,8 @@ $(function(){
   // Init the news toggles
   $(document).on('click', '.toggle-section-link', function(evt) {
     evt.preventDefault();
-    var $this = $(this),
-        $context = $this.parent().siblings('.toggle-section-target');
-
-    $context.removeClass('hide');
-    $this.addClass('hide');
+    $(this).parent().siblings('.toggle-section-target').removeClass('hide');
+    $(this).addClass('hide');
 
   });
 
