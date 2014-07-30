@@ -30,6 +30,17 @@ $(function(){
 
   });
 
+  // Init the news toggles
+  $(document).on('click', '.toggle-section-link', function(evt) {
+    evt.preventDefault();
+    var $this = $(this),
+        $context = $this.parent().sibling('toggle-section-target');
+
+    $context.removeClass('hide');
+    $this.addClass('hide');
+
+  });
+
   // Inject the tagline and action buttons into the project header
   var $header = $('.project-header'),
       headermarkup =
