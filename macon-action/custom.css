@@ -265,6 +265,9 @@ a.grfwd-toggle-link {
   display: none;
   z-index: 2;
 }
+.section-a-is-for-actio-wrapper .macon-action-thumb-link {
+  display: block;
+}
 .macon-action-thumb-link.prev,
 .macon-action-thumb-link.next {
   display: block;
