@@ -29,7 +29,8 @@ a:hover { color: #f15723; }
   border-color: #63c2c0;
   color: #fff;
 }
-.button:hover, button:hover {
+.button:hover, button:hover,
+.button.secondary:hover, button.secondary:hover {
   background-color: #1E484D;
 }
 
