@@ -111,10 +111,10 @@ a:hover {
 }
 
 .project-title img {
-  max-height: 12rem;
+  max-height: 210px;
+  margin: 2em 0;
 }
 
-/* ----- Misc  ----- */
 
 section > div > div > h3 {
 /*  font-size: 2.75rem;*/
