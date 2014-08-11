@@ -184,6 +184,7 @@ a.context-map-link:hover {
   display: block;
   font-size: 1.5em;
   font-weight: 700;
+  margin-top: 1rem;
   margin-bottom: 0.75rem;
   color: #f15723;
 }
@@ -217,7 +218,7 @@ a.grfwd-toggle-link {
 }
 @media (min-width: 64.063em) {
   .social-media-list {
-    margin: 0 0 -40px;
+    margin: 1rem 0 -40px;
   }
 }
 
