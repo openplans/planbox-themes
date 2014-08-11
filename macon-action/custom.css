@@ -110,11 +110,11 @@ a:hover {
   color: #41505b;
 }
 
+.project-title img {
+  max-height: 12rem;
+}
 
 /* ----- Misc  ----- */
-.project-location {
-  display: none !important;
-}
 
 section > div > div > h3 {
 /*  font-size: 2.75rem;*/
