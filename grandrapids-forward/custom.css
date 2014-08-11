@@ -37,12 +37,6 @@ a:hover { color: #f15723; }
 .site-header {
   background-color: #63c2c0;
 }
-.project-title {
-  display: none !important;
-}
-.site-header h1 {
-  text-align: center;
-}
 
 .project-title img {
   max-height: none;
