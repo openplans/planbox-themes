@@ -44,20 +44,7 @@ a:hover { color: #f15723; }
   text-align: center;
 }
 
-.logo-table {
-  display: block;
-}
-.logo-table-row {
-  display: block;
-}
-.logo-table-row > div {
-  display: block;
-}
-.logo-table-row > div.image-holder,
-.logo-table-row > div.has-image {
-  padding-right: 0;
-}
-.logo-table img {
+.project-title img {
   max-height: none;
 }
 
