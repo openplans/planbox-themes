@@ -267,8 +267,8 @@ a.grfwd-toggle-link {
 }
 #section-a-is-for-action-wrapper .macon-action-thumb-link {
   display: block;
-  poistion: relative;
-  top: 0;
+  poistion: relative !important;
+  top: 0 !important;
 }
 .macon-action-thumb-link.prev,
 .macon-action-thumb-link.next {
