@@ -265,9 +265,8 @@ a.grfwd-toggle-link {
 
 
 /* ----- Highlights ----- */
-.panel.callout {
-  border-width: 0;
-  background-color: #f5e96f;
+.panel {
+  background-color: #eee;
 }
 
 
