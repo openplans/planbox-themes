@@ -80,28 +80,6 @@ a:hover {
     border-radius: .375em .375em 0 0;
   }
 }
-.project-title {
-  display: none !important;
-}
-
-.logo-table {
-  display: block;
-  text-align: center;
-}
-.logo-table-row {
-  display: block;
-}
-.logo-table-row > div {
-  display: block;
-}
-.logo-table-row > div.image-holder,
-.logo-table-row > div.has-image {
-  padding-right: 0;
-}
-.logo-table img {
-  max-height: 210px;
-  margin: 2em 0;
-}
 
 @media (min-width: 64.063em) {
   .site-header {
