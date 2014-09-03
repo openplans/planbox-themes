@@ -271,19 +271,7 @@ a.grfwd-toggle-link {
 
 
 /* ----- Timeline ----- */
-.project-section-timeline {
-  padding-top: 2rem;
-}
-.project-section-timeline,
-.event:after,
-li.event:last-child:before,
-.event-list:before {
-  background-color: #3c3c3c;
-}
-/* HIDE THE TIMELINE BORDER UNTIL THAT HAVE EVENTS */
-.event-list {
-  border-left: 0;
-}
+
 
 /* ----- Footer ----- */
 .site-colophon {
