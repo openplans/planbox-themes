@@ -274,7 +274,7 @@ a.grfwd-toggle-link {
 .event-title {
   padding-top: 0.25rem;
 }
-.event-title + .row {
+.event-title + .row .event-description {
   display: none;
 }
 .event .row .medium-7 {
