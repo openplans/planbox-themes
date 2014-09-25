@@ -74,7 +74,7 @@ $(function(){
     $highlights.html(mapmarkup);
     $header.prepend(socialbuttons);
   }
-});
+
 
   // Init the timeline toggles
   $('.event-title').next('.row').hide();
@@ -82,3 +82,4 @@ $(function(){
     $(this).next('.row').toggle();
   });
 
+});
