@@ -73,11 +73,11 @@ $(function(){
     $header.append(headermarkup);
     $highlights.html(mapmarkup);
     $header.prepend(socialbuttons);
-    $('.event-title').next('.row').hide();
   }
 
 
   // Init the timeline toggles
+  $('.event-title + .row').hide();
   $(document).on('click', '.event-title', function() {
     $(this).next('.row').toggle();
   });
