@@ -273,9 +273,16 @@ a.grfwd-toggle-link {
 }
 .event-title {
   padding-top: 0.25rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.event-datetime {
+  margin: 0;
+  padding: 0;
 }
 .event-description {
   display: none;
+  margin-bottom: 0.5rem;
 }
 .event .row .medium-7 {
   width: 100%;
