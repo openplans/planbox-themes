@@ -80,7 +80,7 @@ $(function(){
     $(this).next('.row').find('.event-description').toggle();
   });
   $(document).on('click', '.event-datetime', function() {
-    $(this).next('.event-description').toggle();
+    $(this).next('.event-description').toggle('fast');
   });
 
 });
