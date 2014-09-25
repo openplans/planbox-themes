@@ -79,5 +79,8 @@ $(function(){
   $(document).on('click', '.event-title', function() {
     $(this).next('.row').find('.event-description').toggle();
   });
+  $(document).on('click', '.event-datetime', function() {
+    $(this).next('.event-description').toggle();
+  });
 
 });
