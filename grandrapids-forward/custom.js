@@ -70,15 +70,15 @@ $(function(){
   }
 
   if (Planbox.Data.project.slug == 'grfwd-staging')  {
-    // $header.append(headermarkup);
-    // $highlights.html(mapmarkup);
-    // $header.prepend(socialbuttons);
+    $header.append(headermarkup);
+    $highlights.html(mapmarkup);
+    $header.prepend(socialbuttons);
+    $('.event-title').next('.row').hide();
   }
 
 
   // Init the timeline toggles
-  $('.event-title').next('.row').hide();
-  $(document).on('click', 'h4.event-title', function() {
+  $(document).on('click', '.event-title', function() {
     $(this).next('.row').toggle();
   });
 
