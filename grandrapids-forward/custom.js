@@ -77,7 +77,7 @@ $(function(){
 
 
   // Init the timeline toggles
-  $('.event-title').hide();
+  $('.event-title').next('.row').hide();
   $(document).on('click', '.event-title', function() {
     $(this).next('.row').toggle();
   });
