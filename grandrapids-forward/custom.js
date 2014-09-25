@@ -75,3 +75,10 @@ $(function(){
     $header.prepend(socialbuttons);
   }
 });
+
+  // Init the timeline toggles
+  $('.event-title').next('.row').hide();
+  $(document).on('click', '.event-title', function(evt) {
+    $(this).next('.row').toggle();
+  });
+
