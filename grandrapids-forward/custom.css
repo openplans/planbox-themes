@@ -78,12 +78,12 @@ a:hover { color: #f15723; }
   display: none !important;
 }
 
-section > div > div > h3 {
+h3.section-heading {
   font-size: 2.75rem;
 }
 
 @media (min-width: 600px) {
-  .h3section-heading:after {
+  h3.section-heading:after {
     content: url('images/chevron-sm.gif');
     margin-left: 0.25em;
   }
