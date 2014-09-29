@@ -62,7 +62,7 @@ def save_project_definition(project_dir, project_definition):
     project_filename = os.path.join(project_dir, 'project.json')
     print('Saving the project definition to %s' % (project_filename,), file=sys.stderr)
     with open(project_filename, 'w') as project_file:
-        json.dump(project_definition, project_file)
+        json.dump(project_definition, project_file, sort_keys=True, indent=2)
 
 def build(project_dir, clean=False):
     # Load or create the project definition
