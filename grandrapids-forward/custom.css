@@ -281,8 +281,8 @@ a.grfwd-toggle-link {
 .event-title:after {
   content: url('images/chevron-sm.gif');
   margin-left: 0.25em;
-  background-size: 1rem 1rem;
-  background-repeat: no-repeat;
+  zoom: 0.625;
+  opacity: 0.5;
 }
 
 .event-datetime {
