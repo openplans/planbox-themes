@@ -1,0 +1,84 @@
+#!/usr/bin/env python
+
+from __future__ import print_function
+
+import argparse
+import json
+import os
+import sys
+
+def init_project_definition(project_dir, clean):
+    project_filename = os.path.join(project_dir, 'project.json')
+    project_slug = project_dir.strip(os.path.sep).split(os.path.sep)[-1]
+    if not clean and os.path.exists(project_filename):
+        print('Opening existing project definition file %s.' % (project_filename), file=sys.stderr)
+        with open(project_filename, 'r') as project_file:
+            project_definition = json.load(project_file)
+    else:
+        print('Initializing a new project definition.', file=sys.stderr)
+        project_definition = {
+            'events': [],
+            'sections': [],
+            'owner': {'slug': 'templates'},
+            'title': project_slug,
+            'slug': project_slug,
+            'public': False,
+            'template': None
+        }
+    return project_definition
+
+def load_jstemplates(project_dir):
+    jstemplates = {}
+    jstemplates_dir = os.path.join(project_dir, 'jstemplates', '')
+    print('Loading templates:', file=sys.stderr)
+    for name in os.listdir(jstemplates_dir):
+        filepath = os.path.join(jstemplates_dir, name)
+        if os.path.isfile(filepath):
+            key, _ = name.rsplit('.', 1)
+            print('- %s => %s' % (key, filepath), file=sys.stderr)
+            with open(filepath) as jstemplate_file:
+                jstemplates[key] = jstemplate_file.read()
+    if len(jstemplates) == 0:
+        print('- No templates found in %s' % (jstemplates_dir,), file=sys.stderr)
+    return jstemplates
+
+def get_shareabouts_section(project_definition):
+    project_definition['sections'] = project_definition.get('sections', [])
+    for section in project_definition['sections']:
+        if section.get('type') == 'shareabouts':
+            return section
+    # If there are no shareabouts sections, create one.
+    section = {'type': 'shareabouts', 'details': {}}
+    project_definition['sections'].insert(0, section)
+    return section
+
+def update_shareabouts_templates(project_definition, jstemplates):
+    shareabouts_section = get_shareabouts_section(project_definition)
+    shareabouts_section['details'] = shareabouts_section.get('details', {})
+    shareabouts_section['details']['templates'] = shareabouts_section['details'].get('templates', {})
+    shareabouts_section['details']['templates'].update(jstemplates)
+
+def save_project_definition(project_dir, project_definition):
+    project_filename = os.path.join(project_dir, 'project.json')
+    print('Saving the project definition to %s' % (project_filename,), file=sys.stderr)
+    with open(project_filename, 'w') as project_file:
+        json.dump(project_definition, project_file)
+
+def build(project_dir, clean=False):
+    # Load or create the project definition
+    project_definition = init_project_definition(project_dir, clean)
+    # Load the template files
+    jstemplates = load_jstemplates(project_dir)
+    # Patch the Shareabouts section
+    update_shareabouts_templates(project_definition, jstemplates)
+    # Write out the project definition
+    save_project_definition(project_dir, project_definition)
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('project', help='The path to the project folder')
+    parser.add_argument('--clean', help='Replace the current project file', action='store_true')
+    args = parser.parse_args()
+
+    build(args.project, args.clean)
+    print('Done!', file=sys.stderr)
