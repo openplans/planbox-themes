@@ -280,9 +280,12 @@ a.grfwd-toggle-link {
 .event-title:hover { color: #f15723; }
 .event-title:after {
   content: url('images/chevron-sm.gif');
-  margin-left: 0.25em;
+  margin-left: 0.25rem;
   zoom: 0.625;
   opacity: 0.5;
+}
+.event-title:hover:after {
+  opacity: 1;
 }
 
 .event-datetime {
