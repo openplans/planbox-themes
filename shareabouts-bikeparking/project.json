@@ -38,12 +38,12 @@
           {
             "condition": "true",
             "icon": {
-              "iconUrl": "http://chibikeparking.herokuapp.com/static/css/images/marker-dot.png",
+              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-63c2c0.png",
               "iconSize": [18, 18],
               "iconAnchor": [9, 9]
             },
             "focusIcon": {
-              "iconUrl": "http://chibikeparking.herokuapp.com/static/css/images/marker-bike-lock.png",
+              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/bike-parking.png",
               "iconSize": [62, 81],
               "iconAnchor": [31, 81]
             }
