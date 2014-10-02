@@ -58,11 +58,11 @@
     {
       "active": true,
       "details": {
-        "content": "\n            <b>What is the problem?</b><br>In a sentence or two, describe the\n            problem this project will address. Explain it from a resident's\n            perspective. Avoid jargon!<br><br><b>How are we addressing the problem?\n            </b><br>In a sentence or two, describe how this project addresses the\n            problem.<br><br><b>How can you get involved?</b><br>Briefly describe\n            how people can be involved in the project, such as public meetings and\n            workshops.<br><br><b>What is the schedule?</b><br>Briefly describe the\n            schedule, even if it is tentative, to give readers a high level\n            understanding of the timeline.\n            "
-      }, 
-      "label": "", 
-      "menu_label": "", 
-      "slug": "description", 
+        "content": "We work hard to consistently serve bicyclists throughout the city by installing bike racks on city sidewalks each year. You can help us locate the best places for these racks by using this map to put in a request where more bike parking is needed.<br><br>We will review your request in the field looking for sites on the public right-of-way that don\u2019t interfere with pedestrian travel and are clear of other street furniture.&nbsp;While we try to conduct field surveys as promptly as possible, the process can sometimes take several months. Many factors influence if and when a bike rack can be installed, so the date and time of installation cannot be guaranteed.<br>"
+      },
+      "label": "",
+      "menu_label": "",
+      "slug": "description",
       "type": "text"
     }
   ],
