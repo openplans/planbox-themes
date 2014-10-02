@@ -33,11 +33,26 @@
           "add-button": "<a href=\"#\" class=\"shareabouts-add-button button\"><span>Request Bike Parking</span></a>",
           "place-detail": "<section class=\"promotion clearfix\">\n  <div class=\"support support-region\"></div>\n</section>\n\n<header class=\"place-header clearfix\">\n  <h4>{{ name }}</h4>\n  <small>Added\n    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}\n    {{ fromnow created_datetime }}\n  </small>\n</header>\n\n<section>\n  <p>{{ description }}</p>\n</section>\n\n<section class=\"survey-region\"></section>",
           "place-form": "<div data-alert class=\"alert-box info radius text-center form-instructions\">\n  <strong>Drag the map to where you would like bike parking.</strong>\n</div>\n\n<form novalidate>\n  <h5>My Request</h5>\n\n  {{#if submitter}}\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Your Email\n        <input type=\"text\" name=\"private-email\" placeholder=\"optional\" />\n      </label>\n    </div>\n  </div>\n  {{else}}\n  <div class=\"row\">\n    <div class=\"large-6 columns\">\n      <label>Your Name\n        <input type=\"text\" name=\"submitter_name\" placeholder=\"optional\" required />\n      </label>\n    </div>\n    <div class=\"large-6 columns\">\n      <label>Your Email\n        <input type=\"text\" name=\"private-email\" placeholder=\"optional\" />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns text-right\">\n      <span class=\"or-sign-in\">Or sign in with <a class=\"auth-inline shareabouts-auth-twitter-button\" href=\"#\">Twitter</a> <a class=\"auth-inline shareabouts-auth-facebook-button\" href=\"#\">Facebook</a></span>\n    </div>\n  </div>\n  {{/if}}\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Location Name\n        <input type=\"text\" name=\"name\" placeholder=\"optional\" required />\n      </label>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Description\n        <textarea name=\"description\" placeholder=\"\" required></textarea>\n      </label>\n    </div>\n  </div>\n\n  {{#if submitter}}\n  <div class=\"row\">\n    <div class=\"small-6 columns\">\n      <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n    </div>\n    <div class=\"small-6 columns signed-in-as\">\n      <img src=\"{{ submitter.avatar_url }}\" class=\"avatar\" /> {{ submitter.name }}\n    </div>\n  </div>\n  {{else}}\n    <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n  {{/if}}\n\n\n</form>"
-        }
-      }, 
-      "label": "We want to hear from you!", 
-      "menu_label": "Interactive Map", 
-      "slug": "map", 
+        },
+        "place_styles": [
+          {
+            "condition": "true",
+            "icon": {
+              "iconUrl": "http://chibikeparking.herokuapp.com/static/css/images/marker-dot.png",
+              "iconSize": [18, 18],
+              "iconAnchor": [9, 9]
+            },
+            "focusIcon": {
+              "iconUrl": "http://chibikeparking.herokuapp.com/static/css/images/marker-bike-lock.png",
+              "iconSize": [62, 81],
+              "iconAnchor": [31, 81]
+            }
+          }
+        ]
+      },
+      "label": "Tell us where you need bike parking.",
+      "menu_label": "",
+      "slug": "map",
       "type": "shareabouts"
     },
     {
