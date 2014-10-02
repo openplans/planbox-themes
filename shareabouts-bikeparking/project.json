@@ -1,36 +1,37 @@
 {
-  "contact": "", 
-  "cover_img_url": "", 
-  "details": {}, 
-  "events": [], 
-  "geometry": null, 
-  "location": "", 
-  "logo_img_url": "", 
+  "contact": "",
+  "cover_img_url": "",
+  "details": {},
+  "events": [],
+  "geometry": null,
+  "layout": "shareabouts",
+  "location": "",
+  "logo_img_url": "",
   "owner": {
     "slug": "templates"
-  }, 
-  "public": false, 
+  },
+  "public": false,
   "sections": [
     {
-      "active": true, 
+      "active": true,
       "details": {
-        "description": "Give us your input on the project location. Your input will share the plan. Anyone can post an idea.", 
+        "description": "Give us your input on the project location. Your input will share the plan. Anyone can post an idea.",
         "layers": [
           {
             "url": "//{s}.tiles.mapbox.com/v3/openplans.map-dmar86ym/{z}/{x}/{y}.png"
           }
-        ], 
+        ],
         "map": {
           "center": [
-            38.993572, 
+            38.993572,
             -96.196289
-          ], 
-          "scrollWheelZoom": false, 
+          ],
+          "scrollWheelZoom": false,
           "zoom": 4
-        }, 
+        },
         "templates": {
-          "add-button": "<a href=\"#\" class=\"shareabouts-add-button button\"><span>Request Bike Parking</span></a>", 
-          "place-detail": "<section class=\"promotion clearfix\">\n  <div class=\"support support-region\"></div>\n</section>\n\n<header class=\"place-header clearfix\">\n  <h4>{{ name }}</h4>\n  <small>Added\n    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}\n    {{ fromnow created_datetime }}\n  </small>\n</header>\n\n<section>\n  <p>{{ description }}</p>\n</section>\n\n<section class=\"survey-region\"></section>", 
+          "add-button": "<a href=\"#\" class=\"shareabouts-add-button button\"><span>Request Bike Parking</span></a>",
+          "place-detail": "<section class=\"promotion clearfix\">\n  <div class=\"support support-region\"></div>\n</section>\n\n<header class=\"place-header clearfix\">\n  <h4>{{ name }}</h4>\n  <small>Added\n    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}\n    {{ fromnow created_datetime }}\n  </small>\n</header>\n\n<section>\n  <p>{{ description }}</p>\n</section>\n\n<section class=\"survey-region\"></section>",
           "place-form": "<div data-alert class=\"alert-box info radius text-center form-instructions\">\n  <strong>Drag the map to where you would like bike parking.</strong>\n</div>\n\n<form novalidate>\n  <h5>My Request</h5>\n\n  {{#if submitter}}\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Your Email\n        <input type=\"text\" name=\"private-email\" placeholder=\"optional\" />\n      </label>\n    </div>\n  </div>\n  {{else}}\n  <div class=\"row\">\n    <div class=\"large-6 columns\">\n      <label>Your Name\n        <input type=\"text\" name=\"submitter_name\" placeholder=\"optional\" required />\n      </label>\n    </div>\n    <div class=\"large-6 columns\">\n      <label>Your Email\n        <input type=\"text\" name=\"private-email\" placeholder=\"optional\" />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns text-right\">\n      <span class=\"or-sign-in\">Or sign in with <a class=\"auth-inline shareabouts-auth-twitter-button\" href=\"#\">Twitter</a> <a class=\"auth-inline shareabouts-auth-facebook-button\" href=\"#\">Facebook</a></span>\n    </div>\n  </div>\n  {{/if}}\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Location Name\n        <input type=\"text\" name=\"name\" placeholder=\"optional\" required />\n      </label>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Description\n        <textarea name=\"description\" placeholder=\"\" required></textarea>\n      </label>\n    </div>\n  </div>\n\n  {{#if submitter}}\n  <div class=\"row\">\n    <div class=\"small-6 columns\">\n      <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n    </div>\n    <div class=\"small-6 columns signed-in-as\">\n      <img src=\"{{ submitter.avatar_url }}\" class=\"avatar\" /> {{ submitter.name }}\n    </div>\n  </div>\n  {{else}}\n    <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n  {{/if}}\n\n\n</form>"
         }
       }, 
@@ -38,9 +39,9 @@
       "menu_label": "Interactive Map", 
       "slug": "map", 
       "type": "shareabouts"
-    }, 
+    },
     {
-      "active": true, 
+      "active": true,
       "details": {
         "content": "\n            <b>What is the problem?</b><br>In a sentence or two, describe the\n            problem this project will address. Explain it from a resident's\n            perspective. Avoid jargon!<br><br><b>How are we addressing the problem?\n            </b><br>In a sentence or two, describe how this project addresses the\n            problem.<br><br><b>How can you get involved?</b><br>Briefly describe\n            how people can be involved in the project, such as public meetings and\n            workshops.<br><br><b>What is the schedule?</b><br>Briefly describe the\n            schedule, even if it is tentative, to give readers a high level\n            understanding of the timeline.\n            "
       }, 
@@ -49,10 +50,10 @@
       "slug": "description", 
       "type": "text"
     }
-  ], 
-  "slug": "shareabouts-bikeparking", 
-  "status": "not-started", 
-  "template": null, 
-  "theme": null, 
+  ],
+  "slug": "shareabouts-bikeparking",
+  "status": "not-started",
+  "template": null,
+  "theme": null,
   "title": "Bike Parking Requests"
 }
