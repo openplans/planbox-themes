@@ -48,7 +48,7 @@ $(function(){
         '  <a href="#section-get-involved" class="button large expand radius">GET INVOLVED</a>' +
         '</div>' +
         '<div class="columns large-6">' +
-        '  <a href="#section-downtown" class="button large expand radius">LEARN MORE</a>' +
+        '  <a href="#section-the-plan" class="button large expand radius">LEARN MORE</a>' +
         '</div>';
 
   if (version === 3) {
