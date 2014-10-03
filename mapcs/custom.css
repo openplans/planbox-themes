@@ -34,6 +34,12 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
+.section-heading {
+    display: inline;
+    padding: 0.5rem;
+    background: url(images/texture-red.jpg) center center repeat scroll !important;
+    color: #fff;
+}
 
 .project-section-shareabouts > div {
     padding-bottom: 0;
