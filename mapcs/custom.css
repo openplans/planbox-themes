@@ -1,8 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:400,300,700);
 
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
 body {
   background: url(images/texture-lightgreen.jpg) center top repeat scroll;
-  font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
 
