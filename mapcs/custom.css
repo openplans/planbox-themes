@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.375rem 0.5rem;
     background: url(images/texture-red.jpg) center center repeat scroll !important;
     color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    word-spacing: 0.125rem;
 }
 
 .project-section-shareabouts > div {
