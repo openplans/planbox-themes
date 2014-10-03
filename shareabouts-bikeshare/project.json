@@ -45,14 +45,14 @@
             },
             "icon": {
               "iconAnchor": [
-                10,
-                24
+                11,
+                11
               ],
               "iconSize": [
-                20,
-                24
+                22,
+                22
               ],
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/cyclist.png"
+              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-63c2c0.png"
             }
           }
         ],
