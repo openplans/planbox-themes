@@ -1,11 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:400,300,700);
 
 * {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 body {
-  background: url(images/texture-lightgreen.jpg) center top repeat scroll;
+  background: url(images/texture-lightgreen.jpg) center top repeat scroll !important;
   font-weight: 300;
 }
 
@@ -14,6 +14,6 @@ body {
 }
 
 .site-header {
-  background: url(images/texture-lightblue.jpg) center center repeat scroll;
+  background: url(images/texture-lightblue.jpg) center center repeat scroll !important;
 }
 
