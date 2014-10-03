@@ -1,9 +1,9 @@
 <div data-alert class="alert-box info radius text-center form-instructions">
-  <strong>Drag the map to where you would like to see bike share.</strong>
+  <strong>Drag the map to your location.</strong>
 </div>
 
 <form novalidate>
-  <h5>My Suggestion</h5>
+  <h5>Tell us more...</h5>
 
   {{#if submitter}}
   <div class="row">
@@ -36,8 +36,33 @@
 
   <div class="row">
     <div class="large-12 columns">
-      <label>I want bike share here because....
-        <textarea name="description" placeholder="Close to home, shopping nearby, ..." required></textarea>
+      <label>What are you sharing?
+        <select name="category">
+          <option value="housing">Housing</option>
+          <option value="business">Business</option>
+          <option value="streets-parking">Streets/parking</option>
+          <option value="walking-biking">Walking/biking</option>
+          <option value="public-safety">Public safety</option>
+          <option value="parks-rivers">Parks/rivers</option>
+          <option value="public-space">Public Space</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Where is it?
+        <input type="text" name="name" placeholder="Location Name" required />
+      </label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Describe it....
+        <textarea name="description" placeholder="Description..." required></textarea>
       </label>
     </div>
   </div>
