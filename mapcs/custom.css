@@ -5,15 +5,18 @@
 }
 
 body {
-  background: url(images/texture-lightgreen.jpg) center top repeat scroll !important;
-  font-weight: 300;
+    background: url(images/texture-lightgreen.jpg) center top repeat scroll !important;
+    font-weight: 300;
 }
 
 #page {
-  font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 .site-header {
-  background: url(images/texture-lightblue.jpg) center center repeat scroll !important;
+    background: url(images/texture-lightblue.jpg) center center repeat scroll !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
