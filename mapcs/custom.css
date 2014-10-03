@@ -1,3 +1,6 @@
+body {
+  background: url(images/texture-lightgreen.jpg) center top repeat scroll;
+}
 .site-header {
-  background: url(images/texture-167-206-228.jpg) center center repeat scroll;
+  background: url(images/texture-lightblue.jpg) center center repeat scroll;
 }
