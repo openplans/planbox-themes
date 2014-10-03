@@ -3,6 +3,7 @@
 body {
   background: url(images/texture-lightgreen.jpg) center top repeat scroll;
   font-family: 'Oswald', sans-serif;
+  font-weight: 300;
 }
 .site-header {
   background: url(images/texture-lightblue.jpg) center center repeat scroll;
