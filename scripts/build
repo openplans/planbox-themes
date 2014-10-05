@@ -14,6 +14,36 @@ def init_project_definition(project_dir, clean):
         print('Opening existing project definition file %s.' % (project_filename), file=sys.stderr)
         with open(project_filename, 'r') as project_file:
             project_definition = json.load(project_file)
+
+        # Remove the project identifiers
+        project_definition.pop('id', None)
+        project_definition['public'] = False
+
+        # Remove other project cruft
+        project_definition.pop('created_at', None)
+        project_definition.pop('updated_at', None)
+        project_definition.pop('get_involved_description', None)
+        project_definition.pop('get_involved_link_type', None)
+        project_definition.pop('get_involved_link_url', None)
+        project_definition.pop('happening_now_description', None)
+        project_definition.pop('happening_now_link_type', None)
+        project_definition.pop('happening_now_link_url', None)
+
+        # Make the owner generic -- just leave the slug
+        if 'owner' in project_definition:
+            project_definition['owner'].pop('id', None)
+            project_definition['owner'].pop('name', None)
+            project_definition['owner'].pop('avatar_url', None)
+
+        # Remove the IDs from all the sections, events, and updates
+        for section in project_definition.get('sections', []):
+            section.pop('id', None)
+            section.pop('created_at', None)
+            section.pop('updated_at', None)
+        for event in project_definition.get('event', []):
+            event.pop('id', None)
+            event.pop('created_at', None)
+            event.pop('updated_at', None)
     else:
         print('Initializing a new project definition.', file=sys.stderr)
         project_definition = {
