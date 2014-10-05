@@ -44,6 +44,11 @@ def init_project_definition(project_dir, clean):
             event.pop('id', None)
             event.pop('created_at', None)
             event.pop('updated_at', None)
+
+        # Remove existing datasets from any Shareabouts sections
+        for section in project_definition.get('sections', []):
+            if section.get('type', '') == 'shareabouts':
+                section['details'].pop('dataset_url', None)
     else:
         print('Initializing a new project definition.', file=sys.stderr)
         project_definition = {
