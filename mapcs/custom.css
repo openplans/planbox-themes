@@ -75,14 +75,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Swap Instagram for Flickr in footer */
-.social-links-section .columns:first-child + .columns panel img,
-.social-links-section .columns:first-child + .columns panel h4 {
+.social-links-section .columns:first-child + .columns .panel img,
+.social-links-section .columns:first-child + .columns .panel h4 {
   display: none;
 }
-.social-links-section .columns:first-child + .columns panel:before {
+.social-links-section .columns:first-child + .columns .panel:before {
   content: url(images/social-flickr.gif);
 }
-.social-links-section .columns:first-child + .columns panel:after {
+.social-links-section .columns:first-child + .columns .panel:after {
   display: block;
   line-height: 1;
   font-size: 1.4375rem;
