@@ -81,15 +81,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 .social-links-section .columns:first-child + .columns .panel:before {
     content: url(images/social-flickr.gif);
+    margin-bottom: .9375rem;
 }
 .social-links-section .columns:first-child + .columns .panel:after {
     content: 'View our pics on Flickr!';
     display: block;
     max-width: 5.75em;
     line-height: 1;
-    font-size: 1.4375rem;
+    font-size: 1.125rem;
     text-rendering: optimizeLegibility;
     margin: .2rem auto 0;
     font-weight: 400;
     font-family: 'Oswald', sans-serif !important;
+}
+@media only screen and (min-width: 40.063em) {
+  .social-links-section .columns:first-child + .columns .panel:after {
+    font-size: 1.4375rem;
+  }
 }
