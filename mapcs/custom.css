@@ -15,6 +15,7 @@ a:hover {
 .sub-nav dd a, .sub-nav dt a, .sub-nav li a {
     color: #5badd1;
     font-family: 'Oswald', sans-serif !important;
+    text-transform: uppercase;
 }
 .sub-nav dd a:hover, .sub-nav dt a:hover, .sub-nav li a:hover {
     color: #ac5027;
