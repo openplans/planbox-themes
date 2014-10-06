@@ -85,10 +85,11 @@ h1, h2, h3, h4, h5, h6 {
 .social-links-section .columns:first-child + .columns .panel:after {
     content: 'View our pics on Flickr!';
     display: block;
+    max-width: 5.75em;
     line-height: 1;
     font-size: 1.4375rem;
     text-rendering: optimizeLegibility;
-    margin: .2rem 0 0 0;
+    margin: .2rem auto 0;
     font-weight: 400;
     font-family: 'Oswald', sans-serif !important;
 }
