@@ -66,10 +66,28 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* Swap Instagram for Flickr */
+/* Swap Instagram for Flickr in header */
 .social-link:first-child + .social-link img {
   display: none;
 }
 .social-link:first-child + .social-link:before {
   content: url(images/social-flickr-40.gif);
+}
+
+/* Swap Instagram for Flickr in footer */
+.social-links-section .columns:first-child + .columns panel img,
+.social-links-section .columns:first-child + .columns panel h4 {
+  display: none;
+}
+.social-links-section .columns:first-child + .columns panel:before {
+  content: url(images/social-flickr.gif);
+}
+.social-links-section .columns:first-child + .columns panel:after {
+  display: block;
+  line-height: 1;
+  font-size: 1.4375rem;
+  text-rendering: optimizeLegibility;
+  margin: .2rem 0 0 0;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif !important;
 }
