@@ -71,5 +71,5 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 .social-link:first-child + .social-link:before {
-  content: url(images/social-flickr.gif);
+  content: url(images/social-flickr-40.gif);
 }
