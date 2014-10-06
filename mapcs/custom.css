@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(//fonts.googleapis.com/css?family=Oswald:400,300|Open+Sans:400);
 
 body {
     background: url(images/texture-lightgreen.jpg) center top repeat scroll !important;
@@ -14,6 +15,7 @@ a:hover {
 
 .sub-nav dd a, .sub-nav dt a, .sub-nav li a {
     color: #5badd1;
+    font-family: 'Oswald', sans-serif !important;
 }
 .sub-nav dd a:hover, .sub-nav dt a:hover, .sub-nav li a:hover {
     color: #ac5027;
@@ -24,7 +26,7 @@ a:hover {
 }
 #page, 
 #page * {
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .site-header {
@@ -33,6 +35,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
+    font-family: 'Oswald', sans-serif !important;
 }
 .section-heading {
     display: inline-block;
