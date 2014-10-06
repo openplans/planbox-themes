@@ -1,5 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:400,300,700);
 
+meta.foundation-data-attribute-namespace {
+  font-family: false; 
+}
+
 * {
     font-family: 'Oswald', sans-serif !important;
 }
