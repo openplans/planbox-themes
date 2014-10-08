@@ -40,7 +40,7 @@ def init_project_definition(project_dir, clean):
             section.pop('id', None)
             section.pop('created_at', None)
             section.pop('updated_at', None)
-        for event in project_definition.get('event', []):
+        for event in project_definition.get('events', []):
             event.pop('id', None)
             event.pop('created_at', None)
             event.pop('updated_at', None)
@@ -65,6 +65,10 @@ def init_project_definition(project_dir, clean):
 def load_jstemplates(project_dir):
     jstemplates = {}
     jstemplates_dir = os.path.join(project_dir, 'jstemplates', '')
+
+    if not os.path.exists(jstemplates_dir):
+        return jstemplates
+
     print('Loading templates:', file=sys.stderr)
     for name in os.listdir(jstemplates_dir):
         filepath = os.path.join(jstemplates_dir, name)
