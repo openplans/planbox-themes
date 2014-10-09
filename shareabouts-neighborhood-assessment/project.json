@@ -1,261 +1,261 @@
 {
-  "contact": "",
-  "cover_img_url": "",
-  "details": {},
-  "events": [],
-  "geometry": null,
-  "layout": "shareabouts",
-  "location": "",
-  "logo_img_url": "",
+  "contact": "", 
+  "cover_img_url": "", 
+  "details": {}, 
+  "events": [], 
+  "geometry": null, 
+  "layout": "shareabouts", 
+  "location": "", 
+  "logo_img_url": "", 
   "owner": {
     "slug": "templates"
-  },
-  "public": false,
+  }, 
+  "public": false, 
   "sections": [
     {
-      "active": true,
+      "active": true, 
       "details": {
-        "description": "",
+        "description": "", 
         "layers": [
           {
             "url": "//{s}.tiles.mapbox.com/v3/openplans.map-dmar86ym/{z}/{x}/{y}.png"
           }
-        ],
+        ], 
         "map": {
           "center": [
-            38.993572,
+            38.993572, 
             -96.196289
-          ],
-          "scrollWheelZoom": false,
+          ], 
+          "scrollWheelZoom": false, 
           "zoom": 4
-        },
+        }, 
         "place_styles": [
           {
-            "condition": "'{{category}}' === 'housing'",
+            "condition": "'{{category}}' === 'housing'", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/housing.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-f50a8e.png"
             }
-          },
+          }, 
           {
-            "condition": "'{{category}}' === 'business'",
+            "condition": "'{{category}}' === 'business'", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/business.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-3ec1cd.png"
             }
-          },
+          }, 
           {
-            "condition": "'{{category}}' === 'streets-parking'",
+            "condition": "'{{category}}' === 'streets-parking'", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/traffic.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-8ea4b8.png"
             }
-          },
+          }, 
           {
-            "condition": "'{{category}}' === 'walking-biking'",
+            "condition": "'{{category}}' === 'walking-biking'", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/walking-biking.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ffef30.png"
             }
-          },
+          }, 
           {
-            "condition": "'{{category}}' === 'public-safety'",
+            "condition": "'{{category}}' === 'public-safety'", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/crime.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ffab14.png"
             }
-          },
+          }, 
           {
-            "condition": "'{{category}}' === 'parks-rivers'",
+            "condition": "'{{category}}' === 'parks-rivers'", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/park-river.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-c4ed52.png"
             }
-          },
+          }, 
           {
-            "condition": "'{{category}}' === 'public-space'",
+            "condition": "'{{category}}' === 'public-space'", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/fountain.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-b75ab8.png"
             }
-          },
+          }, 
           {
-            "condition": "'{{category}}' === 'other'",
+            "condition": "'{{category}}' === 'other'", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/idea.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ffab14.png"
             }
           }
-        ],
+        ], 
         "templates": {
-          "add-button": "<a href=\"#\" class=\"shareabouts-add-button button\"><span>Suggest a Location</span></a>",
-          "place-detail": "<section class=\"promotion clearfix\">\n  <div class=\"support support-region\"></div>\n</section>\n\n<header class=\"place-header clearfix\">\n  <small>Suggested\n    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}\n    {{ fromnow created_datetime }}\n  </small>\n</header>\n\n<section>\n  <p>I want bike share here because: {{ description }}</p>\n</section>\n\n<section class=\"survey-region\"></section>",
-          "place-form": "<div data-alert class=\"alert-box info radius text-center form-instructions\">\n  <strong>Drag the map to your location.</strong>\n</div>\n\n<form novalidate>\n  <h5>Tell us more...</h5>\n\n  {{#if submitter}}\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Your Email\n        <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n      </label>\n    </div>\n  </div>\n  {{else}}\n  <div class=\"row\">\n    <div class=\"large-6 columns\">\n      <label>Your Name\n        <input type=\"text\" name=\"submitter_name\" required data-sticky />\n      </label>\n    </div>\n    <div class=\"large-6 columns\">\n      <label>Your Email\n        <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns text-right\">\n      <span class=\"or-sign-in\">Or sign in with <a class=\"auth-inline shareabouts-auth-twitter-button\" href=\"#\">Twitter</a> <a class=\"auth-inline shareabouts-auth-facebook-button\" href=\"#\">Facebook</a></span>\n    </div>\n  </div>\n  {{/if}}\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>What are you sharing?\n        <select name=\"category\">\n          <option></option>\n          <option value=\"housing\">Housing</option>\n          <option value=\"business\">Business</option>\n          <option value=\"streets-parking\">Streets/parking</option>\n          <option value=\"walking-biking\">Walking/biking</option>\n          <option value=\"public-safety\">Public safety</option>\n          <option value=\"parks-rivers\">Parks/rivers</option>\n          <option value=\"public-space\">Public Space</option>\n          <option value=\"other\">Other</option>\n        </select>\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Where is it?\n        <input type=\"text\" name=\"name\" placeholder=\"Location Name\" required />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Describe it....\n        <textarea name=\"description\" placeholder=\"Description...\" required></textarea>\n      </label>\n    </div>\n  </div>\n\n  <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>What is your home zip code?\n        <input type=\"text\" name=\"private_home_zip\" pattern=\"\\d*\" data-sticky />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>What is your age?\n        <input type=\"number\" name=\"private_age\" data-sticky />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>What is your race/ethnicity?\n        <select name=\"private_ethnicity\" data-sticky>\n          <option></option>\n          <option value=\"hispanic/latin@\">Hispanic/Latin@</option>\n          <option value=\"black/afam\">Black/African American</option>\n          <option value=\"white\">White</option>\n          <option value=\"nativeam\">Native American</option>\n          <option value=\"asian/pi\">Asian/Pacific Islander</option>\n          <option value=\"other\">Other</option>\n        </select>\n      </label>\n    </div>\n  </div>\n\n  {{#if submitter}}\n  <div class=\"row\">\n    <div class=\"small-6 columns\">\n      <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n    </div>\n    <div class=\"small-6 columns signed-in-as\">\n      <img src=\"{{ submitter.avatar_url }}\" class=\"avatar\" /> {{ submitter.name }}\n    </div>\n  </div>\n  {{else}}\n    <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n  {{/if}}\n\n\n</form>"
+          "add-button": "<a href=\"#\" class=\"shareabouts-add-button button\"><span>Suggest a Location</span></a>", 
+          "place-detail": "<section class=\"promotion clearfix\">\n  <div class=\"support support-region\"></div>\n</section>\n\n<header class=\"place-header clearfix\">\n  <small>Suggested\n    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}\n    {{ fromnow created_datetime }}\n  </small>\n</header>\n\n<section>\n  <p>I want bike share here because: {{ description }}</p>\n</section>\n\n<section class=\"survey-region\"></section>", 
+          "place-form": "<div class=\"row\">\n  <div class=\"columns\">\n\n    <div data-alert class=\"alert-box info radius text-center form-instructions\">\n      <strong>Drag the map to your location.</strong>\n    </div>\n\n    <form novalidate>\n\n      <h5>Tell us more&hellip;</h5>\n\n      {{#if submitter}}\n      <label>Your Email\n        <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n      </label>\n      {{else}}\n      <div class=\"row\">\n        <div class=\"large-6 columns\">\n          <label>Your Name\n            <input type=\"text\" name=\"submitter_name\" required data-sticky />\n          </label>\n        </div>\n        <div class=\"large-6 columns\">\n          <label>Your Email\n            <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n          </label>\n        </div>\n      </div>\n      <p class=\"text-right text-small no-margins\"><span class=\"or-sign-in\">Or sign in with <a class=\"auth-inline shareabouts-auth-twitter-button\" href=\"#\">TWITTER</a> / <a class=\"auth-inline shareabouts-auth-facebook-button\" href=\"#\">FACEBOOK</a></span></p>\n      {{/if}}\n\n      <label>What are you sharing?\n        <select name=\"category\">\n          <option></option>\n          <option value=\"housing\">Housing</option>\n          <option value=\"business\">Business</option>\n          <option value=\"streets-parking\">Streets/parking</option>\n          <option value=\"walking-biking\">Walking/biking</option>\n          <option value=\"public-safety\">Public safety</option>\n          <option value=\"parks-rivers\">Parks/rivers</option>\n          <option value=\"public-space\">Public Space</option>\n          <option value=\"other\">Other</option>\n        </select>\n      </label>\n\n      <label>Where is it?\n        <input type=\"text\" name=\"name\" placeholder=\"Location Name\" required />\n      </label>\n\n      <label>Describe it&hellip;\n        <textarea name=\"description\" placeholder=\"Description...\" required></textarea>\n      </label>\n\n      <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>\n\n      <label>What is your home zip code?\n        <input type=\"text\" name=\"private_home_zip\" pattern=\"\\d*\" data-sticky />\n      </label>\n\n      <label>What is your age?\n        <input type=\"number\" name=\"private_age\" data-sticky />\n      </label>\n\n      <label>What is your race/ethnicity?\n        <select name=\"private_ethnicity\" data-sticky>\n          <option></option>\n          <option value=\"hispanic/latin@\">Hispanic/Latin@</option>\n          <option value=\"black/afam\">Black/African American</option>\n          <option value=\"white\">White</option>\n          <option value=\"nativeam\">Native American</option>\n          <option value=\"asian/pi\">Asian/Pacific Islander</option>\n          <option value=\"other\">Other</option>\n        </select>\n      </label>\n\n      <div class=\"row\">\n        <div class=\"medium-6 columns\">\n          <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n        </div>\n        <div class=\"medium-6 columns signed-in-as\">\n          {{#if submitter}}\n          <img src=\"{{ submitter.avatar_url }}\" class=\"avatar\" /> {{ submitter.name }}\n          {{/if}}\n        </div>\n      </div>\n\n    </form>\n\n  </div>\n</div>"
         }
-      },
-      "label": "",
-      "menu_label": "",
-      "slug": "map",
+      }, 
+      "label": "", 
+      "menu_label": "", 
+      "slug": "map", 
       "type": "shareabouts"
-    },
+    }, 
     {
-      "active": true,
+      "active": true, 
       "details": {
         "content": "<p>Do you have a favorite area in <b>&lt;your-place&gt;</b>? A favorite block or business, restaurant or route that you love to walk? Do you find yourself thinking about the next great opportunity for <b>&lt;your-place&gt;</b> neighborhoods? Do you have ideas to share? If so, we need to hear from you.</p>\n\n<p><b>&lt;your-place&gt;</b> is changing in exciting ways that will celebrate and build community within the unique public realm. Amidst this positive change and momentum, we are undertaking a comprehensive planning process to envision the future for <b>&lt;your-place&gt;</b> neighborhoods and guide change moving forward.</p>\n\n<p>We invite all members of the public to help shape this plan for <b>&lt;your-place&gt;</b>. The plan's success depends first on your input and ideas, and ultimately upon a committed group of local stakeholders dedicated to making the plan a reality. Please get involved and stay involved!</p>"
-      },
-      "label": "<your-place> is changing in exciting ways.",
-      "menu_label": "",
-      "slug": "description",
+      }, 
+      "label": "<your-place> is changing in exciting ways.", 
+      "menu_label": "", 
+      "slug": "description", 
       "type": "text"
     }
-  ],
-  "slug": "shareabouts-neighborhood-assessment",
-  "status": "not-started",
-  "template": null,
-  "theme": null,
+  ], 
+  "slug": "shareabouts-neighborhood-assessment", 
+  "status": "not-started", 
+  "template": null, 
+  "theme": null, 
   "title": "Neighborhood Assessment Survey"
 }
