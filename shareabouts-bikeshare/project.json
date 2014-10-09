@@ -1,96 +1,96 @@
 {
-  "contact": "",
-  "cover_img_url": "",
-  "details": {},
-  "events": [],
-  "geometry": null,
-  "layout": "shareabouts",
-  "location": "",
-  "logo_img_url": "",
+  "contact": "", 
+  "cover_img_url": "", 
+  "details": {}, 
+  "events": [], 
+  "geometry": null, 
+  "layout": "shareabouts", 
+  "location": "", 
+  "logo_img_url": "", 
   "owner": {
     "slug": "templates"
-  },
-  "public": false,
+  }, 
+  "public": false, 
   "sections": [
     {
-      "active": true,
+      "active": true, 
       "details": {
-        "description": "",
+        "description": "", 
         "layers": [
           {
             "url": "//{s}.tiles.mapbox.com/v3/openplans.map-dmar86ym/{z}/{x}/{y}.png"
           }
-        ],
+        ], 
         "map": {
           "center": [
-            38.993572,
+            38.993572, 
             -96.196289
-          ],
-          "scrollWheelZoom": false,
+          ], 
+          "scrollWheelZoom": false, 
           "zoom": 4
-        },
+        }, 
         "place_styles": [
           {
-            "condition": "true",
+            "condition": "true", 
             "focusIcon": {
               "iconAnchor": [
-                25,
+                25, 
                 60
-              ],
+              ], 
               "iconSize": [
-                50,
+                50, 
                 60
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/cyclist.png"
-            },
+            }, 
             "icon": {
               "iconAnchor": [
-                11,
+                11, 
                 11
-              ],
+              ], 
               "iconSize": [
-                22,
+                22, 
                 22
-              ],
+              ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-63c2c0.png"
             }
           }
-        ],
+        ], 
         "templates": {
-          "add-button": "<a href=\"#\" class=\"shareabouts-add-button button\"><span>Suggest a Location</span></a>",
-          "place-detail": "<section class=\"promotion clearfix\">\n  <div class=\"support support-region\"></div>\n</section>\n\n<header class=\"place-header clearfix\">\n  <small>Suggested\n    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}\n    {{ fromnow created_datetime }}\n  </small>\n</header>\n\n<section>\n  <p>I want bike share here because: {{ description }}</p>\n</section>\n\n<section class=\"survey-region\"></section>",
-          "place-form": "<div data-alert class=\"alert-box info radius text-center form-instructions\">\n  <strong>Drag the map to where you would like to see bike share.</strong>\n</div>\n\n<form novalidate>\n  <h5>My Suggestion</h5>\n\n  {{#if submitter}}\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>Your Email\n        <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n      </label>\n    </div>\n  </div>\n  {{else}}\n  <div class=\"row\">\n    <div class=\"large-6 columns\">\n      <label>Your Name\n        <input type=\"text\" name=\"submitter_name\" required data-sticky />\n      </label>\n    </div>\n    <div class=\"large-6 columns\">\n      <label>Your Email\n        <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns text-right\">\n      <span class=\"or-sign-in\">Or sign in with <a class=\"auth-inline shareabouts-auth-twitter-button\" href=\"#\">Twitter</a> <a class=\"auth-inline shareabouts-auth-facebook-button\" href=\"#\">Facebook</a></span>\n    </div>\n  </div>\n  {{/if}}\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>I want bike share here because....\n        <textarea name=\"description\" placeholder=\"Close to home, shopping nearby, ...\" required></textarea>\n      </label>\n    </div>\n  </div>\n\n  <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>What is your home zip code?\n        <input type=\"text\" name=\"private_home_zip\" pattern=\"\\d*\" data-sticky />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>What is your age?\n        <input type=\"number\" name=\"private_age\" data-sticky />\n      </label>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"large-12 columns\">\n      <label>What is your race/ethnicity?\n        <select name=\"private_ethnicity\" data-sticky>\n          <option></option>\n          <option value=\"hispanic/latin@\">Hispanic/Latin@</option>\n          <option value=\"black/afam\">Black/African American</option>\n          <option value=\"white\">White</option>\n          <option value=\"nativeam\">Native American</option>\n          <option value=\"asian/pi\">Asian/Pacific Islander</option>\n          <option value=\"other\">Other</option>\n        </select>\n      </label>\n    </div>\n  </div>\n\n  {{#if submitter}}\n  <div class=\"row\">\n    <div class=\"small-6 columns\">\n      <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n    </div>\n    <div class=\"small-6 columns signed-in-as\">\n      <img src=\"{{ submitter.avatar_url }}\" class=\"avatar\" /> {{ submitter.name }}\n    </div>\n  </div>\n  {{else}}\n    <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n  {{/if}}\n\n\n</form>"
+          "add-button": "<a href=\"#\" class=\"shareabouts-add-button button\"><span>Suggest a Location</span></a>", 
+          "place-detail": "<section class=\"promotion clearfix\">\n  <div class=\"support support-region\"></div>\n</section>\n\n<header class=\"place-header clearfix\">\n  <small>Suggested\n    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}\n    {{ fromnow created_datetime }}\n  </small>\n</header>\n\n<section>\n  <p>I want bike share here because: {{ description }}</p>\n</section>\n\n<section class=\"survey-region\"></section>", 
+          "place-form": "<div class=\"row\">\n  <div class=\"columns\">\n\n    <div data-alert class=\"alert-box info radius text-center form-instructions\">\n      <strong>Drag the map to where you would like to see bike share.</strong>\n    </div>\n\n    <form novalidate>\n\n      <h5>My Suggestion</h5>\n\n      {{#if submitter}}\n      <label>Your Email\n        <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n      </label>\n      {{else}}\n      <div class=\"row\">\n        <div class=\"large-6 columns\">\n          <label>Your Name\n            <input type=\"text\" name=\"submitter_name\" required data-sticky />\n          </label>\n        </div>\n        <div class=\"large-6 columns\">\n          <label>Your Email\n            <input type=\"email\" name=\"private_email\" placeholder=\"optional\" data-sticky />\n          </label>\n        </div>\n      </div>\n      <p class=\"text-right text-small no-margins\"><span class=\"or-sign-in\">Or sign in with <a class=\"auth-inline shareabouts-auth-twitter-button\" href=\"#\">TWITTER</a> / <a class=\"auth-inline shareabouts-auth-facebook-button\" href=\"#\">FACEBOOK</a></span></p>\n      {{/if}}\n\n      <label>I want bike share here because&hellip;\n        <textarea name=\"description\" placeholder=\"Close to home, shopping nearby, ...\" required></textarea>\n      </label>\n\n      <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>\n\n      <label>What is your home zip code?\n        <input type=\"text\" name=\"private_home_zip\" pattern=\"\\d*\" data-sticky />\n      </label>\n\n      <label>What is your age?\n        <input type=\"number\" name=\"private_age\" data-sticky />\n      </label>\n\n      <label>What is your race/ethnicity?\n        <select name=\"private_ethnicity\" data-sticky>\n          <option></option>\n          <option value=\"hispanic/latin@\">Hispanic/Latin@</option>\n          <option value=\"black/afam\">Black/African American</option>\n          <option value=\"white\">White</option>\n          <option value=\"nativeam\">Native American</option>\n          <option value=\"asian/pi\">Asian/Pacific Islander</option>\n          <option value=\"other\">Other</option>\n        </select>\n      </label>\n\n      <div class=\"row\">\n        <div class=\"medium-6 columns\">\n          <input type=\"submit\" value=\"Submit Request\" class=\"button small expand shareabouts-submit-button\"/>\n        </div>\n        <div class=\"medium-6 columns signed-in-as\">\n          {{#if submitter}}\n          <img src=\"{{ submitter.avatar_url }}\" class=\"avatar\" /> {{ submitter.name }}\n          {{/if}}\n        </div>\n      </div>\n\n    </form>\n\n  </div>\n</div>"
         }
-      },
-      "label": "",
-      "menu_label": "",
-      "slug": "map",
+      }, 
+      "label": "", 
+      "menu_label": "", 
+      "slug": "map", 
       "type": "shareabouts"
-    },
+    }, 
     {
-      "active": true,
+      "active": true, 
       "details": {
         "content": "<p>The City needs your help to identify station locations to launch the program in <b>&lt;target-date&gt</b>. Tell us where you would like to see possible locations on this map.</p>\n\n<p>This map marks the beginning of a public outreach process to help <b>&lt;your-place&gt</b> plan for bike share. The City needs your help to identify station locations for program launch <b>&lt;target-date&gt</b>. Please comment on possible locations and share other feedback by <b>&lt;feedback-deadline&gt</b>.</p>"
-      },
-      "label": "Bike share is coming to <your-place>!",
-      "menu_label": "",
-      "slug": "description",
+      }, 
+      "label": "Bike share is coming to <your-place>!", 
+      "menu_label": "", 
+      "slug": "description", 
       "type": "text"
-    },
+    }, 
     {
-      "active": true,
+      "active": true, 
       "details": {
         "content": "<p>Bike share is public transportation on your schedule. In <b>&lt;target-date&gt</b>, <b>&lt;your-city&gt</b> will join Chicago, Washington DC, Boston, New York City, and more than 30 other cities across North America in offering this new form of affordable, convenient transportation.</p>\n\n<p>With bike share, members and walk-up users will be able to check out bikes from one of a number of stations, take a 30-minute trip for work, school, errands, or fun, and then return the bike to any other station in the system. Pricing is still in development. Bikes will feature easily adjustable seats, front and rear LED lights, baskets, and bells.</p>"
-      },
-      "label": "About Bike Share",
-      "menu_label": "About Bike Share",
-      "slug": "about-bike-share",
+      }, 
+      "label": "About Bike Share", 
+      "menu_label": "About Bike Share", 
+      "slug": "about-bike-share", 
       "type": "text"
     }
-  ],
-  "slug": "shareabouts-bikeshare",
-  "status": "not-started",
-  "template": null,
-  "theme": null,
+  ], 
+  "slug": "shareabouts-bikeshare", 
+  "status": "not-started", 
+  "template": null, 
+  "theme": null, 
   "title": "Bike Share Location Suggestions"
 }

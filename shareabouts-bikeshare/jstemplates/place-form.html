@@ -1,67 +1,48 @@
-<div data-alert class="alert-box info radius text-center form-instructions">
-  <strong>Drag the map to where you would like to see bike share.</strong>
-</div>
+<div class="row">
+  <div class="columns">
 
-<form novalidate>
-  <h5>My Suggestion</h5>
+    <div data-alert class="alert-box info radius text-center form-instructions">
+      <strong>Drag the map to where you would like to see bike share.</strong>
+    </div>
 
-  {{#if submitter}}
-  <div class="row">
-    <div class="large-12 columns">
+    <form novalidate>
+
+      <h5>My Suggestion</h5>
+
+      {{#if submitter}}
       <label>Your Email
         <input type="email" name="private_email" placeholder="optional" data-sticky />
       </label>
-    </div>
-  </div>
-  {{else}}
-  <div class="row">
-    <div class="large-6 columns">
-      <label>Your Name
-        <input type="text" name="submitter_name" required data-sticky />
-      </label>
-    </div>
-    <div class="large-6 columns">
-      <label>Your Email
-        <input type="email" name="private_email" placeholder="optional" data-sticky />
-      </label>
-    </div>
-  </div>
+      {{else}}
+      <div class="row">
+        <div class="large-6 columns">
+          <label>Your Name
+            <input type="text" name="submitter_name" required data-sticky />
+          </label>
+        </div>
+        <div class="large-6 columns">
+          <label>Your Email
+            <input type="email" name="private_email" placeholder="optional" data-sticky />
+          </label>
+        </div>
+      </div>
+      <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
+      {{/if}}
 
-  <div class="row">
-    <div class="large-12 columns text-right">
-      <span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">Twitter</a> <a class="auth-inline shareabouts-auth-facebook-button" href="#">Facebook</a></span>
-    </div>
-  </div>
-  {{/if}}
-
-  <div class="row">
-    <div class="large-12 columns">
-      <label>I want bike share here because....
+      <label>I want bike share here because&hellip;
         <textarea name="description" placeholder="Close to home, shopping nearby, ..." required></textarea>
       </label>
-    </div>
-  </div>
 
-  <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
+      <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
 
-  <div class="row">
-    <div class="large-12 columns">
       <label>What is your home zip code?
         <input type="text" name="private_home_zip" pattern="\d*" data-sticky />
       </label>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="large-12 columns">
       <label>What is your age?
         <input type="number" name="private_age" data-sticky />
       </label>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="large-12 columns">
       <label>What is your race/ethnicity?
         <select name="private_ethnicity" data-sticky>
           <option></option>
@@ -73,21 +54,19 @@
           <option value="other">Other</option>
         </select>
       </label>
-    </div>
+
+      <div class="row">
+        <div class="medium-6 columns">
+          <input type="submit" value="Submit Request" class="button small expand shareabouts-submit-button"/>
+        </div>
+        <div class="medium-6 columns signed-in-as">
+          {{#if submitter}}
+          <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
+          {{/if}}
+        </div>
+      </div>
+
+    </form>
+
   </div>
-
-  {{#if submitter}}
-  <div class="row">
-    <div class="small-6 columns">
-      <input type="submit" value="Submit Request" class="button small expand shareabouts-submit-button"/>
-    </div>
-    <div class="small-6 columns signed-in-as">
-      <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
-    </div>
-  </div>
-  {{else}}
-    <input type="submit" value="Submit Request" class="button small expand shareabouts-submit-button"/>
-  {{/if}}
-
-
-</form>
+</div>
