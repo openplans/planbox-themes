@@ -245,9 +245,9 @@
     {
       "active": true, 
       "details": {
-        "content": "<p>Do you have a favorite area in <b>&lt;your-place&gt;</b>? A favorite block or business, restaurant or route that you love to walk? Do you find yourself thinking about the next great opportunity for <b>&lt;your-place&gt;</b> neighborhoods? Do you have ideas to share? If so, we need to hear from you.</p>\n\n<p><b>&lt;your-place&gt;</b> is changing in exciting ways that will celebrate and build community within the unique public realm. Amidst this positive change and momentum, we are undertaking a comprehensive planning process to envision the future for <b>&lt;your-place&gt;</b> neighborhoods and guide change moving forward.</p>\n\n<p>We invite all members of the public to help shape this plan for <b>&lt;your-place&gt;</b>. The plan's success depends first on your input and ideas, and ultimately upon a committed group of local stakeholders dedicated to making the plan a reality. Please get involved and stay involved!</p>"
+        "content": "<p>Do you have a favorite area in <b>[your-place]</b>? A favorite block or business, restaurant or route that you love to walk? Do you find yourself thinking about the next great opportunity for <b>[your-place]</b> neighborhoods? Do you have ideas to share? If so, we need to hear from you.</p>\n\n<p><b>[your-place]</b> is changing in exciting ways that will celebrate and build community within the unique public realm. Amidst this positive change and momentum, we are undertaking a comprehensive planning process to envision the future for <b>[your-place]</b> neighborhoods and guide change moving forward.</p>\n\n<p>We invite all members of the public to help shape this plan for <b>[your-place]</b>. The plan's success depends first on your input and ideas, and ultimately upon a committed group of local stakeholders dedicated to making the plan a reality. Please get involved and stay involved!</p>"
       }, 
-      "label": "<your-place> is changing in exciting ways.", 
+      "label": "[your-place] is changing in exciting ways.", 
       "menu_label": "", 
       "slug": "description", 
       "type": "text"
@@ -257,5 +257,5 @@
   "status": "not-started", 
   "template": null, 
   "theme": null, 
-  "title": "Share your knowledge about <your-place>."
+  "title": "Share your knowledge about [your-place]."
 }
