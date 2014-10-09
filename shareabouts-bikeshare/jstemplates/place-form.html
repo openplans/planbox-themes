@@ -7,7 +7,9 @@
 
     <form novalidate>
 
-      <h5>My Suggestion</h5>
+      <label>Why is this a good location for bike share?
+        <textarea name="description" placeholder="Close to home, shopping nearby, ..." required></textarea>
+      </label>
 
       {{#if submitter}}
       <label>Your Email
@@ -28,10 +30,6 @@
       </div>
       <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
       {{/if}}
-
-      <label>I want bike share here because&hellip;
-        <textarea name="description" placeholder="Close to home, shopping nearby, ..." required></textarea>
-      </label>
 
       <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
 
@@ -57,7 +55,7 @@
 
       <div class="row">
         <div class="medium-6 columns">
-          <input type="submit" value="Submit Request" class="button small expand shareabouts-submit-button"/>
+          <input type="submit" value="Add My Suggestion" class="button small expand shareabouts-submit-button"/>
         </div>
         <div class="medium-6 columns signed-in-as">
           {{#if submitter}}

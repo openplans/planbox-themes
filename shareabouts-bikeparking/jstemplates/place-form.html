@@ -7,7 +7,16 @@
 
     <form novalidate>
 
-      <h5>My Request</h5>
+      <h5>Tell us about bike parking at this location.</h5>
+
+      <label>Location Name
+        <input type="text" name="location_name" placeholder="" required />
+      </label>
+      <!-- TODO: Approx address: (via geolocation) -->
+
+      <label>Description
+        <textarea name="description" placeholder="" required></textarea>
+      </label>
 
       {{#if submitter}}
       <label>Your Email
@@ -28,10 +37,6 @@
       </div>
       <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
       {{/if}}
-
-      <label>Description
-        <textarea name="description" placeholder="" required></textarea>
-      </label>
 
       <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
 
@@ -57,7 +62,7 @@
 
       <div class="row">
         <div class="medium-6 columns">
-          <input type="submit" value="Submit Request" class="button small expand shareabouts-submit-button"/>
+          <input type="submit" value="Make Request" class="button small expand shareabouts-submit-button"/>
         </div>
         <div class="medium-6 columns signed-in-as">
           {{#if submitter}}

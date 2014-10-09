@@ -7,7 +7,29 @@
 
     <form novalidate>
 
-      <h5>Tell us more&hellip;</h5>
+      <h5>Share Your Thoughts</h5>
+
+      <label>What feedback are you sharing?
+        <select name="category">
+          <option></option>
+          <option value="housing">Housing</option>
+          <option value="business">Business</option>
+          <option value="streets-parking">Streets/parking</option>
+          <option value="walking-biking">Walking/biking</option>
+          <option value="public-safety">Public safety</option>
+          <option value="parks-rivers">Parks/rivers</option>
+          <option value="public-space">Public Space</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <label>Where is it?
+        <input type="text" name="name" placeholder="Location Name" required />
+      </label>
+
+      <label>Tell us about it.
+        <textarea name="description" placeholder="Description..." required></textarea>
+      </label>
 
       {{#if submitter}}
       <label>Your Email
@@ -28,28 +50,6 @@
       </div>
       <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
       {{/if}}
-
-      <label>What are you sharing?
-        <select name="category">
-          <option></option>
-          <option value="housing">Housing</option>
-          <option value="business">Business</option>
-          <option value="streets-parking">Streets/parking</option>
-          <option value="walking-biking">Walking/biking</option>
-          <option value="public-safety">Public safety</option>
-          <option value="parks-rivers">Parks/rivers</option>
-          <option value="public-space">Public Space</option>
-          <option value="other">Other</option>
-        </select>
-      </label>
-
-      <label>Where is it?
-        <input type="text" name="name" placeholder="Location Name" required />
-      </label>
-
-      <label>Describe it&hellip;
-        <textarea name="description" placeholder="Description..." required></textarea>
-      </label>
 
       <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
 
@@ -75,7 +75,7 @@
 
       <div class="row">
         <div class="medium-6 columns">
-          <input type="submit" value="Submit Request" class="button small expand shareabouts-submit-button"/>
+          <input type="submit" value="Add to Map" class="button small expand shareabouts-submit-button"/>
         </div>
         <div class="medium-6 columns signed-in-as">
           {{#if submitter}}
