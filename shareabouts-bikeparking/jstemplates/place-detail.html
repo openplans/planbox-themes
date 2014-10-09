@@ -1,17 +1,24 @@
-<section class="promotion clearfix">
-  <div class="support support-region"></div>
-</section>
+<div class="row">
+  <div class="columns">
 
-<header class="place-header clearfix">
-  <h4>{{ name }}</h4>
-  <small>Added
-    {{#if submitter_name }}by <em>{{ submitter_name }}</em>{{/if}}
-    {{ fromnow created_datetime }}
-  </small>
-</header>
+    <section class="promotion clearfix right some-margin-left">
+      <div class="support support-region"></div>
+    </section>
 
-<section>
-  <p>{{ description }}</p>
-</section>
+    <header class="place-header">
+      <h3><strong>{{ name }}</strong></h3>
+      <p class="text-small">
+        Suggested
+        {{#if submitter_name }}by <strong>{{ submitter_name }}</strong><br>{{/if}}
+        {{ fromnow created_datetime }}
+      </p>
+    </header>
 
-<section class="survey-region"></section>
+    <section>
+      <p>{{ description }}</p>
+    </section>
+
+    <section class="survey-region"></section>
+
+  </div>
+</div>
