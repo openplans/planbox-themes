@@ -34,23 +34,23 @@
             "condition": "true", 
             "focusIcon": {
               "iconAnchor": [
-                31, 
-                81
+                25, 
+                59
               ], 
               "iconSize": [
-                62, 
-                81
+                50, 
+                60
               ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/bike-parking.png"
             }, 
             "icon": {
               "iconAnchor": [
-                9, 
-                9
+                11, 
+                11
               ], 
               "iconSize": [
-                18, 
-                18
+                22, 
+                22
               ], 
               "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-63c2c0.png"
             }
