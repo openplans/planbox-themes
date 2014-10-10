@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="columns">
+
+    <section class="promotion clearfix right some-margin-left">
+      <div class="support support-region"></div>
+    </section>
+
+    <header class="place-header">
+      <h3><strong>
+        {{#is category 'double-parking'}}Double Parking{{/is}}
+        {{#is category 'crosswalk-time'}}Crosswalk Timing{{/is}}
+        {{#is category 'crosswalk-long'}}Long Distance to Cross{{/is}}
+        {{#is category 'traffic-light-red'}}Red Light Running{{/is}}
+        {{#is category 'jaywalking'}}Jaywalking{{/is}}
+        {{#is category 'poor-visibility'}}Poor Visibility{{/is}}
+        {{#is category 'speeding'}}Speeding{{/is}}
+        {{#is category 'yield'}}Failure to Yield{{/is}}
+        {{#is category 'cyclist'}}Cyclist Behavior{{/is}}
+      </strong></h3>
+      <p class="text-small">
+        Suggested
+        {{#if submitter_name }}by <strong>{{ submitter_name }}</strong><br>{{/if}}
+        {{ fromnow created_datetime }}
+      </p>
+    </header>
+
+    <section>
+      <p>{{ description }}</p>
+    </section>
+
+    <section class="survey-region"></section>
+
+  </div>
+</div>

@@ -1,0 +1,87 @@
+<div class="row">
+  <div class="columns">
+
+    <div data-alert class="alert-box warning radius text-center form-instructions">
+      <strong>Drag the map to your location.</strong>
+    </div>
+
+    <form novalidate>
+
+      <h5>Share a street safety issue.</h5>
+
+      <label>What type of issue are sharing?
+        <select name="category">
+          <option></option>
+          <option value="double-parking">Double Parking</option>
+          <option value="crosswalk-time">Crosswalk Timing</option>
+          <option value="crosswalk-long">Long Distance to Cross</option>
+          <option value="traffic-light-red">Red Light Running</option>
+          <option value="jaywalking">Jaywalking</option>
+          <option value="poor-visibility">Poor Visibility</option>
+          <option value="speeding">Speeding</option>
+          <option value="yield">Failure to Yield</option>
+          <option value="cyclist">Cyclist Behavior</option>
+        </select>
+      </label>
+
+      <label>Provide more information about the issue.
+        <textarea name="description" placeholder="Description..." required></textarea>
+      </label>
+
+      {{#if submitter}}
+      <label>Your Email
+        <input type="email" name="private_email" placeholder="optional" data-sticky />
+      </label>
+      {{else}}
+      <div class="row">
+        <div class="large-6 columns">
+          <label>Your Name
+            <input type="text" name="submitter_name" required data-sticky />
+          </label>
+        </div>
+        <div class="large-6 columns">
+          <label>Your Email
+            <input type="email" name="private_email" placeholder="optional" data-sticky />
+          </label>
+        </div>
+      </div>
+      <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
+      {{/if}}
+
+      <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
+
+      <label>What is your home zip code?
+        <input type="text" name="private_home_zip" pattern="\d*" data-sticky />
+      </label>
+
+      <label>What is your age?
+        <input type="number" name="private_age" data-sticky />
+      </label>
+
+      <label>What is your race/ethnicity?
+        <select name="private_ethnicity" data-sticky>
+          <option></option>
+          <option value="hispanic/latin@">Hispanic/Latin@</option>
+          <option value="black/afam">Black/African American</option>
+          <option value="white">White</option>
+          <option value="nativeam">Native American</option>
+          <option value="asian/pi">Asian/Pacific Islander</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <div class="row">
+        <div class="medium-6 columns">
+          <input type="submit" value="Put On Map" class="button small expand shareabouts-submit-button"/>
+        </div>
+        <div class="medium-6 columns signed-in-as">
+          {{#if submitter}}
+          <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
+          {{/if}}
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+</div>
