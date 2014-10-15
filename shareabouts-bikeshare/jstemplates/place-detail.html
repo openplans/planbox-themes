@@ -9,7 +9,10 @@
       <h3><strong>{{ name }}</strong></h3>
       <p class="text-small">
         Suggested
-        {{#if submitter_name }}by <strong>{{ submitter_name }}</strong><br>{{/if}}
+        {{#if submitter.name }}by <strong>{{ submitter.name }}</strong><br>
+        {{else}}
+          {{#if submitter_name }}by <strong>{{ submitter_name }}</strong><br>{{/if}}
+        {{/if}}
         {{ fromnow created_datetime }}
       </p>
     </header>
