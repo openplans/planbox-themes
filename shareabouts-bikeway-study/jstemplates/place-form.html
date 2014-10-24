@@ -25,7 +25,11 @@
         <textarea name="location-name" placeholder="Location..." required></textarea>
       </label>
 
-      <label class="toggle-sibling-2 toggle-sibling-3 toggle-sibling-4">What street is this? 
+      <label class="toggle-sibling-3">What street/intersection is this? 
+        <textarea name="street-name" placeholder="Street..." required></textarea>
+      </label>
+
+      <label class="toggle-sibling-2 toggle-sibling-4">What street/route is this? 
         <textarea name="street-name" placeholder="Street..." required></textarea>
       </label>
 
@@ -38,10 +42,6 @@
         <input id="none" type="radio" name="crossing-type" value="none" class="hide">
         <label for="none" class="toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button small radius"><strong>Neither</strong></label>
       </div>
-
-      <label class="toggle-sibling-3">Lanes of Traffic
-        <input type="number" name="lanes" required></input>
-      </label>
 
       <div class="toggle-sibling-1 toggle-sibling-2 toggle-sibling-3 toggle-sibling-4">
         <label>Description</label>
@@ -72,13 +72,13 @@
         <div class="row">
           <div class="medium-6 columns">
             <label>What is your home zip code?
-              <input type="text" name="private-zip" pattern="\d*" required data-sticky />
+              <input type="text" name="private-zip" pattern="\d*" data-sticky />
             </label>
           </div>
 
           <div class="medium-6 columns">
             <label>What is your municipality?
-              <input type="text" name="private-municipality" pattern="\d*" required data-sticky />
+              <input type="text" name="private-municipality" pattern="\d*" data-sticky />
             </label>
           </div>
 
