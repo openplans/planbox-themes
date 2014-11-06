@@ -17,7 +17,6 @@
     {
       "active": true, 
       "details": {
-        "description": "We're gathering feedback on street safety conditions in [your-place].", 
         "layers": [
           {
             "url": "//{s}.tiles.mapbox.com/v3/openplans.map-dmar86ym/{z}/{x}/{y}.png"

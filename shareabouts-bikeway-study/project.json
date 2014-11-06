@@ -2,7 +2,7 @@
   "contact": "", 
   "cover_img_url": "", 
   "details": {
-    "tagline": "Tell us where you see street safety issues."
+    "tagline": ""
   }, 
   "events": [], 
   "geometry": null, 
@@ -17,22 +17,18 @@
     {
       "active": true, 
       "details": {
-        "description": "We're conducting a feasibility study to develop a new bikeway in Barrington Hills, IL connecting the Fox River Trail to the Old Stover Trail.", 
         "layers": [
           {
             "url": "//{s}.tiles.mapbox.com/v3/openplans.map-dmar86ym/{z}/{x}/{y}.png"
-          }, 
-          {
-            "url": "//{s}.tiles.mapbox.com/v3/openplans.168-CMAP-Bikeway/{z}/{x}/{y}.png"
           }
         ], 
         "map": {
           "center": [
-            42.1103, 
-            -88.21366
+            38.993572, 
+            -96.196289
           ], 
           "scrollWheelZoom": false, 
-          "zoom": 12
+          "zoom": 4
         }, 
         "place_styles": [
           {
@@ -150,7 +146,7 @@
     {
       "active": true, 
       "details": {
-        "content": "[your-place] deserves and expect safe streets. But too many people are seriously injured or killed each year in traffic crashes. This status quo is unacceptable. We must no longer regard traffic crashes as mere \"accidents,\" but rather as preventable incidents that can be systematically addressed. No level of fatality on city streets is inevitable or acceptable. This plan is the [your-place]'s foundation for ending traffic deaths and injuries on our streets."
+        "content": "We're conducting a feasibility study to develop a new bikeway in Barrington Hills, IL connecting the Fox River Trail to the Old Stover Trail. [your-place] deserves and expect safe streets. But too many people are seriously injured or killed each year in traffic crashes. This status quo is unacceptable. We must no longer regard traffic crashes as mere \"accidents,\" but rather as preventable incidents that can be systematically addressed. No level of fatality on city streets is inevitable or acceptable. This plan is the [your-place]'s foundation for ending traffic deaths and injuries on our streets."
       }, 
       "label": "", 
       "menu_label": "", 
