@@ -2,7 +2,7 @@
   "contact": "", 
   "cover_img_url": "", 
   "details": {
-    "tagline": ""
+    "tagline": "Tell us how the bike network can be improved in [your-place]."
   }, 
   "events": [], 
   "geometry": null, 
@@ -146,7 +146,7 @@
     {
       "active": true, 
       "details": {
-        "content": "We're conducting a feasibility study to develop a new bikeway in Barrington Hills, IL connecting the Fox River Trail to the Old Stover Trail. [your-place] deserves and expect safe streets. But too many people are seriously injured or killed each year in traffic crashes. This status quo is unacceptable. We must no longer regard traffic crashes as mere \"accidents,\" but rather as preventable incidents that can be systematically addressed. No level of fatality on city streets is inevitable or acceptable. This plan is the [your-place]'s foundation for ending traffic deaths and injuries on our streets."
+        "content": "We're conducting a study to develop a better bike network in [your-place]. Many gaps exist between bike facilities, between bike routes, and prominent destinations. Help us to identify potential bike routes, analyze them to determine the best option, and recommend the appropriate type of bicycle facility, such as sidepaths, bike lane markings, or paved shoulders. As community stakeholders, you will help guide this process by establishing evaluation criteria based on what is most important to you."
       }, 
       "label": "", 
       "menu_label": "", 
@@ -158,5 +158,5 @@
   "status": "not-started", 
   "template": null, 
   "theme": null, 
-  "title": "CMAP Bikeway Feasibility Study"
+  "title": "Bike Network Improvements"
 }
