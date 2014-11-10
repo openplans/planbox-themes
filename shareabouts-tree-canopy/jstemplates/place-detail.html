@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="columns">
+
+    {{#is category 'tree-needed'}}
+    <section class="promotion clearfix right some-margin-left">
+      <div class="support support-region"></div>
+    </section>
+    {{/is}}
+
+    <header class="place-header">
+      <h3><strong>
+        {{#is category 'existing-tree'}}Existing Tree{{/is}}
+        {{#is category 'tree-needed'}}Requested Tree{{/is}}
+      </strong></h3>
+      <p class="text-small">
+        Requested
+        {{#if submitter.name }}by <strong>{{ submitter.name }}</strong><br>
+        {{else}}
+          {{#if submitter_name }}by <strong>{{ submitter_name }}</strong><br>{{/if}}
+        {{/if}}
+        {{ fromnow created_datetime }}
+      </p>
+    </header>
+
+    <section>
+      <p>
+        {{#is category 'existing-tree'}}{{ description_existing }}{{/is}}
+        {{#is category 'tree-needed'}}{{ description }}{{/is}}
+      </p>
+    </section>
+
+    <section class="survey-region"></section>
+
+  </div>
+</div>
