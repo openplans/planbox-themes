@@ -42,7 +42,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/street-tree.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/street-tree.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -53,7 +53,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-55a504.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-55a504.png"
             }
           }, 
           {
@@ -67,7 +67,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/street-heat.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/street-heat.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -78,7 +78,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-fc9229.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-fc9229.png"
             }
           }
         ], 

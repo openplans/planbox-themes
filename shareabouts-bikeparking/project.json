@@ -3,7 +3,7 @@
   "cover_img_url": "", 
   "details": {
     "tagline": ""
-  },
+  }, 
   "events": [], 
   "geometry": null, 
   "layout": "shareabouts", 
@@ -42,7 +42,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/bike-parking.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/bike-parking.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -53,7 +53,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-63c2c0.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-63c2c0.png"
             }
           }
         ], 

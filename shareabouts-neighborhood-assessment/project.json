@@ -42,7 +42,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/housing.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/housing.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -53,7 +53,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-f50a8e.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-f50a8e.png"
             }
           }, 
           {
@@ -67,7 +67,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/business.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/business.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -78,7 +78,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-3ec1cd.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-3ec1cd.png"
             }
           }, 
           {
@@ -92,7 +92,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/traffic.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/traffic.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -103,7 +103,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-8ea4b8.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-8ea4b8.png"
             }
           }, 
           {
@@ -117,7 +117,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/walking-biking.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/walking-biking.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -128,7 +128,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ffef30.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-ffef30.png"
             }
           }, 
           {
@@ -142,7 +142,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/crime.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/crime.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -153,7 +153,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ffab14.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-ffab14.png"
             }
           }, 
           {
@@ -167,7 +167,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/park-river.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/park-river.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -178,7 +178,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-c4ed52.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-c4ed52.png"
             }
           }, 
           {
@@ -192,7 +192,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/fountain.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/fountain.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -203,7 +203,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-b75ab8.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-b75ab8.png"
             }
           }, 
           {
@@ -217,7 +217,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/idea.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/idea.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -228,7 +228,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ffab14.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-ffab14.png"
             }
           }
         ], 

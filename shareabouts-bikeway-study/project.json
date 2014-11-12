@@ -42,7 +42,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/fav-route.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/fav-route.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -53,7 +53,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ff78be.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-ff78be.png"
             }
           }, 
           {
@@ -67,7 +67,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/thumbs-up.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/thumbs-up.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -78,7 +78,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-c4ed52.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-c4ed52.png"
             }
           }, 
           {
@@ -92,7 +92,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/bike-crossing.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/bike-crossing.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -103,7 +103,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ffd614.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-ffd614.png"
             }
           }, 
           {
@@ -117,7 +117,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/thumbs-down.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/thumbs-down.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -128,7 +128,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-fa0041.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-fa0041.png"
             }
           }
         ], 

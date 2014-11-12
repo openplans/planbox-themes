@@ -42,7 +42,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/cyclist.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/cyclist.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -53,7 +53,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-7fccd9.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-7fccd9.png"
             }
           }
         ], 

@@ -42,7 +42,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/crosswalk-time.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/crosswalk-time.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -53,7 +53,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-fc9229.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-fc9229.png"
             }
           }, 
           {
@@ -67,7 +67,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/double-parking.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/double-parking.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -78,7 +78,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-21592e.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-21592e.png"
             }
           }, 
           {
@@ -92,7 +92,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/crosswalk-long.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/crosswalk-long.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -103,7 +103,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-8ea4b8.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-8ea4b8.png"
             }
           }, 
           {
@@ -117,7 +117,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/traffic-light-red.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/traffic-light-red.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -128,7 +128,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-fa0041.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-fa0041.png"
             }
           }, 
           {
@@ -142,7 +142,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/jaywalking.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/jaywalking.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -153,7 +153,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-f50a8e.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-f50a8e.png"
             }
           }, 
           {
@@ -167,7 +167,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/sunglasses.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/sunglasses.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -178,7 +178,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-c4ed52.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-c4ed52.png"
             }
           }, 
           {
@@ -192,7 +192,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/speeding.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/speeding.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -203,7 +203,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-b75ab8.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-b75ab8.png"
             }
           }, 
           {
@@ -217,7 +217,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/yield.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/yield.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -228,7 +228,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-ffef30.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-ffef30.png"
             }
           }, 
           {
@@ -242,7 +242,7 @@
                 50, 
                 60
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/cyclist.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/cyclist.png"
             }, 
             "icon": {
               "iconAnchor": [
@@ -253,7 +253,7 @@
                 22, 
                 22
               ], 
-              "iconUrl": "http://openplans.github.io/planbox-themes/map-markers/dot-7fccd9.png"
+              "iconUrl": "//openplans.github.io/planbox-themes/map-markers/dot-7fccd9.png"
             }
           }
         ], 
