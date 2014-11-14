@@ -266,18 +266,18 @@ a.grfwd-toggle-link {
 
 
 /* ----- Timeline ----- */
-.event {
-  padding-bottom: 1rem;
-}
-.event-title {
-  padding-top: 0.125rem;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  color: #63c2c0;
-  cursor: pointer;
-  display: inline;
-}
-.event-title:hover { color: #f15723; }
+/*.event {*/
+/*  padding-bottom: 1rem;*/
+/*}*/
+/*.event-title {*/
+/*  padding-top: 0.125rem;*/
+/*  padding-bottom: 0;*/
+/*  margin-bottom: 0;*/
+/*  color: #63c2c0;*/
+/*  cursor: pointer;*/
+/*  display: inline;*/
+/*}*/
+/*.event-title:hover { color: #f15723; }*/
 .event-title:after {
   content: url('images/chevron-sm.gif');
   margin-left: 0.25rem;
@@ -293,10 +293,10 @@ a.grfwd-toggle-link {
   padding: 0;
   display: inline;
 }
-.event-description {
-  display: none;
-  margin-bottom: 0.5rem;
-}
+/*.event-description {*/
+/*  display: none;*/
+/*  margin-bottom: 0.5rem;*/
+/*}*/
 .event .row .medium-7 {
   width: 100%;
 }
