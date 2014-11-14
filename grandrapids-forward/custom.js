@@ -76,11 +76,11 @@ $(function(){
 
 
   // Init the timeline toggles
-  $(document).on('click', '.event-title', function() {
-    $(this).next('.row').find('.event-description').toggle('fast');
-  });
-  $(document).on('click', '.event-datetime', function() {
-    $(this).next('.event-description').toggle('fast');
-  });
+  // $(document).on('click', '.event-title', function() {
+  //   $(this).next('.row').find('.event-description').toggle('fast');
+  // });
+  // $(document).on('click', '.event-datetime', function() {
+  //   $(this).next('.event-description').toggle('fast');
+  // });
 
 });
