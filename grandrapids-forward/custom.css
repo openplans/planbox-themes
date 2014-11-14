@@ -266,9 +266,7 @@ a.grfwd-toggle-link {
 
 
 /* ----- Timeline ----- */
-.event-title {
-  display: inline;
-}
+.event-title {}
 .event-title:after {
   content: url('images/chevron-sm.gif');
   margin-left: 0.25rem;
