@@ -2,7 +2,7 @@
   "contact": "", 
   "cover_img_url": "", 
   "details": {
-    "tagline": ""
+    "tagline": "Share your knowledge! Tell us your great ideas for how we can improve [your-place]."
   }, 
   "events": [], 
   "geometry": null, 
@@ -255,9 +255,9 @@
       "type": "text"
     }
   ], 
-  "slug": "shareabouts-neighborhood-assessment", 
+  "slug": "neighborhood-assessment", 
   "status": "not-started", 
   "template": null, 
   "theme": null, 
-  "title": "Share your knowledge about [your-place]."
+  "title": "[your-place] Neighborhood Assessment"
 }

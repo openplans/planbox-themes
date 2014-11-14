@@ -2,7 +2,7 @@
   "contact": "", 
   "cover_img_url": "", 
   "details": {
-    "tagline": ""
+    "tagline": "Tell us where you need bike parking in [your-place]."
   }, 
   "events": [], 
   "geometry": null, 
@@ -79,9 +79,9 @@
       "type": "text"
     }
   ], 
-  "slug": "shareabouts-bikeparking", 
+  "slug": "bike-parking", 
   "status": "not-started", 
   "template": null, 
   "theme": null, 
-  "title": "Tell us where you need bike parking."
+  "title": "Bike Parking"
 }

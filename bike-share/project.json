@@ -2,7 +2,7 @@
   "contact": "", 
   "cover_img_url": "", 
   "details": {
-    "tagline": ""
+    "tagline": "Where do you want bike share in [your-place]?"
   }, 
   "events": [], 
   "geometry": null, 
@@ -89,9 +89,9 @@
       "type": "text"
     }
   ], 
-  "slug": "shareabouts-bikeshare", 
+  "slug": "bike-share", 
   "status": "not-started", 
   "template": null, 
   "theme": null, 
-  "title": "Where do you want bike share in [your-place]?"
+  "title": "Bike Share"
 }
