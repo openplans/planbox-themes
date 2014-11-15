@@ -337,7 +337,10 @@ a.grfwd-toggle-link {
 }
 
 /* ----- NEVER SHOW THE SAVE BUTTON ----- */
-.save-btn {
-  display: none !important;
-}
+/*.save-btn {*/
+/*  display: none !important;*/
+/*}*/
 
+.event-tags {
+  display: none;
+}
