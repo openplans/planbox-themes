@@ -2,17 +2,19 @@
   <div class="columns">
 
     <div data-alert class="alert-box warning radius text-center form-instructions">
-      <strong>Drag the map to where you would like to see bike share.</strong>
+      <strong>Drag the map to where you want bike share.</strong>
     </div>
 
     <form novalidate>
+
+      <h5>Why is this a good location for bike share?</h5>
 
       <label>Location Name
         <input type="text" name="location_name" placeholder="" required />
       </label>
       <!-- TODO: Approx address: (via geolocation) -->
 
-      <label>Why is this a good location for bike share?
+      <label>Reason
         <textarea name="description" placeholder="Close to home, shopping nearby, ..." required></textarea>
       </label>
 
@@ -36,31 +38,52 @@
       <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
       {{/if}}
 
-      <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
+      <p class="some-padding-top some-margin-bottom"><strong>Please provide some optional/private information about yourself.</strong></p>
 
-      <label>What is your home zip code?
-        <input type="text" name="private_home_zip" pattern="\d*" data-sticky />
-      </label>
+      <input id="private-questions-yes" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-3">
+      <label for="private-questions-yes" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Okay</label>
 
-      <label>What is your age?
-        <input type="number" name="private_age" data-sticky />
-      </label>
+      <input id="private-questions-no" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-4">
+      <label for="private-questions-no" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Decline</label>
 
-      <label>What is your race/ethnicity?
-        <select name="private_ethnicity" data-sticky>
-          <option></option>
-          <option value="hispanic/latin@">Hispanic/Latin@</option>
-          <option value="black/afam">Black/African American</option>
-          <option value="white">White</option>
-          <option value="nativeam">Native American</option>
-          <option value="asian/pi">Asian/Pacific Islander</option>
-          <option value="other">Other</option>
-        </select>
-      </label>
+      <div class="toggle-sibling-3">
+        <div class="row collapse prefix-radius">
+          <div class="small-3 columns">
+            <label for="private_home_zip" class="prefix">Home ZIP Code</label>
+          </div>
+          <div class="small-9 columns">
+            <input type="text" name="private_home_zip" id="private_home_zip" pattern="\d*" data-sticky />
+          </div>
+        </div>
+        <div class="row collapse prefix-radius">
+          <div class="small-3 columns">
+            <label for="private_age" class="prefix">Age</label>
+          </div>
+          <div class="small-9 columns">
+            <input type="number" name="private_age" id="private_age" data-sticky />
+          </div>
+        </div>
+        <div class="row collapse prefix-radius">
+          <div class="small-3 columns">
+            <label for="private_ethnicity" class="prefix">Race/Ethnicity</label>
+          </div>
+          <div class="small-9 columns">
+            <select name="private_ethnicity" id="private_ethnicity" data-sticky>
+              <option></option>
+              <option value="hispanic/latin@">Hispanic/Latin@</option>
+              <option value="black/afam">Black/African American</option>
+              <option value="white">White</option>
+              <option value="nativeam">Native American</option>
+              <option value="asian/pi">Asian/Pacific Islander</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
-      <div class="row">
+      <div class="row toggle-sibling-3 toggle-sibling-4">
         <div class="medium-6 columns">
-          <input type="submit" value="Add My Suggestion" class="button small expand shareabouts-submit-button"/>
+          <input type="submit" value="Add My Suggestion" class="button large expand radius shareabouts-submit-button"/>
         </div>
         <div class="medium-6 columns signed-in-as">
           {{#if submitter}}

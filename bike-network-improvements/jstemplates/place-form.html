@@ -9,16 +9,16 @@
 
       <h3><strong>What would you like to share?</strong></h3>
 
-      <input id="favorite-destination" type="radio" name="category" value="favorite-destination" class="hide toggle-sibling-input-1">
+      <input id="favorite-destination" type="radio" name="category" value="favorite-destination" class="toggle-sibling-input toggle-sibling-input-1" required>
       <label style="min-width:40%;" for="favorite-destination" class="toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/fav-route.png">&nbsp;<strong>Favorite Destination</strong></label>
 
-      <input id="good-route" type="radio" name="category" value="good-route" class="hide toggle-sibling-input-2">
+      <input id="good-route" type="radio" name="category" value="good-route" class="toggle-sibling-input toggle-sibling-input-2" required>
       <label style="min-width:40%;" for="good-route" class="toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/thumbs-up.png">&nbsp;<strong>Desirable Bike Route</strong></label>
 
-      <input id="difficult-crossing" type="radio" name="category" value="difficult-crossing" class="hide toggle-sibling-input-3">
+      <input id="difficult-crossing" type="radio" name="category" value="difficult-crossing" class="toggle-sibling-input toggle-sibling-input-3" required>
       <label style="min-width:40%;" for="difficult-crossing" class="toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/bike-crossing.png">&nbsp;<strong>Difficult Crossing</strong></label>
 
-      <input id="bad-route" type="radio" name="category" value="bad-route" class="hide toggle-sibling-input-4">
+      <input id="bad-route" type="radio" name="category" value="bad-route" class="toggle-sibling-input toggle-sibling-input-4" required>
       <label style="min-width:40%;" for="bad-route" class="toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/thumbs-down.png">&nbsp;<strong>Undesirable Bike Route</strong></label>
 
       <label class="toggle-sibling-1">Location
@@ -67,42 +67,57 @@
         <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
         {{/if}}
 
-        <h6 class="some-padding-top">A few quick questions about yourself. These are private.</h6>
+        <p class="some-padding-top some-margin-bottom"><strong>Please provide some optional/private information about yourself.</strong></p>
 
-        <div class="row">
-          <div class="medium-6 columns">
-            <label>What is your home zip code?
-              <input type="text" name="private-zip" pattern="\d*" data-sticky />
-            </label>
+        <input id="private-questions-yes" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-10">
+        <label for="private-questions-yes" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Okay</label>
+
+        <input id="private-questions-no" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-11">
+        <label for="private-questions-no" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Decline</label>
+
+        <div class="toggle-sibling-10">
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private-zip" class="prefix">Home ZIP Code</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" name="private-zip" id="private-zip" pattern="\d*" data-sticky />
+            </div>
           </div>
-
-          <div class="medium-6 columns">
-            <label>What is your municipality?
-              <input type="text" name="private-municipality" pattern="\d*" data-sticky />
-            </label>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private-municipality" class="prefix">Municipality</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" name="private-municipality" id="private-municipality" pattern="\d*" data-sticky />
+            </div>
           </div>
-
-          <div class="medium-6 columns">
-            <label>What is your age?
-              <input type="number" name="private-age" data-sticky />
-            </label>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private-age" class="prefix">Age</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="number" name="private-age" id="private-age" data-sticky />
+            </div>
           </div>
-
-          <div class="medium-6 columns">
-            <label>What is your gender?
-              <select name="private-gender" data-sticky>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private-gender" class="prefix">Gender</label>
+            </div>
+            <div class="small-9 columns">
+              <select name="private-gender" id="private-gender" data-sticky>
                 <option></option>
                 <option value="female">Female</option>
                 <option value="male">Male</option>
                 <option value="other">Other</option>
               </select>
-            </label>
+            </div>
           </div>
         </div>
 
-        <div class="row some-padding-top">
+        <div class="row some-padding-top toggle-sibling-10 toggle-sibling-11">
           <div class="medium-6 columns">
-            <input type="submit" value="Put On Map" class="button large expand shareabouts-submit-button"/>
+            <input type="submit" value="Put On Map" class="button large expand radius shareabouts-submit-button"/>
           </div>
           <div class="medium-6 columns signed-in-as">
             {{#if submitter}}

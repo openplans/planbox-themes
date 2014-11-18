@@ -7,81 +7,116 @@
 
     <form novalidate>
 
-      <h5>Share Your Thoughts</h5>
+      <p class="some-margin-bottom"><strong>What feedback are you sharing?</strong></p>
 
-      <label>What feedback are you sharing?
-        <select name="category">
-          <option></option>
-          <option value="housing">Housing</option>
-          <option value="business">Business</option>
-          <option value="streets-parking">Streets/parking</option>
-          <option value="walking-biking">Walking/biking</option>
-          <option value="public-safety">Public safety</option>
-          <option value="parks-rivers">Parks/rivers</option>
-          <option value="public-space">Public Space</option>
-          <option value="other">Other</option>
-        </select>
-      </label>
+      <input id="housing" type="radio" name="category" value="housing" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="housing" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/housing.png">&nbsp;<strong>Housing</strong></label>
+      
+      <input id="business" type="radio" name="category" value="business" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="business" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/business.png">&nbsp;<strong>Business</strong></label>
 
-      <label>Where is it?
-        <input type="text" name="name" placeholder="Location Name" required />
-      </label>
+      <input id="streets-parking" type="radio" name="category" value="streets-parking" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="streets-parking" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/traffic.png">&nbsp;<strong>Streets/Parking</strong></label>
 
-      <label>Tell us about it.
-        <textarea name="description" placeholder="Description..." required></textarea>
-      </label>
+      <input id="walking-biking" type="radio" name="category" value="walking-biking" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="walking-biking" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/walking-biking.png">&nbsp;<strong>Walking/Biking</strong></label>
 
-      {{#if submitter}}
-      <label>Your Email
-        <input type="email" name="private_email" placeholder="optional" data-sticky />
-      </label>
-      {{else}}
-      <div class="row">
-        <div class="large-6 columns">
-          <label>Your Name
-            <input type="text" name="submitter_name" required data-sticky />
-          </label>
+      <input id="public-safety" type="radio" name="category" value="public-safety" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="public-safety" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/crime.png">&nbsp;<strong>Public Safety</strong></label>
+
+      <input id="parks-rivers" type="radio" name="category" value="parks-rivers" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="parks-rivers" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/park-river.png">&nbsp;<strong>Parks/Rivers</strong></label>
+
+      <input id="public-space" type="radio" name="category" value="public-space" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="public-space" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/fountain.png">&nbsp;<strong>Public Space</strong></label>
+
+      <input id="other" type="radio" name="category" value="other" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="other" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/idea.png">&nbsp;<strong>Other</strong></label>
+
+      <div class="toggle-sibling-1">
+
+        <label>Where is it?
+          <input type="text" name="name" placeholder="Location Name" required />
+        </label>
+
+        <label>Tell us about it.
+          <textarea name="description" placeholder="Description..." required></textarea>
+        </label>
+
+        {{#if submitter}}
+        <label>Your Email
+          <input type="email" name="private_email" placeholder="optional" data-sticky />
+        </label>
+        {{else}}
+        <div class="row">
+          <div class="large-6 columns">
+            <label>Your Name
+              <input type="text" name="submitter_name" required data-sticky />
+            </label>
+          </div>
+          <div class="large-6 columns">
+            <label>Your Email
+              <input type="email" name="private_email" placeholder="optional" data-sticky />
+            </label>
+          </div>
         </div>
-        <div class="large-6 columns">
-          <label>Your Email
-            <input type="email" name="private_email" placeholder="optional" data-sticky />
-          </label>
+        <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
+        {{/if}}
+
+        <p class="some-padding-top some-margin-bottom"><strong>Please provide some optional/private information about yourself.</strong></p>
+
+        <input id="private-questions-yes" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-3">
+        <label for="private-questions-yes" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Okay</label>
+
+        <input id="private-questions-no" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-4">
+        <label for="private-questions-no" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Decline</label>
+
+        <div class="toggle-sibling-3">
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_home_zip" class="prefix">Home ZIP Code</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" name="private_home_zip" id="private_home_zip" pattern="\d*" data-sticky />
+            </div>
+          </div>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_age" class="prefix">Age</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="number" name="private_age" id="private_age" data-sticky />
+            </div>
+          </div>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_ethnicity" class="prefix">Race/Ethnicity</label>
+            </div>
+            <div class="small-9 columns">
+              <select name="private_ethnicity" id="private_ethnicity" data-sticky>
+                <option></option>
+                <option value="hispanic/latin@">Hispanic/Latin@</option>
+                <option value="black/afam">Black/African American</option>
+                <option value="white">White</option>
+                <option value="nativeam">Native American</option>
+                <option value="asian/pi">Asian/Pacific Islander</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
         </div>
-      </div>
-      <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
-      {{/if}}
 
-      <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
-
-      <label>What is your home zip code?
-        <input type="text" name="private_home_zip" pattern="\d*" data-sticky />
-      </label>
-
-      <label>What is your age?
-        <input type="number" name="private_age" data-sticky />
-      </label>
-
-      <label>What is your race/ethnicity?
-        <select name="private_ethnicity" data-sticky>
-          <option></option>
-          <option value="hispanic/latin@">Hispanic/Latin@</option>
-          <option value="black/afam">Black/African American</option>
-          <option value="white">White</option>
-          <option value="nativeam">Native American</option>
-          <option value="asian/pi">Asian/Pacific Islander</option>
-          <option value="other">Other</option>
-        </select>
-      </label>
-
-      <div class="row">
-        <div class="medium-6 columns">
-          <input type="submit" value="Add to Map" class="button small expand shareabouts-submit-button"/>
+        <div class="row toggle-sibling-3 toggle-sibling-4">
+          <div class="medium-6 columns">
+            <input type="submit" value="Add to Map" class="button large expand radius shareabouts-submit-button"/>
+          </div>
+          <div class="medium-6 columns signed-in-as">
+            {{#if submitter}}
+            <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
+            {{/if}}
+          </div>
         </div>
-        <div class="medium-6 columns signed-in-as">
-          {{#if submitter}}
-          <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
-          {{/if}}
-        </div>
+
       </div>
 
     </form>

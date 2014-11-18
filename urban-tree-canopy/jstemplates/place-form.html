@@ -9,10 +9,10 @@
 
       <p class="some-margin-bottom"><strong>What are you mapping?</strong></p>
 
-      <input id="existing-tree" type="radio" name="category" value="existing-tree" class="hide toggle-sibling-input-1">
+      <input id="existing-tree" type="radio" name="category" value="existing-tree" class="toggle-sibling-input toggle-sibling-input-1" required>
       <label for="existing-tree" class="toggle-sibling-label less-padding no-margin-left some-margin-right some-margin-bottom button radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/street-tree.png">&nbsp;<strong>Existing Tree</strong></label>
 
-      <input id="needed-tree" type="radio" name="category" value="tree-needed" class="hide toggle-sibling-input-2">
+      <input id="needed-tree" type="radio" name="category" value="tree-needed" class="toggle-sibling-input toggle-sibling-input-2" required>
       <label for="needed-tree" class="toggle-sibling-label less-padding no-margin-left some-margin-bottom button radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/street-heat.png">&nbsp;<strong>Request a Tree</strong></label>
 
       <div class="toggle-sibling-1">
@@ -47,37 +47,52 @@
         <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
         {{/if}}
 
-        <p class="some-padding-top some-margin-bottom"><strong>Please answer some optional and private questions about yourself.</strong></p>
+        <p class="some-padding-top some-margin-bottom"><strong>Please provide some optional/private information about yourself.</strong></p>
 
-        <input id="private-questions-yes" type="radio" name="private-questions" class="hide toggle-sibling-input-3">
-        <label for="private-questions-yes" class="toggle-sibling-label button small less-padding no-margin-left some-margin-bottom">Okay</label>
+        <input id="private-questions-yes" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-3">
+        <label for="private-questions-yes" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Okay</label>
 
-        <input id="private-questions-no" type="radio" name="private-questions" class="hide toggle-sibling-input-4">
-        <label for="private-questions-no" class="toggle-sibling-label button small less-padding no-margin-left some-margin-bottom">Decline</label>
+        <input id="private-questions-no" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-4">
+        <label for="private-questions-no" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Decline</label>
 
         <div class="toggle-sibling-3">
-          <label>What is your home zip code?
-            <input type="text" name="private_home_zip" pattern="\d*" data-sticky />
-          </label>
-          <label>What is your age?
-            <input type="number" name="private_age" data-sticky />
-          </label>
-          <label>What is your race/ethnicity?
-            <select name="private_ethnicity" data-sticky>
-              <option></option>
-              <option value="hispanic/latin@">Hispanic/Latin@</option>
-              <option value="black/afam">Black/African American</option>
-              <option value="white">White</option>
-              <option value="nativeam">Native American</option>
-              <option value="asian/pi">Asian/Pacific Islander</option>
-              <option value="other">Other</option>
-            </select>
-          </label>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_home_zip" class="prefix">Home ZIP Code</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" name="private_home_zip" id="private_home_zip" pattern="\d*" data-sticky />
+            </div>
+          </div>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_age" class="prefix">Age</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="number" name="private_age" id="private_age" data-sticky />
+            </div>
+          </div>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_ethnicity" class="prefix">Race/Ethnicity</label>
+            </div>
+            <div class="small-9 columns">
+              <select name="private_ethnicity" id="private_ethnicity" data-sticky>
+                <option></option>
+                <option value="hispanic/latin@">Hispanic/Latin@</option>
+                <option value="black/afam">Black/African American</option>
+                <option value="white">White</option>
+                <option value="nativeam">Native American</option>
+                <option value="asian/pi">Asian/Pacific Islander</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
         </div>
 
         <div class="row toggle-sibling-3 toggle-sibling-4">
           <div class="medium-6 columns">
-            <input type="submit" value="Put On Map" class="button small expand shareabouts-submit-button"/>
+            <input type="submit" value="Put On Map" class="button large expand radius shareabouts-submit-button"/>
           </div>
           <div class="medium-6 columns signed-in-as">
             {{#if submitter}}

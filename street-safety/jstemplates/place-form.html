@@ -9,76 +9,112 @@
 
       <h5>Share a street safety issue.</h5>
 
-      <label>What type of issue are you sharing?
-        <select name="category">
-          <option></option>
-          <option value="double-parking">Double Parking</option>
-          <option value="crosswalk-time">Crosswalk Timing</option>
-          <option value="crosswalk-long">Long Distance to Cross</option>
-          <option value="traffic-light-red">Red Light Running</option>
-          <option value="jaywalking">Jaywalking</option>
-          <option value="poor-visibility">Poor Visibility</option>
-          <option value="speeding">Speeding</option>
-          <option value="yield">Failure to Yield</option>
-          <option value="cyclist">Cyclist Behavior</option>
-        </select>
-      </label>
+      <input id="double-parking" type="radio" name="category" value="double-parking" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="double-parking" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/double-parking.png">&nbsp;<strong>Double Parking</strong></label>
 
-      <label>Provide more information about the issue.
-        <textarea name="description" placeholder="Description..." required></textarea>
-      </label>
+      <input id="crosswalk-time" type="radio" name="category" value="crosswalk-time" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="crosswalk-time" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/crosswalk-time.png">&nbsp;<strong>Crosswalk Timing</strong></label>
 
-      {{#if submitter}}
-      <label>Your Email
-        <input type="email" name="private_email" placeholder="optional" data-sticky />
-      </label>
-      {{else}}
-      <div class="row">
-        <div class="large-6 columns">
-          <label>Your Name
-            <input type="text" name="submitter_name" required data-sticky />
-          </label>
+      <input id="crosswalk-long" type="radio" name="category" value="crosswalk-long" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="crosswalk-long" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/crosswalk-long.png">&nbsp;<strong>Long Distance to Cross</strong></label>
+
+      <input id="traffic-light-red" type="radio" name="category" value="traffic-light-red" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="traffic-light-red" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/traffic-light-red.png">&nbsp;<strong>Red Light Running</strong></label>
+
+      <input id="jaywalking" type="radio" name="category" value="jaywalking" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="jaywalking" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/jaywalking.png">&nbsp;<strong>Jaywalking</strong></label>
+
+      <input id="poor-visibility" type="radio" name="category" value="poor-visibility" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="poor-visibility" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/sunglasses.png">&nbsp;<strong>Poor Visibility</strong></label>
+
+      <input id="speeding" type="radio" name="category" value="speeding" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="speeding" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/speeding.png">&nbsp;<strong>Speeding</strong></label>
+
+      <input id="yield" type="radio" name="category" value="yield" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="yield" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/yield.png">&nbsp;<strong>Failure to Yield</strong></label>
+
+      <input id="cyclist" type="radio" name="category" value="cyclist" class="toggle-sibling-input toggle-sibling-input-1" required>
+      <label for="cyclist" class="toggle-sibling-label less-padding no-margin-left tiny-margin-right tiny-margin-bottom button small radius"><img class="inline-icon large" src="//openplans.github.io/planbox-themes/map-markers/cyclist.png">&nbsp;<strong>Cyclist Behavior</strong></label>
+
+      <div class="toggle-sibling-1">
+        <label>Provide more information about the issue.
+          <textarea name="description" placeholder="Description..." required></textarea>
+        </label>
+
+        {{#if submitter}}
+        <label>Your Email
+          <input type="email" name="private_email" placeholder="optional" data-sticky />
+        </label>
+        {{else}}
+        <div class="row">
+          <div class="large-6 columns">
+            <label>Your Name
+              <input type="text" name="submitter_name" required data-sticky />
+            </label>
+          </div>
+          <div class="large-6 columns">
+            <label>Your Email
+              <input type="email" name="private_email" placeholder="optional" data-sticky />
+            </label>
+          </div>
         </div>
-        <div class="large-6 columns">
-          <label>Your Email
-            <input type="email" name="private_email" placeholder="optional" data-sticky />
-          </label>
+        <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
+        {{/if}}
+
+        <p class="some-padding-top some-margin-bottom"><strong>Please provide some optional/private information about yourself.</strong></p>
+
+        <input id="private-questions-yes" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-2">
+        <label for="private-questions-yes" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Okay</label>
+
+        <input id="private-questions-no" type="radio" name="private-questions" class="toggle-sibling-input toggle-sibling-input-3">
+        <label for="private-questions-no" class="toggle-sibling-label button small less-padding radius no-margin-left some-margin-bottom">Decline</label>
+
+        <div class="toggle-sibling-2">
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_home_zip" class="prefix">Home ZIP Code</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" name="private_home_zip" id="private_home_zip" pattern="\d*" data-sticky />
+            </div>
+          </div>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_age" class="prefix">Age</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="number" name="private_age" id="private_age" data-sticky />
+            </div>
+          </div>
+          <div class="row collapse prefix-radius">
+            <div class="small-3 columns">
+              <label for="private_ethnicity" class="prefix">Race/Ethnicity</label>
+            </div>
+            <div class="small-9 columns">
+              <select name="private_ethnicity" id="private_ethnicity" data-sticky>
+                <option></option>
+                <option value="hispanic/latin@">Hispanic/Latin@</option>
+                <option value="black/afam">Black/African American</option>
+                <option value="white">White</option>
+                <option value="nativeam">Native American</option>
+                <option value="asian/pi">Asian/Pacific Islander</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
         </div>
-      </div>
-      <p class="text-right text-small no-margins"><span class="or-sign-in">Or sign in with <a class="auth-inline shareabouts-auth-twitter-button" href="#">TWITTER</a> / <a class="auth-inline shareabouts-auth-facebook-button" href="#">FACEBOOK</a></span></p>
-      {{/if}}
 
-      <h5>Thanks! A few quick questions about yourself. These are optional and private.</h5>
-
-      <label>What is your home zip code?
-        <input type="text" name="private_home_zip" pattern="\d*" data-sticky />
-      </label>
-
-      <label>What is your age?
-        <input type="number" name="private_age" data-sticky />
-      </label>
-
-      <label>What is your race/ethnicity?
-        <select name="private_ethnicity" data-sticky>
-          <option></option>
-          <option value="hispanic/latin@">Hispanic/Latin@</option>
-          <option value="black/afam">Black/African American</option>
-          <option value="white">White</option>
-          <option value="nativeam">Native American</option>
-          <option value="asian/pi">Asian/Pacific Islander</option>
-          <option value="other">Other</option>
-        </select>
-      </label>
-
-      <div class="row">
-        <div class="medium-6 columns">
-          <input type="submit" value="Put On Map" class="button small expand shareabouts-submit-button"/>
+        <div class="row toggle-sibling-2 toggle-sibling-3">
+          <div class="medium-6 columns">
+            <input type="submit" value="Put On Map" class="button large expand radius shareabouts-submit-button"/>
+          </div>
+          <div class="medium-6 columns signed-in-as">
+            {{#if submitter}}
+            <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
+            {{/if}}
+          </div>
         </div>
-        <div class="medium-6 columns signed-in-as">
-          {{#if submitter}}
-          <img src="{{ submitter.avatar_url }}" class="avatar" /> {{ submitter.name }}
-          {{/if}}
-        </div>
+
       </div>
 
     </form>
