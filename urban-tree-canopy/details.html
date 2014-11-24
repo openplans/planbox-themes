@@ -4,17 +4,21 @@
     <div class="row extra-margin-bottom">
       <div class="small-12 large-5 columns">
         <div class="shareabouts-page-header-text no-margin-top">
+          <br class="show-for-large-up">
+          <br class="show-for-large-up">
           <h1>Urban Tree Canopy</h1>
-          <p class="text-large tiny-margin-bottom">Make it easy for people to help map the existing urban tree canopy. Find out where they want new trees that would improve their quality of life. </p>
+          <h4 class="some-margin-bottom tiny-padding-bottom">Don't waste time building apps for street tree surveys!</h4>
           {% include 'create-plan-button.html' with template='urban-tree-canopy' template_name='Urban Tree Canopy' %}
-          <ul class="some-margin-bottom">
+          <p class="tiny-padding-top">Make it easy for communities to request new trees and participate in mapping the urban tree canopy.</p>
+          <p class="text-center extra-padding-right"><a href="#details" class="button round down-button">&#65516;</a></p>
+          <!-- <ul class="some-margin-bottom">
             <li><strong>Collect suggested locations for new trees.</strong></li>
             <li><strong>Map existing trees.</strong></li>
             <li><strong>Engage people with address lookup for easy location finding on desktop or mobile.</strong></li>
             <li><strong>Follow up with confirmation emails to participants.</strong></li>
             <li><strong>Track activity with daily email reports.</strong></li>
             <li><strong>Get the complete picture with the OpenPlans Dashboard.</strong></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
       <div class="small-12 large-7 large-pull-1 columns">
@@ -31,7 +35,10 @@
       </div>
     </div>
 
-    {% include 'payment-options.html' %}
+    <div style="position:relative;">
+      <span id="details" class="offset-anchor"></span>
+      {% include 'payment-options.html' %}
+    </div>
 
   </div>
 </section>

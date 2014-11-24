@@ -4,16 +4,20 @@
     <div class="row extra-margin-bottom">
       <div class="small-12 large-5 columns">
         <div class="shareabouts-page-header-text no-margin-top">
+          <br class="show-for-large-up">
+          <br class="show-for-large-up">
           <h1>Bike Parking</h1>
-          <p class="text-large some-margin-bottom">Make it easy and social for people to request bike parking. Collect suggestions, including photos of the sidewalk to help evaluate the locations. Use the admin interface to review and respond to requests, and to see stats&mdash;like which locations are popular.</p>
+          <h4 class="some-margin-bottom tiny-padding-bottom">Manage a bike parking program with maximum community input.</h4>
           {% include 'create-plan-button.html' with template='bike-parking' template_name='Bike Parking' %}
-          <ul class="some-margin-bottom extra-padding-right">
+          <p class="tiny-padding-top">City staff can easily collect and manage suggestions for new bike parking. People can see, comment on, and show support for their neighbors' requests.</p>
+          <p class="text-center extra-padding-right"><a href="#details" class="button round down-button">&#65516;</a></p>
+          <!-- <ul class="some-margin-bottom extra-padding-right">
             <li><strong>Easily collect &amp; manage requests for bike parking.</strong></li>
             <li><strong>Engage people with address lookup for easy location finding on desktop or mobile.</strong></li>
             <li><strong>Follow up with confirmation emails to participants.</strong></li>
             <li><strong>Track activity with daily email reports.</strong></li>
             <li><strong>Get the complete picture with the OpenPlans Dashboard.</strong></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
       <div class="small-12 large-7 large-pull-1 columns">
@@ -30,7 +34,10 @@
       </div>
     </div>
 
-    {% include 'payment-options.html' %}
+    <div style="position:relative;">
+      <span id="details" class="offset-anchor"></span>
+      {% include 'payment-options.html' %}
+    </div>
 
   </div>
 </section>

@@ -4,17 +4,20 @@
     <div class="row extra-margin-bottom">
       <div class="small-12 large-5 columns">
         <div class="shareabouts-page-header-text no-margin-top">
+          <br class="show-for-large-up">
           <h1>Bike Share</h1>
-          <p class="text-large tiny-margin-bottom">Build support for bike share by engaging the community in suggesting locations, or get feedback on a shortlist of possible sites. Use on-the-ground local wisdom to pick the best spots, and demonstrate support from a diverse range of participants.</p>
+          <h4 class="some-margin-bottom tiny-padding-bottom">Plan bike share systems with community support &amp; local siting&nbsp;smarts.</h4>
           {% include 'create-plan-button.html' with template='bike-share' template_name='Bike Share' %}
-          <ul class="some-margin-bottom">
+          <p class="tiny-padding-top">Collaborative input for bike share planning produces rich data about locations, and demonstrates a diverse range of support. Know who engaged in each neighborhood, and guide your in-person outreach to fill in the gaps.</p>
+          <p class="text-center extra-padding-right"><a href="#details" class="button round down-button">&#65516;</a></p>
+          <!-- <ul class="some-margin-bottom">
             <li><strong>Collect suggested locations for bike share.</strong></li>
             <li><strong>Gather feedback about existing locations.</strong></li>
             <li><strong>Engage people with address lookup for easy location finding on desktop or mobile.</strong></li>
             <li><strong>Follow up with confirmation emails to participants.</strong></li>
             <li><strong>Track activity with daily email reports.</strong></li>
             <li><strong>Get the complete picture with the OpenPlans Dashboard.</strong></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
       <div class="small-12 large-7 large-pull-1 columns">
@@ -31,7 +34,10 @@
       </div>
     </div>
 
-    {% include 'payment-options.html' %}
+    <div style="position:relative;">
+      <span id="details" class="offset-anchor"></span>
+      {% include 'payment-options.html' %}
+    </div>
 
   </div>
 </section>
