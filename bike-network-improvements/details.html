@@ -1,7 +1,7 @@
-<section class="extra-padding-bottom">
-  <div class="extra-padding-top extra-padding-bottom shareabouts-page-header">
+<section class="extra-padding-top extra-padding-bottom">
+  <div class="shareabouts-page-header">
 
-    <div class="row extra-margin-bottom">
+    <div class="row">
       <div class="small-12 large-5 columns">
         <div class="shareabouts-page-header-text no-margin-top">
           <br class="show-for-large-up">
@@ -34,10 +34,46 @@
       </div>
     </div>
 
-    <div style="position:relative;">
-      <span id="details" class="offset-anchor"></span>
-      {% include 'payment-options.html' %}
-    </div>
-
   </div>
+</section>
+
+<section class="product-section-alt extra-padding-top some-padding-bottom" style="position:relative;">
+
+  <span id="details" class="offset-anchor"></span>
+  <div class="row">
+    <div class="large-6 columns">
+      <h3>Discover places riders care about.</h3>
+      <p class="some-margin-bottom">Participants choose a category and place a pin on the map, marking the location of their feedback.</p>
+      <p class="text-xlarge text-center">
+        <strong>
+        <span class="nowrap tiny-margin-right"><img class="inline-icon" src="//openplans.github.io/planbox-themes/map-markers/fav-route.png"> <small>Favorite Destination</small></span>
+        <span class="nowrap tiny-margin-right"><img class="inline-icon" src="//openplans.github.io/planbox-themes/map-markers/bike-crossing.png"> <small>Dificult Crossing</small></span>
+        <span class="nowrap tiny-margin-right"><img class="inline-icon" src="//openplans.github.io/planbox-themes/map-markers/thumbs-up.png"> <small>Desirable Route</small></span>
+        <span class="nowrap tiny-margin-right"><img class="inline-icon" src="//openplans.github.io/planbox-themes/map-markers/thumbs-down.png"> <small>Undesirable Route</small></span>
+        </strong>
+      </p>
+      <h3>Understand the rider's perspective.</h3>
+      <p class="">Participants share their local knowledge and experience in descriptive freeform text.</p>
+      <h3>Find out who's participating.</h3>
+      <p class="">Participants leave their name, and can optionally provide private information: email address, ZIP code, municipality, age, gender.</p>
+      <div class="panel radius">
+        <h5>Need to collect different info?</h5>
+        <p>No problem. We can configure your form to collect exactly what you need. <a href="mailto:hello@openplans.org{# {{ settings.PLANBOX_CONTACT_EMAIL }} #}" class="open-intercom"><strong>Contact&nbsp;Us</strong></a></p>
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <img class="" src="//openplans.github.io/planbox-themes/bike-network-improvements/images/form-segment.png">
+    </div>
+  </div>
+
+</section>
+
+<section class="extra-padding-bottom">
+
+  <div class="row extra-padding-bottom">
+    <div class="columns">
+      {% include 'pricing-section.html' %}
+    </div>
+  </div>
+
 </section>
