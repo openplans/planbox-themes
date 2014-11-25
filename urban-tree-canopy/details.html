@@ -1,7 +1,7 @@
-<section class="extra-padding-bottom">
-  <div class="extra-padding-top extra-padding-bottom shareabouts-page-header">
+<section class="extra-padding-top extra-padding-bottom">
+  <div class="shareabouts-page-header">
 
-    <div class="row extra-margin-bottom">
+    <div class="row">
       <div class="small-12 large-5 columns">
         <div class="shareabouts-page-header-text no-margin-top">
           <br class="show-for-large-up">
@@ -35,10 +35,44 @@
       </div>
     </div>
 
-    <div style="position:relative;">
-      <span id="details" class="offset-anchor"></span>
-      {% include 'payment-options.html' %}
-    </div>
-
   </div>
+</section>
+
+<section class="product-section-alt extra-padding-top some-padding-bottom" style="position:relative;">
+
+  <span id="details" class="offset-anchor"></span>
+  <div class="row">
+    <div class="large-6 columns">
+      <h3>Map the current urban tree canopy.</h3>
+      <p class="some-margin-bottom">Participants can map existing trees and request new trees by placing a pins on the map.</p>
+      <p class="text-xlarge text-center">
+        <strong>
+        <span class="nowrap tiny-margin-right"><img class="inline-icon" src="//openplans.github.io/planbox-themes/map-markers/street-tree.png"> <small>Existing Tree</small></span>
+        <span class="nowrap tiny-margin-right"><img class="inline-icon" src="//openplans.github.io/planbox-themes/map-markers/street-heat.png"> <small>Request a Tree</small></span>
+        </strong>
+      </p>
+      <h3>Learn what types of trees exist &amp; why new trees are needed.</h3>
+      <p class="">Participants survey &amp; document existing trees (location, circumference, species, etc.) and share their reasons for wanting new trees.</p>
+      <h3>Find out who's participating.</h3>
+      <p class="">Participants leave their name, and can optionally provide private information: email address, ZIP code, age, and race/ethnicity.</p>
+      <div class="panel radius">
+        <h5>Need to collect different info?</h5>
+        <p>No problem. We can configure your form to collect exactly what you need. <a href="mailto:hello@openplans.org{# {{ settings.PLANBOX_CONTACT_EMAIL }} #}" class="open-intercom"><strong>Contact&nbsp;Us</strong></a></p>
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <img class="" src="//openplans.github.io/planbox-themes/urban-tree-canopy/images/form-segment.png">
+    </div>
+  </div>
+
+</section>
+
+<section class="extra-padding-bottom">
+
+  <div class="row extra-padding-bottom">
+    <div class="columns">
+      {% include 'pricing-section.html' %}
+    </div>
+  </div>
+
 </section>
