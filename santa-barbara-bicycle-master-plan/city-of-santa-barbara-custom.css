@@ -1,0 +1,57 @@
+/* For the Shareabouts layout... */
+
+.shareabouts-page .project-title img {
+	max-height: 8rem;
+}
+
+.shareabouts-page .shareabouts-map-container {
+	height: 150px;
+}
+
+.shareabouts-page .panel-open .shareabouts-map-container {
+	height: 300px;
+}
+
+@media only screen and (min-width: 40.063em) {
+	.shareabouts-page .project-title img {
+		max-height: 20rem;
+	}
+
+	.shareabouts-page .project-shareabouts {
+		height: 30%;
+	}
+
+	.shareabouts-page  .shareabouts-map-container,
+	.shareabouts-page  .panel-open .shareabouts-map-container {
+		height: 100%;
+	}
+
+  .project-shareabouts .shareabouts-legend-container {
+    top: 2.5rem;
+  }
+}
+
+
+
+/* For the generic page layout... */
+
+.generic-page .site-header {
+	background-color: #97D5CE;
+}
+
+@media only screen and (min-width: 40.063em) {
+	.generic-page .project-title {
+		display: inline-block;
+		width: 20%;
+	}
+
+	.generic-page .project-title img {
+		max-height: 10rem;
+	}
+
+	.generic-page .project-tagline {
+		display: inline-block;
+		width: 79%;
+		vertical-align: middle;
+	}
+}
