@@ -63,4 +63,9 @@ var Plabox = Planbox || {};
         return result;
     };
 
+    // Override the timeline widget to show more events by default.
+    Planbox.TimelineController.prototype.getFutureEventsShownCount = function() {
+        return 10;
+    };
+
 })(jQuery);
