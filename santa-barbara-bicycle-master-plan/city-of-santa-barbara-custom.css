@@ -55,3 +55,7 @@
 		vertical-align: middle;
 	}
 }
+
+/* HACK: remove this when we get the configurable show count. */
+.future-event.hide { display: block!important; }
+.show-more-future-events { display: none; }
